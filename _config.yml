@@ -7,3 +7,8 @@ relative_links:
 include:
   - README.md
   - 2019-08-20_keycloak_tutorial/README.md
+  - 2019-02-20_passwords_fun_with_numbers/README.md
+title: Bram's Blog
+twitter_username: brampatelski
+github_username:  brampat
+permalink: :title
