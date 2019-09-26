@@ -74,12 +74,12 @@ Security takes:
 
 How to we add security to software development
 Obstacles:
-* How close is development to thge company's security team
+* How close is development to the company's security team
 * What's your biggest obstacle to learn security
 
 Security team:
 * Not visible
-* Not aproachable
+* Not approachable
 * Is there even a security team
 
 Learning security:
@@ -91,7 +91,7 @@ Security looks like the manager adding many more boring tasks
 Solution:
 * Piggybacking: 
   * Piggyback on the knowledge of testers: They know how to test what software should and should not do
-* Help them learn to do security: Metaphores / analogy -> Compare with something they already know
+* Help them learn to do security: use metaphores / analogy -> Compare with something they already know
 
 ZAP payloads are more input values for the unhappy paths that should be handled by the application appropriately
 
@@ -103,7 +103,7 @@ ZAP payloads are more input values for the unhappy paths that should be handled 
   * Selenium
   * Postman
 
-ZAP passive scanner has: PII scanner (for creditcards)
+ZAP passive scanner has: PII scanner (for data like credit cards)
 * Helps to find Security requirements that are not listed
 
 ZEST is a graphical scripting engine to do security testing
@@ -136,7 +136,7 @@ ZEST is a graphical scripting engine to do security testing
 * telerik.com/fiddler
 
 How to's:
-* owasp.org/index.php/Getting_sarteed
+* owasp.org/index.php/Getting_started
 * OWASP Testing guid v4
 * OWASP Cheat sheets
 
@@ -163,7 +163,7 @@ We compare Software analyzers with 2 goals:
 * Improve market transparency
 
 For:
-* Developers and security analists
+* Developers and security annalists
 * Makers / vendors
 
 
@@ -186,7 +186,7 @@ For:
   * How to scan multiple projects (and how many)
   * How large can the codebase be?
   * How long does a scan take?
-  * Can it be paralel-ised
+  * Can it be parallelised
 * Results quality
   * Understanding results
     * Explanation
@@ -197,11 +197,11 @@ For:
   * GUI
   * Centralized reporting (and role-based access)
   * Suppression of results (even after code changes)
-* Support: Assistence and guidance
+* Support: Assistance and guidance
   * Installation
   * User guide
   * Integration
-  * Project health (Linux CHAOSS (Community Health A... OSS))
+  * Project health (Linux CHAOSS (Community Health Analytics OSS))
 
 
 [Kompar system](https://kompar.tools)
@@ -210,7 +210,7 @@ For:
   * [Trello](https://trello.com/b/qzrRyvAE) todo-list cataloging activity
 
 * Test suites
-* Automation to orchestrate runing analyzers against test suites
+* Automation to orchestrate running analyzers against test suites
 * Content to educate users
 * Metrics and scores on analyzers
 * Side by side comparisons
@@ -267,12 +267,12 @@ Streams:
 * Split into 2 dimensions:
   * Coverage: How often do you do this
     * Verified by questions
-  * Quality: How usefull is what you do (does it make sense?)
-    * Quality criteria (Mandatory quality criteia)
+  * Quality: How useful is what you do (does it make sense?)
+    * Quality criteria (Mandatory quality criteria)
 
 # Secure Agile development with OWASP SAMM - Rob van der Veer
 
-SIG
+SIG - Software Improvement Group
 * Measure and advise on Software Improvement
 
 Book: Agile Application Security (O'Reilly)
@@ -298,7 +298,7 @@ SAMM Agile notes
 Main principles:
 * Collaboration dev-test-ops-security
 * Automate verification
-* Incfrementalize: Base manual work on change
+* Incrementalize: Base manual work on change
 * Minimize repeated expert work
   * Use (secure) components and frameworks
   * Takes time and also experts make mistakes
@@ -319,8 +319,6 @@ Per system:
 * Accept risks to risk overview
 
 [Agile Notes](https://owaspsamm.org/head/agile-guidance/agilenotes)
-
-
 
 # State of IAM
 
@@ -364,7 +362,7 @@ FIDO2 works with OpenID connect
 Try out [WebAuthn](https://webauthn.me) with realtime architecture model
 
 
-# Mikko Hypponen
+# Closing keynote by Mikko Hypponen
 
 Future:
 * Smart devices go online:
@@ -379,7 +377,7 @@ Ideas seem innovative at first, but we find out are terrible afterwards (IT asbe
 * No software update possibilities
 * Default and/or hardcoded credentials
 * Detecting malware: Linux malware (targeting IoT devices) have now superseded Windows malware
-* Why is there still Telnet trafic detected?
+* Why is there still Telnet traffic detected?
 
 APT: Advanced Persistent Threat
 The keyword is Persistent. They do not give up.
@@ -388,7 +386,7 @@ More specifically: they target someone or something and they don't switch to an 
 
 Machine learning and AI are used at this moment for defense
 In the future (think about deep-fake), it will be used for offense
-As Putin says: the one who masters AI Offense, will become the ruler of the world
+The one who masters AI Offense, will become the ruler of the world - **Putin**
 
  
 
