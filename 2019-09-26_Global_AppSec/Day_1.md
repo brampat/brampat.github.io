@@ -147,7 +147,7 @@ How to's:
 * http://testfire.net
 
 
-# Choosing the right SAST based on hard data - Chris Horn
+# Choosing the right SAST based on hard data - [Chris Horn]()
 
 Find issues in these categories:
 * Reliability
