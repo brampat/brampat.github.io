@@ -202,3 +202,141 @@ Again, everything needed to use (store, validate etc.) certificates uses a small
 * Use the ```Keytool``` to store certificates in the Java keystore.
 * Based on a keystore, we can ```keytool -certreq``` and send the output as a certificate request to a Certificate Authority
 
+
+# Highly Secured API's: Insight into OAuth 2.0 by [Simone Stapels](https://nl.linkedin.com/in/sstapels)
+
+Simone talked about the different choices you can make when implementing OAuth 2.0. She explained the good, the better and the not-so-good options.
+
+![](pics/OAuth.jpg)
+![](pics/OAuth2.jpg)
+![](pics/OAuth3.jpg)
+![](pics/OAuth4.jpg)
+![](pics/OAuth5.jpg)
+
+Some important facts she discussed:
+* Spring Security 5 handles almost everything for you and you don't even have to add anything to your code. Everything OAuth-y you need to do is handled in the application.yml.
+* Implicit grant is the ultimate no-go for OAuth
+* Authorization code grant is the best option in most scenario's
+* Resources:
+  * [Spring security](https://tools.ietf.org/html/rfc6749)
+  * [ScribeJava](https://auth0.com/docs)
+  * [JSON Web Tokens](www.jwt.io)
+  * The [code examples](https://github.com/user/sjastapels) she used in the presentation
+
+# IT Leadership summit
+In this panel discussion, four IT C-level managers discussed a number of JFall-relevant topics, mostly on cloud, microservices and DevOps.
+Let's just say that not all C-levels can be short and clear in their answers, let alone keep my attention. 
+Where three panel-members could keep themselves from "selling" and stay on-topic in the discussion, the fourth member was both very wordy and constantly selling his fantastic company for all the wrong reasons. 
+If I ever would consider that company in the future as an employer, this panel-discussion cured me from that urge.
+
+# Community keynote: A brief history of Computer music by [Anders Norås](https://twitter.com/anoras)
+Anders took us from the very early days of computer music all the way through to current days where popular dance and pop-music is often composed mostly or even solely using computer-music.
+A lot of classic home-computers and consoles passed his presentation and a stream of retro-games and their sound-tracks were played.
+
+I did miss some topics that I think were relevant in this context:
+* Some love for the Nintendo sound-chip as it stands quite well against and in specs is more powerful than the Sega Mega Drive chip. Check out [Blake Harris's](https://twitter.com/blakejharrisNYC) [Console Wars](https://www.amazon.com/Console-Wars-Nintendo-Defined-Generation/dp/0062276700) for the full story.
+* The presentation showed (played) lots of regular music performed by computers. But game-music nowadays even goes full-blown symphony with Zelda's [Symphony of the Goddesses](https://mgplive.com/zeldatour)
+
+Notwithstanding, this was an incredibly fun presentation to (mainly) listen to and the audience was clearly very drawn into the retro vibe.
+
+# Secure Development Pipelines by [Marten Deinum](https://twitter.com/mdeinum)
+
+Marten talked about lots of stuff developers can already do on making the software they develop more secure, before pentesters go in.
+
+In his intro he discussed how Security:
+* Often is an afterthought, where just a few weeks before deadline a pentest is conducted
+* It is often limited to the scope of authentication and authorization
+* Is almost never included in automated testing
+
+There are several free and/or opensource Static analysis (or SAST) tools:
+* PMD
+* Spotbugs (which can be extended with custom rules)
+* Hdiv
+
+Also Maven has several relevant plugins:
+* dependency-check-maven
+* spotbugs-maven-plugin with
+  * findsecbugs-plugin
+
+Marten also referenced a talk on Spring vs. OWASP Top 10. I couldn't write down the name, but I did find this excellent talk by Roberto Velasco @ Spring I/O 2019 on just about [everything OWASP](https://www.youtube.com/watch?v=nUUxLuio6rs) provides that can help you better secure the software you develop, beyond the well-known Top 10
+
+The final tool Marten mentioned can scan your TLS/SSL configuration, which is TLS Observatory by Mozilla.
+
+Some other "tools" that could have been mentioned are:
+* [Security Headers](https://securityheaders.com/) to check your web-site's security headers
+* [Report URI](https://report-uri.com/) for collecting and alerting on live security relevant data
+* [Security Sidekick](https://www.securitysidekick.dev/) which helps with inventory of web assets and automatically scan and test them
+
+# Using bleeding edge software in Lifecycle management without bleeding out by [Martin Visser](https://twitter.com/martin__visser) and [Erwin Cavas](https://twitter.com/ecavas1)
+Final presentation I watched was about a Rabobank DevOps team of developers Martin and Erwin who discussed the strategy they used to break up a large monolythic application into smaller microservices.
+
+They used the following technologies:
+* Spring Boot: started with 2.0 and went live with 2.1
+* Java 11
+
+The challenges they faced:
+* Seamless transition without downtime
+* Maintenance on running application
+* But they had high test coverage
+
+## Migration strategy
+As a migration strategy, these were the steps they planned:
+* Do a small Proof of Concept
+* Start by doing only one service
+* Do a phased migration by only rerouting internal customers (bank employees) to the new application
+ 
+## Performance
+A thorough performance test was done using:
+* JMeter
+* VisualVM
+
+This concluded that:
+* Spring Cloud Gateway resulted in highly fluctuating response time between 60-100 ms
+* Zuul was constant at 20 ms
+
+![](pics/Rabo_Pivotal_Cloud_Foundry.jpg)
+
+
+This was unfortunate as they wanted to migrate away from Zuul, because this was declared End of Life by Netflix.
+Doubling the number of schedulers from 4 to 8 and again to 16 took performance to about 1 - 1.5x Zuul's performance, but still fluctuating too much.
+
+## Pivotal Consultancy
+They then asked Pivotal for consultation, which resulted in:
+* Spring Boot 2.1 in beta, so why don't we use that?
+* There's a new version of Spring Cloud Services coming
+
+## Spring Boot 2.1 General Availability release
+They tried all Spring Boot 2.1 milestones and release candidates:
+* All had at least some unit-tests failing, without any changes to the code, except for upgrading Spring Boot
+* Each new version fixed some test-bugs, but introduced new ones
+
+After these troubling results with pre-release versions, they landed on the general availability release, which to their surprise:
+* Showed a load of 20% CPU, where 2.0 had almost 100% CPU without any load
+* Required less than 500 MB, where 2.0 claimed almost 5 GB instantly
+* All tests were green, without changes other than the 2.0 to 2.1 upgrade
+
+## Blue/green deployment
+
+![](pics/Rabo_Pivotal_Cloud_Foundry2.jpg)
+
+To tackle the no downtime transition they used a blue/green deployment:
+* Start up a new architecture machine to add to the pool and divert 20% of load to that
+* Monitor extensively
+* Scale up based on success rate
+
+## External configuration:
+I'm not sure if these were final improvements they already did or which were planned, but for external configuration, they used:
+* Spring Boot External Config
+* Spring Cloud Config
+
+![](pics/Rabo_Pivotal_Cloud_Foundry3.jpg)
+
+All in all, this was a very nice insight into some challenging topics.
+
+# Overall JFall
+
+With every 20 meter of exhibition floor, I bumped into an old colleague, project member or someone else from my network.
+Although this prevented me from spending proper time with everyone, I had an incredible time at JFall. 
+I haven't been able to go for several years now, mainly focusing on Security conferences (which I will keep doing), but as I'm trying to combine AppSec with Java again, this was an incredibly valuable experience.
+
+
