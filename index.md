@@ -18,6 +18,8 @@ Bram's Catch-all Security Blog
   * September 9: Guest lecture at Intermate, Technical University of Eindhoven. 1 hour
   * July 31: Presentation at Madspace, Eindhoven. 1.5 hours
   * April 8: Guest lecture at Hogeschool Zuyd, Heerlen. 2 hours
+* 2018:
+  * May 31: Guest lecture at Hogeschool Zuyd, Heerlen. 1 hour
 
 # Resources
 * [Security Repository](https://github.com/brampat/security) including slides to my [presentations](https://github.com/brampat/security/tree/master/publications/presentation)
