@@ -9,5 +9,15 @@ Bram's Catch-all Security Blog
 * [Passwords, fun with numbers](2019-02-20_passwords_fun_with_numbers/README.md)
 
 
+# Presentations & guest lectures
+* 2020:
+  * March 3: Guest lecture at Fontys Hogeschool, Eindhoven. 1 hour.
+* 2019:
+  * November 20: Presentation at PyCon Amersfoort. 45 minutes
+  * October 22: Presentation at Codesmiths Unite, Ordina Eindhoven. 45 minutes
+  * September 9: Guest lecture at Intermate, Technical University of Eindhoven. 1 hour
+  * July 31: Presentation at Madspace, Eindhoven. 1.5 hours
+  * April 8: Guest lecture at Hogeschool Zuyd, Heerlen. 2 hours
+
 # Resources
-* [Security Repository](https://github.com/brampat/security)
+* [Security Repository](https://github.com/brampat/security) including slides to my [presentations](https://github.com/brampat/security/tree/master/publications/presentation)
