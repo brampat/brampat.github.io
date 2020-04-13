@@ -1,4 +1,4 @@
-# Preface
+# Zoom, beyond the issues 
 
 We are in the middle of the Corona crisis and just about everybody has to stay home, working from home 
 and getting "together" with family and friends using online video conference applications.
