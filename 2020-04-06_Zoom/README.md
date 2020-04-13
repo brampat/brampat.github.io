@@ -229,25 +229,30 @@ Sources:
 
 ## Conclusion
 
+Zoom gained the spotlight overnight, due to its explosive growth. Security news-sites can easily attract readers by writing a quick story on its long list of failures (me included, although this article took a week to write).
+At the same time, both security researchers and malicious actors pile on top of it, to find and either abuse or responsibly disclose their findings, with or without a detailed article to boot.
+This has certainly boosted the number of findings and bad-news reports for Zoom. But I'm confident this would not have happened if Zoom's internal security awareness was up to standards.
+I've often talked about [information security](https://github.com/brampat/security/blob/master/publications/presentation/security_principles.md) in general and [application security](https://github.com/brampat/security/blob/master/publications/presentation/ssd.md) specifically.
+Had Zoom followed secure software development (SSDLC) practices, then there would be much less bad-news surrounding their software and any bad-news would have been turned into trust by authentic transparency.
+The steps discussed in Zoom's [april 1st](https://blog.zoom.us/wordpress/2020/04/01/a-message-to-our-users/) (I so strongly hope it's a bad coincidence) could be a turnaround point.
+And although I'm still sceptical, I strongly hope they will turn this ship around. Because if everyone follows SSDLC, the world as a whole will be safer because of it.
+We, as security professionals can help them and others achieve this, because security is not like pie, where you have less if you share; instead, security is like joy: it becomes more.
 
-
-Follow me on [Twitter](https://twitter.com/brampatelski) to learn more about application security.
+Follow me on [Twitter](https://twitter.com/brampatelski) if you want to join me in sharing about application security.
 
 ## Sources
 * [VentureBeat](https://venturebeat.com/2020/04/02/zooms-daily-active-users-jumped-from-10-million-to-over-200-million-in-3-months/): Zoom skyrockets from 10 to 200 million users
-* [The Guardian](https://www.theguardian.com/technology/2020/apr/02/zoom-technology-security-coronavirus-video-conferencing): Zoom is malware
 * [The Verge](https://www.theverge.com/2020/4/1/21202945/zoom-alternative-conference-video-free-app-skype-slack-hangouts-jitsi): Alternatives to Zoom
-* Zoom [Security Whitepaper](https://zoom.us/docs/doc/Zoom-Security-White-Paper.pdf)
-* Nuanced article by [The Hacker News](https://thehackernews.com/2020/04/zoom-cybersecurity-hacking.html) giving an extensive list of issues, explaining both sides of the argument
-* SANS instructor Mick Douglas releases [slides](https://www.sans.org/webcasts/downloads/114670/slides) from a SANS presentation on why Zoom "is safe to use" with extensive tips to safely and securely use Zoom
 
 ### Pro Zoom
-
+* Nuanced article by [The Hacker News](https://thehackernews.com/2020/04/zoom-cybersecurity-hacking.html) giving an extensive list of issues, explaining both sides of the argument
+* SANS instructor Mick Douglas releases [slides](https://www.sans.org/webcasts/downloads/114670/slides) from a SANS presentation on why Zoom "is safe to use" with extensive tips to safely and securely use Zoom
 
 ### Con Zoom
 * [CitizenLab](https://citizenlab.ca/2020/04/move-fast-roll-your-own-crypto-a-quick-look-at-the-confidentiality-of-zoom-meetings/)
 * [The Guardian](https://www.theguardian.com/technology/2020/apr/02/zoom-technology-security-coronavirus-video-conferencing)
 * [Bruce Schneier](https://www.schneier.com/blog/archives/2020/04/security_and_pr_1.html)
+* [The Guardian](https://www.theguardian.com/technology/2020/apr/02/zoom-technology-security-coronavirus-video-conferencing): Zoom is malware
 
 ### Zoom security tips
 * [The Hacker News](https://thehackernews.com/2020/04/zoom-cybersecurity-hacking.html)
