@@ -58,7 +58,7 @@ Posting meeting URL's on open social media is a bad practice if you don't know w
 The timeline up to April 7, 2020 of incidents related to Zoom (AFAIK):
 * 2020-04-10: Zoom [banned](https://www.bbc.com/news/world-asia-52240251) by teachers in Singapore after Zoom-bombing incident
 * 2020-04-09: Zoom hires ex-Facebook Security Chief [Alex Stamos](https://www.scmp.com/tech/apps-social/article/3079121/zoom-hires-ex-facebook-security-chief-alex-stamos-google-bans)
-* 2020-04-08: Security Researcher [s3c_krd](https://twitter.com/s3c_krd) finds a way to [hack](https://medium.com/@s3c/how-i-hacked-worldwide-zoom-users-eafdff94077d) all Zoom users (down, but [archived](https://web.archive.org/web/20200410111116/https://medium.com/@s3c/how-i-hacked-worldwide-zoom-users-eafdff94077d)) by abusing vulnerabilities in its mail-verification process
+* 2020-04-08: Security Researcher [s3c_krd](https://twitter.com/s3c_krd) finds a way to hack all Zoom users. Link removed on his request
 * 2020-04-08: Zoom blocked for a major Dutch bank
 * 2020-04-08: Google [bans](https://www.buzzfeednews.com/article/pranavdixit/google-bans-zoom) Zoom from employees' corporate laptops
 * 2020-04-06: More USA Schools begin to [ban Zoom](https://www.gizchina.com/2020/04/06/zoom-schools-begin-to-ban-the-video-conferencing-platform/) most switching to Microsoft Teams
