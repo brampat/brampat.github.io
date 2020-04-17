@@ -7,6 +7,8 @@ Meanwhile, the app is scrutinized for its continued avalanche of privacy and sec
 
 ![](zoom_rocket.jpg)
 
+Update 2020-04-17: Added Kaspersky blog to Security Tips
+
 # Preface
 
 Zoom has dominated the news for the past month. And while the info-sec community has written a lot about both Zoom and alternative video-conferencing apps,
@@ -258,6 +260,8 @@ Follow me on [Twitter](https://twitter.com/brampatelski) if you want to join me 
 * [The Hacker News](https://thehackernews.com/2020/04/zoom-cybersecurity-hacking.html)
 * [Forbes](https://www.forbes.com/sites/kateoflahertyuk/2020/04/03/use-zoom-here-are-7-essential-steps-you-can-take-to-secure-it/)
 * [BetaNews](https://betanews.com/2020/04/03/zoom-privacy-security/)
+* [Kaspersky](https://www.kaspersky.co.uk/blog/zoom-security-ten-tips/19615/)
+
 
 ### Zoom official
 * [Zoom Security](https://zoom.us/security) central
