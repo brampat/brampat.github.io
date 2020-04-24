@@ -12,6 +12,7 @@ Bram's Catch-all Security Blog
 
 # Presentations & guest lectures
 * 2020:
+  * April 24: Brown-bag talk at Ordina, remote. 30 minutes
   * March 3: Guest lecture at Fontys Hogeschool, Eindhoven. 1 hour.
 * 2019:
   * November 20: Presentation at PyCon Amersfoort. 45 minutes
