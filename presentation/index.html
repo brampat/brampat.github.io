@@ -72,21 +72,13 @@
         <script src="revealjs/lib/js/head.min.js"></script>
         <script type="module" src="revealjs/js/reveal.js"></script>
         <script>
-            Reveal.initialize({
-                controls: true,
-                progress: true,
-                history: true,
-                center: true,
+            import Reveal from 'reveal.js';
+            import Markdown from 'reveal.js/plugin/markdown/markdown.esm.js';
 
-                // Optional libraries used to extend on reveal.js
-                dependencies: [
-                    { src: 'revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-                    { src: 'revealjs/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                    { src: 'revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                    { src: 'revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-                    { src: 'revealjs/plugin/notes/notes.js' }
-                ]
-            });
+            let deck = new Reveal({
+                plugins: [ Markdown ]
+            })
+            deck.initialize();
         </script>
     </body>
 </html>
