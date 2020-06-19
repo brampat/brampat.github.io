@@ -69,16 +69,20 @@
                 <section data-markdown="./extra_topics.md" data-separator="^\n---\n$" data-separator-vertical="^\n--\n$" data-separator-notes="^-- Notes --"></section>
             </div>
         </div>
-        <script src="revealjs/lib/js/head.min.js"></script>
-        <script type="module" src="revealjs/js/reveal.js"></script>
+        <script src="revealjs/dist/reveal.js"></script>
+        <script src="revealjs/plugin/notes/notes.js"></script>
+        <script src="revealjs/plugin/markdown/markdown.js"></script>
+        <script src="revealjs/plugin/highlight/highlight.js"></script>
         <script>
-            import Reveal from 'reveal.js';
-            import Markdown from 'reveal.js/plugin/markdown/markdown.esm.js';
+            // More info about initialization & config:
+            // - https://revealjs.com/initialization/
+            // - https://revealjs.com/config/
+            Reveal.initialize({
+                hash: true,
 
-            let deck = new Reveal({
-                plugins: [ Markdown ]
-            })
-            deck.initialize();
+                // Learn about plugins: https://revealjs.com/plugins/
+                plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+            });
         </script>
     </body>
 </html>
