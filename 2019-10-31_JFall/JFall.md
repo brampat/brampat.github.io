@@ -1,3 +1,13 @@
+# JFall
+
+Last October, I visited JFall Netherlands. JFall is the biggest Dutch free Java conference, held every year for members of the Duthc Java user group NL-JUG.
+If you are a member (which costs about Euro 50,-), you can visit JFall for free, provided you are able to catch a ticket.
+
+Below are summaries of the talks I visited. There is also a playlist of all talks on Youtube for:
+* [2018](https://www.youtube.com/playlist?list=PLpQuPreMkT6DbnmOysFcrtJ-98qelhDAw)
+* [2019](https://www.youtube.com/playlist?list=PLpQuPreMkT6ABGRRbFzapMOFK5yWjev3Q)
+  * [Aftermovie](https://www.youtube.com/watch?v=bQClIaElO7I)
+
 # Master your tools - [Jan-Hendrik Kuperus](https://twitter.com/jhkuperus)
 
 Jan-Hendrik gave an early-bird talk in which he talked about lots of productivity-tools he uses on his MacBook.
@@ -125,7 +135,7 @@ In his talk, he explained the basics of Cryptography, which included:
 * Certificates
 
 He explained how cryptography can be used for:
-* Confidentiality: preventing unauthorized people from reading something they should be allowed to
+* Confidentiality: preventing unauthorized people from reading something they aren't allowed to
 * Integrity: making sure you know when data is altered by an unauthorized person
 * Authenticity: being sure you are communicating with the person you think you are communicating
 

@@ -4,12 +4,12 @@
 
 ## Requirements to decommission
 
-
+* Questions in chat
 
 ![](./pics/brpa.jpg)<!-- .element style="position: fixed; top: 300px; right: 60px; height: 200px;"  -->
 
 <span>![](./pics/twitter.png)<!-- .element style="vertical-align: middle; background:none; border:none; box-shadow:none; width: 30px;" --> brampatelski</span><!-- .element style="position: fixed; bottom: 110px; left: 20px;" -->
-<span>![](./pics/linkedin.png)<!-- .element style="vertical-align: middle; background:none; border:none; box-shadow:none; width: 30px;" --> brampatelski</span><!-- .element style="position: fixed; bottom: 75px; left: 20px;" -->
+<span>![](pics/intro/linkedin.png)<!-- .element style="vertical-align: middle; background:none; border:none; box-shadow:none; width: 30px;" --> brampatelski</span><!-- .element style="position: fixed; bottom: 75px; left: 20px;" -->
 <span>![](./pics/github.png)<!-- .element style="vertical-align: middle; background:none; border:none; box-shadow:none; width: 30px;" --> brampat.github.io</span><!-- .element style="position: fixed; bottom: 40px; left: 20px;" -->
 
 ![](./pics/ordina.jpeg)<!-- .element style="position: fixed; bottom: 10px; right: 20px; width: 150px;" -->
@@ -22,21 +22,21 @@
 ## Conferences & Certifications
 <hr />
 
-![](./pics/Den_Hack.png)<!-- .element style="position: fixed; top: 290px; right: 20px; width: 250px; background-color: #444444;" -->
-![](./pics/SecAppDev.png)<!-- .element style="position: fixed; top: 260px; left: 280px; width: 150px;" -->
-![](./pics/owasp.jpeg)<!-- .element style="position: fixed; top: 140px; left: 80px; width: 150px;" -->
-![](./pics/Tweakers_Meetup_Security.png)<!-- .element style="position: fixed; top: 290px; left: 20px; width: 250px;" -->
-![](./pics/Tweakers_Meetup_XL_-_Security___Privacy.jpeg)<!-- .element style="position: fixed; top: 160px; right: 80px; width: 250px;" -->
-![](./pics/Secure_Programming_Foundation.png)<!-- .element style="position: fixed; top: 380px; left: 30px; width: 150px;" -->
-![](./pics/infosec.jpg)<!-- .element style="position: fixed; top: 400px; left: 300px; width: 150px;" -->
-![](./pics/ejpt_certificate.png)<!-- .element style="position: fixed; bottom: 0px; left: 20px; width: 250px;" -->
-![](./pics/spring_cert.jpg)<!-- .element style="position: fixed; top: 150px; left: 270px; width: 150px;" -->
-![](./pics/scrum.png)<!-- .element style="position: fixed; top: 330px; right: 300px; width: 150px;" -->
-![](./pics/gr8conf.svg)<!-- .element style="position: fixed; top: 160px; right: 350px; width: 150px;" -->
-![](./pics/summer-of-pwnage.jpg)<!-- .element style="position: fixed; bottom: 30px; left: 290px; width: 250px;" -->
-![](./pics/jfall.png)<!-- .element style="position: fixed; bottom: 130px; right: 70px; width: 150px;" -->
-![](./pics/javaone.jpg)<!-- .element style="position: fixed; bottom: 20px; right: 240px; width: 150px;" -->
-![](./pics/codemotion.svg)<!-- .element style="position: fixed; bottom: 20px; right: 40px; width: 150px;" -->
+![](pics/frontpage/Den_Hack.png)<!-- .element style="position: fixed; top: 290px; right: 20px; width: 250px; background-color: #444444;" -->
+![](pics/frontpage/SecAppDev.png)<!-- .element style="position: fixed; top: 260px; left: 280px; width: 150px;" -->
+![](pics/frontpage/owasp.jpeg)<!-- .element style="position: fixed; top: 140px; left: 80px; width: 150px;" -->
+![](pics/frontpage/Tweakers_Meetup_Security.png)<!-- .element style="position: fixed; top: 290px; left: 20px; width: 250px;" -->
+![](pics/frontpage/Tweakers_Meetup_XL_-_Security___Privacy.jpeg)<!-- .element style="position: fixed; top: 160px; right: 80px; width: 250px;" -->
+![](pics/frontpage/Secure_Programming_Foundation.png)<!-- .element style="position: fixed; top: 380px; left: 30px; width: 150px;" -->
+![](pics/frontpage/infosec.jpg)<!-- .element style="position: fixed; top: 400px; left: 300px; width: 150px;" -->
+![](pics/frontpage/ejpt_certificate.png)<!-- .element style="position: fixed; bottom: 0px; left: 20px; width: 250px;" -->
+![](pics/frontpage/spring_cert.jpg)<!-- .element style="position: fixed; top: 150px; left: 270px; width: 150px;" -->
+![](pics/frontpage/scrum.png)<!-- .element style="position: fixed; top: 330px; right: 300px; width: 150px;" -->
+![](pics/frontpage/gr8conf.svg)<!-- .element style="position: fixed; top: 160px; right: 350px; width: 150px;" -->
+![](pics/frontpage/summer-of-pwnage.jpg)<!-- .element style="position: fixed; bottom: 30px; left: 290px; width: 250px;" -->
+![](pics/frontpage/jfall.png)<!-- .element style="position: fixed; bottom: 130px; right: 70px; width: 150px;" -->
+![](pics/frontpage/javaone.jpg)<!-- .element style="position: fixed; bottom: 20px; right: 240px; width: 150px;" -->
+![](pics/frontpage/codemotion.svg)<!-- .element style="position: fixed; bottom: 20px; right: 40px; width: 150px;" -->
 
 --
 
@@ -60,10 +60,6 @@
 ![](pics/heroes/wesley_neelen.png)<!-- .element style="position: fixed; bottom: 40px; right: 320px; width: 150px;" -->
 ![](pics/heroes/troy_hunt.jpg)<!-- .element style="position: fixed; top: 140px; left: 80px; width: 150px;" -->
 ![](pics/heroes/Chris_Kubecka.jpeg)<!-- .element style="position: fixed; top: 320px; left: 350px; width: 150px;" -->
-
-![](pics/heroes/.jpeg)<!-- .element style="position: fixed; bottom: 0px; right: 175px; width: 150px;" -->
-
-![](pics/heroes/)
 
 -- Notes --
 
