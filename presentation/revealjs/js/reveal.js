@@ -828,9 +828,9 @@ export default function( revealElement, options ) {
 						dom.slides.style.right = '';
 						transformSlides( { layout: '' } );
 					}
-						// Transform Scaling
-						// Content layout remains the exact same when scaled up.
-						// Side effect is content becoming blurred, especially with
+					// Transform Scaling
+					// Content layout remains the exact same when scaled up.
+					// Side effect is content becoming blurred, especially with
 					// high scale values on ldpi screens.
 					else {
 						dom.slides.style.zoom = '';
@@ -910,7 +910,7 @@ export default function( revealElement, options ) {
 			// Consider the aspect ratio of media elements
 			if( /(img|video)/gi.test( element.nodeName ) ) {
 				const nw = element.naturalWidth || element.videoWidth,
-					nh = element.naturalHeight || element.videoHeight;
+					  nh = element.naturalHeight || element.videoHeight;
 
 				const es = Math.min( width / nw, remainingHeight / nh );
 
