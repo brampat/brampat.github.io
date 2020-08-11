@@ -48,6 +48,19 @@ That's all folks<!-- .element: style="position: fixed; left: 50px; top: 550px;" 
 
 --
 
+## Bobby Tables
+<hr />
+
+![](pics/bobby_tables.png)
+
+-- Notes --
+
+SQL injection attacks are so prevalent, there even is an XKCD comic about it.
+
+
+--
+
+
 ## Password storage: Attack SQL Injection
 <hr />
 
@@ -104,18 +117,6 @@ from users; --</pre><!-- .element style="box-shadow:none; position: fixed; left:
 How can I extract all user-data using SQLi?
 ```Union select```
 (or tools like SQLmap)
-
---
-
-## Bobby Tables
-<hr />
-
-![](pics/bobby_tables.png)
-
--- Notes --
-
-SQL injection attacks are so prevalent, there even is an XKCD comic about it.
-
 
 --
 
