@@ -57,9 +57,41 @@ That's all folks<!-- .element: style="position: fixed; left: 50px; top: 550px;" 
 
 SQL injection attacks are so prevalent, there even is an XKCD comic about it.
 
+--
+
+## Defense: SQL-injection
+<hr />
+
+### Parameterized queries
+
+```asp
+var cmd = new SqlCommand() {
+   Connection = conn,
+   CommandText = "SELECT * FROM Students WHERE FirstName = @FirstName"
+};
+var prm = cmd.Parameters.Add("StudentName", SqlDbType.NVarChar);
+prm.Value = "Robert'; DROP TABLE Students; --";
+```
+
+![](./pics/OWASP_Top_10.png)<!-- .element style="position: fixed; left: 450px; width: 500px;" class="fragment" data-fragment-index="1" -->
+
+<br><br><br>
+[bobby-tables.com](http://bobby-tables.com/)<!-- .element class="fragment" data-fragment-index="1" -->
+
+Contains example code for: ADO.NET, ASP, C#, Delphi, Go, Java, Perl, PHP, Python, Ruby, VB.NET and more<!-- .element style="font-size: 12px; width: 300px;" class="fragment" data-fragment-index="1" -->
+
+-- Notes --
+
+SQL injection defence is so easy, but so often not implemented, there even is a website called Bobby Tables about it.
 
 --
 
+## Defense: SQL-injection
+<hr />
+
+![](pics/passwords/queries_done.jpg)
+
+--
 
 ## Password storage: Attack SQL Injection
 <hr />
@@ -117,41 +149,6 @@ from users; --</pre><!-- .element style="box-shadow:none; position: fixed; left:
 How can I extract all user-data using SQLi?
 ```Union select```
 (or tools like SQLmap)
-
---
-
-## Defense: SQL-injection
-<hr />
-
-### Parameterized queries
-
-```asp
-var cmd = new SqlCommand() {
-   Connection = conn,
-   CommandText = "SELECT * FROM Students WHERE FirstName = @FirstName"
-};
-var prm = cmd.Parameters.Add("StudentName", SqlDbType.NVarChar);
-prm.Value = "Robert'; DROP TABLE Students; --";
-```
-
-![](./pics/OWASP_Top_10.png)<!-- .element style="position: fixed; left: 450px; width: 500px;" class="fragment" data-fragment-index="1" -->
-
-<br><br><br>
-[bobby-tables.com](http://bobby-tables.com/)<!-- .element class="fragment" data-fragment-index="1" -->
-
-Contains example code for: ADO.NET, ASP, C#, Delphi, Go, Java, Perl, PHP, Python, Ruby, VB.NET and more<!-- .element style="font-size: 12px; width: 300px;" class="fragment" data-fragment-index="1" -->
-
--- Notes --
-
-SQL injection defence is so easy, but so often not implemented, there even is a website called Bobby Tables about it.
-
---
-
-## Defense: SQL-injection
-<hr />
-
-![](pics/passwords/queries_done.jpg)
-
 
 --
 
