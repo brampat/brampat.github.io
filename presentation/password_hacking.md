@@ -158,6 +158,8 @@ How can I extract all user-data using SQLi?
 ### Hashing
 See Encryption & stuff
 
+![](pics/crypto/hashing.png)
+
 --
 
 ## Password storage: Account creation
