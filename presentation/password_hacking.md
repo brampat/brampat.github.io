@@ -59,40 +59,6 @@ SQL injection attacks are so prevalent, there even is an XKCD comic about it.
 
 --
 
-## Defense: SQL-injection
-<hr />
-
-### Parameterized queries
-
-```asp
-var cmd = new SqlCommand() {
-   Connection = conn,
-   CommandText = "SELECT * FROM Students WHERE FirstName = @FirstName"
-};
-var prm = cmd.Parameters.Add("StudentName", SqlDbType.NVarChar);
-prm.Value = "Robert'; DROP TABLE Students; --";
-```
-
-![](./pics/OWASP_Top_10.png)<!-- .element style="position: fixed; left: 450px; width: 500px;" class="fragment" data-fragment-index="1" -->
-
-<br><br><br>
-[bobby-tables.com](http://bobby-tables.com/)<!-- .element class="fragment" data-fragment-index="1" -->
-
-Contains example code for: ADO.NET, ASP, C#, Delphi, Go, Java, Perl, PHP, Python, Ruby, VB.NET and more<!-- .element style="font-size: 12px; width: 300px;" class="fragment" data-fragment-index="1" -->
-
--- Notes --
-
-SQL injection defence is so easy, but so often not implemented, there even is a website called Bobby Tables about it.
-
---
-
-## Defense: SQL-injection
-<hr />
-
-![](pics/passwords/queries_done.jpg)
-
---
-
 ## Password storage: Attack SQL Injection
 <hr />
 
@@ -151,6 +117,41 @@ How can I extract all user-data using SQLi?
 (or tools like SQLmap)
 
 --
+
+## Defense: SQL-injection
+<hr />
+
+### Parameterized queries
+
+```asp
+var cmd = new SqlCommand() {
+   Connection = conn,
+   CommandText = "SELECT * FROM Students WHERE FirstName = @FirstName"
+};
+var prm = cmd.Parameters.Add("StudentName", SqlDbType.NVarChar);
+prm.Value = "Robert'; DROP TABLE Students; --";
+```
+
+![](./pics/OWASP_Top_10.png)<!-- .element style="position: fixed; left: 450px; width: 500px;" class="fragment" data-fragment-index="1" -->
+
+<br><br><br>
+[bobby-tables.com](http://bobby-tables.com/)<!-- .element class="fragment" data-fragment-index="1" -->
+
+Contains example code for: ADO.NET, ASP, C#, Delphi, Go, Java, Perl, PHP, Python, Ruby, VB.NET and more<!-- .element style="font-size: 12px; width: 300px;" class="fragment" data-fragment-index="1" -->
+
+-- Notes --
+
+SQL injection defence is so easy, but so often not implemented, there even is a website called Bobby Tables about it.
+
+--
+
+## Defense: SQL-injection
+<hr />
+
+![](pics/passwords/queries_done.jpg)
+
+--
+
 
 ## Required knowledge
 <hr />
@@ -233,6 +234,47 @@ See Encryption & stuff
 
 --
 
+
+## SQL Injection
+<hr />
+
+![](pics/passwords/PW_Database.png)<!-- .element style="box-shadow:none; position: fixed; left: 120px; top: 300px;" -->
+
+
+<pre>admin</pre><!-- .element style="box-shadow:none; position: fixed; left: 165px; top: 405px; width: 100px; height: 100px;" -->
+<pre>alice</pre><!-- .element style="box-shadow:none; position: fixed; left: 165px; top: 430px; width: 100px; height: 100px;" -->
+<pre>bob</pre><!-- .element style="box-shadow:none; position: fixed; left: 165px; top: 455px; width: 100px; height: 100px;" -->
+<pre>eve</pre><!-- .element style="box-shadow:none; position: fixed; left: 165px; top: 480px; width: 100px; height: 100px;" -->
+
+<pre>65E84...C5</pre><!-- .element style="box-shadow:none; position: fixed; left: 220px; top: 405px; width: 100px; height: 100px;" -->
+<pre>8D969...92</pre><!-- .element style="box-shadow:none; position: fixed; left: 220px; top: 430px; width: 100px; height: 100px;" -->
+<pre>5E884...D8</pre><!-- .element style="box-shadow:none; position: fixed; left: 220px; top: 455px; width: 100px; height: 100px;" -->
+<pre>B03DD...42</pre><!-- .element style="box-shadow:none; position: fixed; left: 220px; top: 480px; width: 100px; height: 100px;" -->
+
+
+![](pics/passwords/PW_SQLi.png)<!-- .element style="box-shadow:none; position: fixed; left: 380px; top: 400px;" -->
+
+
+![](pics/passwords/PW_table.png)<!-- .element style="box-shadow:none; position: fixed; left: 550px; top: 350px;" -->
+<pre>admin</pre><!-- .element style="box-shadow:none; position: fixed; left: 560px; top: 384px; width: 100px; height: 100px;" -->
+<pre>alice</pre><!-- .element style="box-shadow:none; position: fixed; left: 560px; top: 415px; width: 100px; height: 100px;" -->
+<pre>bob</pre><!-- .element style="box-shadow:none; position: fixed; left: 560px; top: 446px; width: 100px; height: 100px;" -->
+<pre>eve</pre><!-- .element style="box-shadow:none; position: fixed; left: 560px; top: 477px; width: 100px; height: 100px;" -->
+<pre>65E84...C5</pre><!-- .element style="box-shadow:none; position: fixed; left: 615px; top: 384px; width: 100px; height: 100px;" -->
+<pre>8D969...92</pre><!-- .element style="box-shadow:none; position: fixed; left: 615px; top: 415px; width: 100px; height: 100px;" -->
+<pre>5E884...D8</pre><!-- .element style="box-shadow:none; position: fixed; left: 615px; top: 446px; width: 100px; height: 100px;" -->
+<pre>B03DD...42</pre><!-- .element style="box-shadow:none; position: fixed; left: 615px; top: 477px; width: 100px; height: 100px;" -->
+
+![](./pics/passwords/cant_read.jpg)<!-- .element style="box-shadow:none; position: fixed; left: 450px; top: 50px; width: 350px; height: 350px;" class="fragment" data-fragment-index="3" -->
+
+-- Notes --
+
+How can I extract all user-data using SQLi?
+```Union select```
+(or tools like SQLmap)
+
+--
+
 ## Offline Attacks
 <hr />
 
@@ -256,6 +298,54 @@ See Encryption & stuff
 
 --
 
+
+## Offline Attacks
+<hr />
+
+### Hashcat
+
+<pre>aaaaaaaa
+aaaaaaab
+.....
+bbbbbbbb
+cccccccc</pre><!-- .element style="box-shadow:none; position: fixed; left: 20px; top: 284px; width: 100px; height: 100px;" class="fragment" data-fragment-index="0"-->
+![](pics/passwords/PW_Arrow1.png)<!-- .element style="box-shadow:none; position: fixed; left: 100px; top: 320px; -webkit-transform: rotate(-20deg);" class="fragment" data-fragment-index="0"-->
+
+
+![](pics/crypto/5k_cracking_rig.jpg)<!-- .element style="box-shadow:none; position: fixed; left: 220px; top: 250px; width: 200px;" -->
+
+![](pics/passwords/PW_SHA.png)<!-- .element style="box-shadow:none; position: fixed; left: 270px; top: 270px;" -->
+
+![](pics/passwords/PW_Arrow1.png)<!-- .element style="box-shadow:none; position: fixed; left: 420px; top: 320px; -webkit-transform: rotate(-60deg);" class="fragment" data-fragment-index="1"-->
+
+<pre>1F3CE...B4
+4E9BB...F1
+.....
+FB398...06
+9FA10...22</pre><!-- .element style="box-shadow:none; position: fixed; left: 520px; top: 300px; width: 100px; height: 100px;" class="fragment" data-fragment-index="1"-->
+
+
+
+![](pics/passwords/PW_table.png)<!-- .element style="box-shadow:none; position: fixed; left: 740px; top: 300px;" -->
+<pre>admin</pre><!-- .element style="box-shadow:none; position: fixed; left: 750px; top: 334px; width: 100px; height: 100px;" -->
+<pre>alice</pre><!-- .element style="box-shadow:none; position: fixed; left: 750px; top: 365px; width: 100px; height: 100px;" -->
+<pre>bob</pre><!-- .element style="box-shadow:none; position: fixed; left: 750px; top: 396px; width: 100px; height: 100px;" -->
+<pre>eve</pre><!-- .element style="box-shadow:none; position: fixed; left: 750px; top: 427px; width: 100px; height: 100px;" -->
+<pre>65E84...C5</pre><!-- .element style="box-shadow:none; position: fixed; left: 805px; top: 334px; width: 100px; height: 100px;" -->
+<pre>8D969...92</pre><!-- .element style="box-shadow:none; position: fixed; left: 805px; top: 365px; width: 100px; height: 100px;" -->
+<pre>5E884...D8</pre><!-- .element style="box-shadow:none; position: fixed; left: 805px; top: 396px; width: 100px; height: 100px;" -->
+<pre>B03DD...42</pre><!-- .element style="box-shadow:none; position: fixed; left: 805px; top: 427px; width: 100px; height: 100px;" -->
+
+![](pics/passwords/PW_Arrow1.png)<!-- .element style="box-shadow:none; position: fixed; left: 560px; top: 220px; -webkit-transform: rotate(-80deg);" class="fragment" data-fragment-index="2" -->
+![](pics/passwords/PW_Compare.png)<!-- .element style="box-shadow:none; position: fixed; left: 620px; top: 150px;" class="fragment" data-fragment-index="2" -->
+![](pics/passwords/PW_Arrow4.png)<!-- .element style="box-shadow:none; position: fixed; left: 720px; top: 220px; -webkit-transform: rotate(80deg);" class="fragment" data-fragment-index="2" -->
+
+
+-- Notes --
+
+
+--
+
 ## Offline Attacks
 <hr />
 
@@ -263,7 +353,7 @@ See Encryption & stuff
 <span style="font-size: 16px;">$ 5000,- hashcat machine: [Netmux.com](https://www.netmux.com/blog/how-to-build-a-password-cracking-rig) (jan-2018)<span>
 
 <pre>
-{all possible comnbinations}
+{all possible combinations}
 aaaaaaaa
 aaaaaaab
 ...
@@ -354,6 +444,18 @@ This was started after the RockYou breach in 2009 of plain-text passwords got le
   * dragon: 79
   * welcome
   * 123123
+
+
+--
+
+## More info
+<hr />
+
+* [Darknet Diaries](https://darknetdiaries.com/)
+  * 33: [RockYou](https://darknetdiaries.com/episode/33/)
+  * 45: [Xbox Underground p1](https://darknetdiaries.com/episode/45/)
+
+![](pics/resources/darknet_diaries.jpg)<!-- .element style="position: fixed; top: 300px; right: 50px; width: 250px; background:none; border:none; box-shadow:none; " -->
 
 
 --
@@ -650,7 +752,7 @@ etc.
 <span style="font-size: 16px;">$ 5000,- hashcat machine: [Netmux.com](https://www.netmux.com/blog/how-to-build-a-password-cracking-rig) (jan-2018)<span>
 
 <pre>
-{all possible comnbinations}
+{all possible combinations}
 aaaaaaaa
 aaaaaaab
 ...
@@ -704,7 +806,7 @@ aaaaaaaB
 <span style="font-size: 16px;">$21200,- professional hashcat [machine](https://sagitta.pw/hardware/gpu-compute-nodes/brutalis/)<span>
 
 <pre>
-{all possible comnbinations}
+{all possible combinations}
 aaaaaaaa
 aaaaaaab
 ...
@@ -758,7 +860,7 @@ aaaaaaaB
 <span style="font-size: 16px;">40x $21200,- professional hashcat [machine](https://sagitta.pw/hardware/gpu-compute-nodes/brutalis/) ($847k) <span>
 
 <pre>
-{all possible comnbinations}
+{all possible combinations}
 aaaaaaaa
 aaaaaaab
 ...
@@ -964,4 +1066,21 @@ login(username, password) {
 <pre>E25B9..CD</pre><!-- .element style="box-shadow:none; position: fixed; left: 825px; top: 260px; font-size: 11px;" class="fragment" data-fragment-index="7" -->
 
 <pre>hash("P@ssw0rd" + "(ZmgbWZLV2F6" + "MaFHgAKL8ekS") -> "E25B9..CD"</pre><!-- .element style="box-shadow:none; position: fixed; left: 225px; top: 185px; font-size: 11px;" class="fragment" data-fragment-index="9" -->
+
+--
+
+## Further reading
+<hr />
+
+![](./pics/passwords/cheat_sheet.jpg)<!-- .element style="box-shadow:none; position: fixed; right: 25px; top: 140px; width: 350px;" -->
+
+* [Password Storage](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html)
+* [Injection Prevention in Java](https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_in_Java_Cheat_Sheet.html)
+* [SQL injection Prevention](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html)
+* [Query Parameterization](https://cheatsheetseries.owasp.org/cheatsheets/Query_Parameterization_Cheat_Sheet.html)
+* [Authentication](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
+* [Forgot Password](https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html)
+* [Security Questions](https://cheatsheetseries.owasp.org/cheatsheets/Choosing_and_Using_Security_Questions_Cheat_Sheet.html)
+* [Multi Factor Authentication](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html)
+* [SAML](https://cheatsheetseries.owasp.org/cheatsheets/SAML_Security_Cheat_Sheet.html)
 
