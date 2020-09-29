@@ -59,7 +59,7 @@ SQL injection attacks are so prevalent, there even is an XKCD comic about it.
 
 --
 
-## Password storage: Attack SQL Injection
+## SQL Injection Attack
 <hr />
 
 ![](pics/passwords/PW_Actor.png)<!-- .element style="box-shadow:none; position: fixed; left: 120px; top: 250px;" -->
@@ -118,7 +118,7 @@ How can I extract all user-data using SQLi?
 
 --
 
-## Defense: SQL-injection
+## Defence SQL-injection
 <hr />
 
 ### Parameterized queries
@@ -145,25 +145,21 @@ SQL injection defence is so easy, but so often not implemented, there even is a 
 
 --
 
-## Defense: SQL-injection
-<hr />
-
-![](pics/passwords/queries_done.jpg)
+![](pics/passwords/queries_done.jpg)<!-- .element style="box-shadow:none; position: fixed; left: 170px; top: 90px;"  -->
 
 --
 
 
-## Required knowledge
+## Hashing TL;DR:
 <hr />
 
-### Hashing
 See Encryption & stuff
 
 ![](pics/crypto/hashing.png)<!-- .element style="box-shadow:none; width: 600px; " -->
 
 --
 
-## Password storage: Account creation
+## Account creation
 <hr />
 
 ![](pics/passwords/PW_Actor.png)<!-- .element style="box-shadow:none; position: fixed; left: 120px; top: 250px;" -->
@@ -198,7 +194,7 @@ See Encryption & stuff
 
 --
 
-## Password storage: Login
+## Login
 <hr />
 
 ![](pics/passwords/PW_Actor.png)<!-- .element style="box-shadow:none; position: fixed; left: 120px; top: 250px;"  -->
@@ -235,7 +231,7 @@ See Encryption & stuff
 --
 
 
-## SQL Injection
+## SQL Injection Attack
 <hr />
 
 ![](pics/passwords/PW_Database.png)<!-- .element style="box-shadow:none; position: fixed; left: 120px; top: 300px;" -->
@@ -265,7 +261,7 @@ See Encryption & stuff
 <pre>5E884...D8</pre><!-- .element style="box-shadow:none; position: fixed; left: 615px; top: 446px; width: 100px; height: 100px;" -->
 <pre>B03DD...42</pre><!-- .element style="box-shadow:none; position: fixed; left: 615px; top: 477px; width: 100px; height: 100px;" -->
 
-![](./pics/passwords/cant_read.jpg)<!-- .element style="box-shadow:none; position: fixed; left: 450px; top: 50px; width: 350px; height: 350px;" class="fragment" data-fragment-index="3" -->
+![](./pics/passwords/cant_read.jpg)<!-- .element style="box-shadow:none; position: fixed; left: 150px; top: 250px; width: 350px; height: 350px;" class="fragment" data-fragment-index="3" -->
 
 -- Notes --
 
@@ -350,7 +346,10 @@ FB398...06
 <hr />
 
 ### Brute-force attack
-<span style="font-size: 16px;">$ 5000,- hashcat machine: [Netmux.com](https://www.netmux.com/blog/how-to-build-a-password-cracking-rig) (jan-2018)<span>
+
+![](pics/crypto/5k_cracking_rig.jpg)<!-- .element style="box-shadow:none; position: fixed; right: 0px; top: 250px; width: 300px;" -->
+
+<span style="font-size: 16px; position: fixed; right: 20px; bottom: 10px;">$ 5000,- hashcat machine: [Netmux.com](https://www.netmux.com/blog/how-to-build-a-password-cracking-rig) (jan-2018)<span>
 
 <pre>
 {all possible combinations}
@@ -385,10 +384,8 @@ aaaaaaaB
 
 --
 
-## Brute-force
+## Defence: Brute-force
 <hr />
-
-### Defence
 
 ![](pics/brute_force_humor.png)<!-- .element style="box-shadow:none;" -->
 
@@ -398,27 +395,26 @@ This is not how brute-force defence works
 
 --
 
-## Online Attacks
+## Common passwords
 <hr />
-
-### Common passwords
 
 ![](pics/passwords/password_top10.png)<!-- .element style="box-shadow:none; "  -->
 
-Up to 2016:
-* Top 25 passwords = 10% all passwords observed
-* 123456 = 4% 
+Up to 2016 (*):
+* 10% == top 25
+* 4% == 123456
+
+<span style="font-size: 16px; position: fixed; left: 20px; bottom: 10px;">(*) of all passwords observed</span>
 
 -- Notes --
 
 This was started after the RockYou breach in 2009 of plain-text passwords got leaked. That leak was caused by SQL-injection. Listen to Darknet Diaries Ep. 33
+Source: [WikiPedia](https://en.wikipedia.org/wiki/List_of_the_most_common_passwords) 
 
 --
 
-## Online Attacks
+## Common passwords
 <hr />
-
-### Common passwords
 
 ![](pics/passwords/password_scores.png)<!-- .element style="box-shadow:none; "  -->
 
@@ -448,7 +444,7 @@ This was started after the RockYou breach in 2009 of plain-text passwords got le
 
 --
 
-## More info
+## Deep dive
 <hr />
 
 * [Darknet Diaries](https://darknetdiaries.com/)
@@ -460,10 +456,8 @@ This was started after the RockYou breach in 2009 of plain-text passwords got le
 
 --
 
-## Online Attacks
+## Dictionary Attacks
 <hr />
-
-### Dictionary attack
 
 ![](pics/passwords/PW_Actor.png)<!-- .element style="box-shadow:none; position: fixed; left: 120px; top: 250px;"  -->
 <pre>cracker</pre><!-- .element style="box-shadow:none; position: fixed; left: 115px; top: 310px; width: 100px;"  -->
@@ -523,10 +517,8 @@ qwerty</pre><!-- .element style="box-shadow:none; position: fixed; left: 240px; 
 
 --
 
-## Defense: Dictionary attack
+## Defence: Throttling
 <hr />
-
-### Delay after failed login
 
 | Fails | Delay     |
 |------:|----------:|
@@ -539,10 +531,8 @@ qwerty</pre><!-- .element style="box-shadow:none; position: fixed; left: 240px; 
 
 --
 
-## Online Attacks
+## Credential Stuffing
 <hr />
-
-### Credential Stuffing
 
 ![](pics/passwords/PW_Actor.png)<!-- .element style="box-shadow:none; position: fixed; left: 170px; top: 250px;"  -->
 <pre>cracker</pre><!-- .element style="box-shadow:none; position: fixed; left: 165px; top: 310px; width: 100px;"  -->
@@ -594,10 +584,12 @@ qwerty</pre><!-- .element style="box-shadow:none; position: fixed; left: 240px; 
 
 --
 
-## Defense: Credential stuffing
-<hr />
+![](pics/passwords/reusing_passwords.jpg)<!-- .element style="box-shadow:none; position: fixed; left: 220px; top: 90px;"  -->
 
-### Refuse common / leaked passwords
+--
+
+## Refuse common / leaked passwords
+<hr />
 
 ![](pics/passwords/PW_Actor.png)<!-- .element style="box-shadow:none; position: fixed; left: 120px; top: 250px;"  -->
 <pre>simon</pre><!-- .element style="box-shadow:none; position: fixed; left: 115px; top: 310px; width: 100px;"  -->
@@ -651,10 +643,8 @@ qwerty</pre><!-- .element style="box-shadow:none; position: fixed; left: 240px; 
 
 --
 
-## Offline Attacks
+## Lookup table attack
 <hr />
-
-### Lookup table attack
 
 ![](pics/passwords/PW_Database.png)<!-- .element style="box-shadow:none; position: fixed; left: 680px; top: 300px;" -->
 <pre>admin</pre><!-- .element style="box-shadow:none; position: fixed; left: 725px; top: 405px; width: 100px; height: 100px;" -->
@@ -718,38 +708,11 @@ P@ssw0rd
 
 --
 
-## Offline Attacks
+## Brute-force attack
 <hr />
 
-### Dictionary attack
-
-<pre>
-Dictionary:
-{all leaked passwords}
-{all girls-names}
-{sports-teams}
-{city-names}
-Aaaaaa00
-Aaaaaa01
-Aaaaaa02
-etc.
-</pre><!-- .element style="box-shadow:none; position: fixed; left: 30px; top: 230px; width: 100px; font-size: 10px;" -->
-
-![](pics/passwords/PW_Hash.png)<!-- .element style="box-shadow:none; position: fixed; left: 120px; top: 260px; width: 90px;" class="fragment" -->
-
-![](pics/passwords/PW_Rainbow_table.png)<!-- .element style="box-shadow:none; position: fixed; left: 220px; top: 230px; width: 400px;" -->
-<pre>123456</pre><!-- .element style="box-shadow:none; position: fixed; left: 225px; top: 259px; width: 100px; height: 100px; font-size: 12px;" -->
-<pre>qwerty</pre><!-- .element style="box-shadow:none; position: fixed; left: 225px; top: 282px; width: 100px; height: 100px; font-size: 12px;" -->
-<pre>password</pre><!-- .element style="box-shadow:none; position: fixed; left: 225px; top: 306px; width: 100px; height: 100px; font-size: 12px;" -->
-<pre>P@ssw0rd</pre><!-- .element style="box-shadow:none; position: fixed; left: 225px; top: 332px; width: 100px; height: 100px; font-size: 12px;" -->
-
---
-
-## Offline Attacks
-<hr />
-
-### Brute-force attack
-<span style="font-size: 16px;">$ 5000,- hashcat machine: [Netmux.com](https://www.netmux.com/blog/how-to-build-a-password-cracking-rig) (jan-2018)<span>
+![](pics/crypto/5k_cracking_rig.jpg)<!-- .element style="box-shadow:none; position: fixed; right: 0px; top: 250px; width: 300px;" -->
+<span style="font-size: 16px; position: fixed; right: 20px; bottom: 10px;">$ 5000,- hashcat machine: [Netmux.com](https://www.netmux.com/blog/how-to-build-a-password-cracking-rig) (jan-2018)<span>
 
 <pre>
 {all possible combinations}
@@ -798,12 +761,11 @@ aaaaaaaB
 
 --
 
-## Offline Attacks
+## Brute-force attack
 <hr />
 
-### Brute-force attack
-
-<span style="font-size: 16px;">$21200,- professional hashcat [machine](https://sagitta.pw/hardware/gpu-compute-nodes/brutalis/)<span>
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 0px; top: 250px; width: 300px;" -->
+<span style="font-size: 16px; position: fixed; right: 20px; bottom: 10px;">$21200,- professional hashcat [machine](https://sagitta.pw/hardware/gpu-compute-nodes/brutalis/)<span>
 
 <pre>
 {all possible combinations}
@@ -852,12 +814,51 @@ aaaaaaaB
 
 --
 
-## Offline Attacks
+## Brute-force attack
 <hr />
 
-### Brute-force attack
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 0px; top: 150px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 0px; top: 200px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 0px; top: 250px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 0px; top: 300px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 0px; top: 350px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 0px; top: 400px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 0px; top: 450px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 0px; top: 500px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 0px; top: 550px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 0px; top: 600px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 60px; top: 150px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 60px; top: 200px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 60px; top: 250px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 60px; top: 300px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 60px; top: 350px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 60px; top: 400px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 60px; top: 450px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 60px; top: 500px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 60px; top: 550px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 60px; top: 600px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 120px; top: 150px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 120px; top: 200px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 120px; top: 250px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 120px; top: 300px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 120px; top: 350px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 120px; top: 400px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 120px; top: 450px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 120px; top: 500px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 120px; top: 550px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 120px; top: 600px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 180px; top: 150px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 180px; top: 200px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 180px; top: 250px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 180px; top: 300px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 180px; top: 350px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 180px; top: 400px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 180px; top: 450px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 180px; top: 500px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 180px; top: 550px; width: 50px;" -->
+![](pics/crypto/brutalis_rear_thumb.png)<!-- .element style="box-shadow:none; position: fixed; right: 180px; top: 600px; width: 50px;" -->
+<span style="font-size: 16px; position: fixed; right: 20px; bottom: 10px;">40x $21200,- professional hashcat [machine](https://sagitta.pw/hardware/gpu-compute-nodes/brutalis/) ($847k)<span>
 
-<span style="font-size: 16px;">40x $21200,- professional hashcat [machine](https://sagitta.pw/hardware/gpu-compute-nodes/brutalis/) ($847k) <span>
 
 <pre>
 {all possible combinations}
@@ -906,7 +907,7 @@ aaaaaaaB
 
 --
 
-## Defense: Brute-force attack
+## Defence: "Slow" hashes
 
 ![](pics/strong_passwords.png)<!-- .element style="position: fixed; width: 900px; top: 280px;" -->
 
@@ -921,9 +922,12 @@ aaaaaaaB
 | BCRYPT |  221 days |     1 hour |    341 days |  3 millennia |
 -->
 
+
+<span style="font-size: 16px; position: fixed; left: 20px; bottom: 60px;">Just use [BCrypt](https://codahale.com/how-to-safely-store-a-password/)<span>
+
 --
 
-## Defense: Brute-force attack
+## Defence: Brute-force attack
 <hr />
 
 # L ong
@@ -931,18 +935,24 @@ aaaaaaaB
 # R andom
 # P asswords
 
-<span style="font-size: 16px;">20 - 30 characters is sufficient<span><br>
+<span style="font-size: 16px;">20-30 chars or 4-5 words is sufficient<span><br>
 <span style="font-size: 16px;">Any pattern or system you introduce can be broken<span>
-![](pics/intro/lastpass.png)<!-- .element style="box-shadow:none; position: fixed; right: 70px; top: 260px; width: 290px;" class="fragment" data-fragment-index="0" -->
-![](./pics/1password.png)<!-- .element style="box-shadow:none; position: fixed; right: 70px; top: 460px; width: 290px;" class="fragment" data-fragment-index="0" -->
-
+![](pics/1password.png)<!-- .element style="box-shadow:none; position: fixed; right: 10px; top: 160px; width: 190px;" class="fragment" data-fragment-index="0" -->
+![](pics/intro/lastpass.png)<!-- .element style="box-shadow:none; position: fixed; right: 40px; top: 260px; width: 190px;" class="fragment" data-fragment-index="0" -->
+![](pics/passwords/bitwarden.png)<!-- .element style="box-shadow:none; position: fixed; right: 60px; top: 360px; width: 190px;" class="fragment" data-fragment-index="0" -->
+![](pics/passwords/dashlane.png)<!-- .element style="box-shadow:none; position: fixed; right: 10px; top: 460px; width: 190px;" class="fragment" data-fragment-index="0" -->
+![](pics/passwords/keepass.jpeg)<!-- .element style="box-shadow:none; position: fixed; right: 370px; top: 560px; width: 190px;" class="fragment" data-fragment-index="0" -->
+![](pics/passwords/keeper.png)<!-- .element style="box-shadow:none; position: fixed; right: 190px; top: 490px; width: 190px;" class="fragment" data-fragment-index="0" -->
+![](pics/passwords/logme_once.png)<!-- .element style="box-shadow:none; position: fixed; right: 270px; top: 100px; width: 190px;" class="fragment" data-fragment-index="0" -->
+![](pics/passwords/password_boss.png)<!-- .element style="box-shadow:none; position: fixed; right: 240px; top: 200px; width: 190px;" class="fragment" data-fragment-index="0" -->
+![](pics/passwords/roboform.png)<!-- .element style="box-shadow:none; position: fixed; right: 470px; top: 160px; width: 190px;" class="fragment" data-fragment-index="0" -->
+![](pics/passwords/sticky_password.png)<!-- .element style="box-shadow:none; position: fixed; right: 280px; top: 370px; width: 190px;" class="fragment" data-fragment-index="0" -->
+![](pics/passwords/zoho.png)<!-- .element style="box-shadow:none; position: fixed; right: 370px; top: 280px; width: 190px;" class="fragment" data-fragment-index="0" -->
 
 --
 
-## Defense: Brute-force attack
+## Defence: (Dynamic) Salt
 <hr />
-
-### (Dynamic) Salt
 
 ![](pics/passwords/PW_Hash.png)<!-- .element style="box-shadow:none; position: fixed; left: 470px; top: 260px; width: 90px;" -->
 ![](pics/passwords/PW_Salt_table.png)<!-- .element style="box-shadow:none; position: fixed; left: 620px; top: 230px; width: 300px;" -->
@@ -1011,10 +1021,8 @@ login(username, password) {
 
 --
 
-## Defense Timing Attack 
+## Defence: Always Hash something
 <hr />
-
-### Always Hash something
 
 ```
 login(username, password) {
@@ -1035,10 +1043,8 @@ login(username, password) {
 
 --
 
-## Defense: Brute-force attack
+## Defence: Pepper (Static Salt)
 <hr />
-
-### Pepper (Static Salt)
 
 ![](pics/passwords/PW_Hash.png)<!-- .element style="box-shadow:none; position: fixed; left: 470px; top: 260px; width: 90px;" -->
 ![](pics/passwords/PW_Salt_table.png)<!-- .element style="box-shadow:none; position: fixed; left: 620px; top: 230px; width: 300px;" -->
