@@ -12,6 +12,12 @@ Bram's Catch-all Security Blog
 
 # Presentations & guest lectures
 * 2020:
+  * December 10: Stay safe, stay healthy: working from home. 45 minutes.
+  * November 25: Password hacking & Secure Software Development 45 minutes.
+  * September 29: Password hacking guest lecture. 1 hour.
+  * August 28: Password hacking brownbag session. 30 minutes.
+  * June 18: Security, hacking & SSDLC fundamentals workshop. 6 hours
+  * May 14: [SSDLC](https://youtu.be/_38XL044dIA?t=237) From requirements to decommission. 1 hour
   * April 24: Brown-bag talk at Ordina, remote. 30 minutes
   * March 3: Guest lecture at Fontys Hogeschool, Eindhoven. 1 hour.
 * 2019:
