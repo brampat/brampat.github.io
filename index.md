@@ -12,7 +12,7 @@ Bram's Catch-all Security Blog
 
 # Presentations & guest lectures
 * 2020:
-  * December 10: Stay safe, stay healthy: working from home. 45 minutes.
+  * December 12: Stay safe, stay healthy: working from home. 45 minutes.
   * November 25: Password hacking & Secure Software Development 45 minutes.
   * September 29: Password hacking guest lecture. 1 hour.
   * August 28: Password hacking brownbag session. 30 minutes.
