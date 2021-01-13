@@ -21,7 +21,7 @@ In this post, I will indicate the relevant issues with OWASP Top 10 codes where 
 * (M-X): see OWASP Mobile [Top 10 2016](https://owasp.org/www-project-mobile-top-10/)
 * (C-X): see OWASP Proactive Controls [Top 10 2018](https://owasp.org/www-project-proactive-controls/)
 
-![](pics/owasp_logo.jpg)<!-- .element style="height: 50px;"  -->
+![](pics/owasp_logo.png)
 
 ## What is this all about?
 
