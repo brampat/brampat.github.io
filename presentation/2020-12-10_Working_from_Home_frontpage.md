@@ -14,6 +14,7 @@
 ## Safe & Secure<!-- .element style="color: white;" -->
 
 * Questions in chat
+* Yeah, I know.... FireEye
 
 ![](./pics/brpa.jpg)<!-- .element style="position: fixed; top: 300px; right: 60px; height: 200px;"  -->
 

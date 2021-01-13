@@ -3,6 +3,7 @@
 Bram's Catch-all Security Blog
 
 # Articles
+* [Parler](2021-01-12_Parler/README.md) tricks
 * My take on the [Zoom](2020-04-06_Zoom/README.md) issues
 * [JFall 2019](2019-10-31_JFall/JFall.md) Java conference with some nice Security related Java talks
 * Global AppSec [Day 1](2019-09-26_Global_AppSec/Day_1.md) and [Day 2](2019-09-26_Global_AppSec/Day_2.md)
