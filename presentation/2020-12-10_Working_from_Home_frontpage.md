@@ -14,6 +14,7 @@
 ## Safe & Secure<!-- .element style="color: white;" -->
 
 * Questions in chat
+* Yeah, I know.... FireEye
 
 ![](./pics/brpa.jpg)<!-- .element style="position: fixed; top: 300px; right: 60px; height: 200px;"  -->
 
@@ -97,12 +98,9 @@
 <hr />
 
 * Whoami
-* Security Hygiene
-  * Updates
-  * Strong Authentication
+* Security Hygiene @home
+* Bug Lifecycle
 * Understanding Passwords
-  * Attacks
-  * Defences
 
 -- Notes --
 
@@ -114,9 +112,9 @@
 <hr />
 
 * [Darknet Diaries](https://darknetdiaries.com/)
+  * 57: [MS08-067](https://darknetdiaries.com/transcript/57/)
   * 33: [RockYou](https://darknetdiaries.com/episode/33/)
   * 45: [Xbox Underground p1](https://darknetdiaries.com/episode/45/)
 * Passwords, Fun with Numbers on [brampat.github.io](https://brampat.github.io/2019-02-20_passwords_fun_with_numbers/README)
-* Security Journey - White belt 18: Security at Home
 
 ![](pics/resources/darknet_diaries.jpg)<!-- .element style="position: fixed; top: 350px; right: 50px; width: 250px; background:none; border:none; box-shadow:none; " -->
