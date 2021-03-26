@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Ordina Java Web Security</title>
+        <!-- reveal.js CSS theme and local overrides -->
+        <link rel="stylesheet" href="revealjs/dist/reset.css">
+        <link rel="stylesheet" href="revealjs/dist/reveal.css">
+        <link rel="stylesheet" href="revealjs/dist/theme/white.css" id="theme">
+        <link rel="stylesheet" href="revealjs/plugin/highlight/monokai.css" id="highlight-theme">
+        <link rel="stylesheet" href="custom_css/reveal-override.css"/>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <!-- Slides are separated by newline + three dashes + newline, vertical slides identical but two dashes -->
+                <section data-markdown="./Hack_in_the_Class_spreekbeurt.md" data-separator="^\n---\n$" data-separator-vertical="^\n--\n$" data-separator-notes="^-- Notes --"></section>
+
+                <!-- Wat is hacken -->
+                <section data-markdown="./what_is_hacking.md" data-separator="^\n---\n$" data-separator-vertical="^\n--\n$" data-separator-notes="^-- Notes --"></section>
+
+                <!-- welke soorten hackers zijn er -->
+                <!-- TODO: Hier zou evt. de pyramid of pain bij kunnen om de niveau's aan te geven van Script-kiddies tot APT's -->
+                <section data-markdown="./hacker_types.md" data-separator="^\n---\n$" data-separator-vertical="^\n--\n$" data-separator-notes="^-- Notes --"></section>
+
+                <!-- Hacking history -->
+                <section data-markdown="./hacking_history.md" data-separator="^\n---\n$" data-separator-vertical="^\n--\n$" data-separator-notes="^-- Notes --"></section>
+
+                <!-- Welke soorten schadelijke software zijn er -->
+                <section data-markdown="./malware_types.md" data-separator="^\n---\n$" data-separator-vertical="^\n--\n$" data-separator-notes="^-- Notes --"></section>
+
+                <!-- Hoe gaan hackers te werk -->
+                <section data-markdown="./hack_activities.md" data-separator="^\n---\n$" data-separator-vertical="^\n--\n$" data-separator-notes="^-- Notes --"></section>
+
+
+                <!-- hoe kun je je beschermen: software updates -->
+                <!-- Dit gedeelte geeft aan, waarom het zo belangrijk is om je software te updaten,
+                    met enkele voorbeelden van bekende aanvallen die met tijdige software updates verholpen zouden zijn -->
+                <section data-markdown="./software_updates.md" data-separator="^\n---\n$" data-separator-vertical="^\n--\n$" data-separator-notes="^-- Notes --"></section>
+
+                <!-- hoe kun je je beschermen: sterke authenticatie -->
+                <!-- Dit gedeelte geeft aan, waarom het zo belangrijk is om sterke authenticatie te gebruiken -->
+                <section data-markdown="./password_hacking_short.md" data-separator="^\n---\n$" data-separator-vertical="^\n--\n$" data-separator-notes="^-- Notes --"></section>
+
+
+                <section data-markdown="./end.md" data-separator="^\n---\n$" data-separator-vertical="^\n--\n$" data-separator-notes="^-- Notes --"></section>
+
+            </div>
+        </div>
+        <script src="revealjs/dist/reveal.js"></script>
+        <script src="revealjs/plugin/zoom/zoom.js"></script>
+        <script src="revealjs/plugin/notes/notes.js"></script>
+        <script src="revealjs/plugin/search/search.js"></script>
+        <script src="revealjs/plugin/markdown/markdown.js"></script>
+        <script src="revealjs/plugin/highlight/highlight.js"></script>
+        <script>
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                center: true,
+                hash: true,
+
+                // Learn about plugins: https://revealjs.com/plugins/
+                plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+            });
+        </script>
+    </body>
+</html>

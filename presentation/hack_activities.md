@@ -18,6 +18,7 @@
 
 ## Hack activities
 <hr />
+
 * Digital pentest (hacking)
   * Ethical hacking<!-- .element: class="fragment" data-fragment-index="1" -->
     * Bug bounties<!-- .element: class="fragment" data-fragment-index="1" -->
@@ -48,7 +49,7 @@
 
 <!-- .slide: class="table-medium" -->
 
-## Asymetrical Game
+## Asymmetrical Game
 <hr />
 
 | Subject   | SOC                               | White-hats                    | Black-hats                        | Advantage |
