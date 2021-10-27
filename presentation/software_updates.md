@@ -20,18 +20,16 @@
 
 Timeline:
 * Vulnerability is found (Zero day: number of days producer knows about vulnerability)
-* Producer knows about vulnerability
-  * hopefully by ethical means, called responsible disclosure
-  * ending zero day status, but still exploitable
+* Attack scenario developed (optional, somewhere during the lifecycle):
+  * Proof of Concept (white hat, non-damaging)
+  * Exploit (black hat)
+* Producer knows about vulnerability (end of zero day)
 * Producer developed patch
 * Producer released patch
-  * In band (normal release schedule Like Microsoft's Patch Tuesday, sys admins are prepared)
+  * In band (normal release schedule, sys admins are prepared)
   * Out-of-band (outside release schedule, sys admins are unprepared)
   * Researchers and attackers can reverse the patch to learn details
 * Patch is installed
-* Exploit developed (optional, somewhere during the lifecycle):
-  * Proof of Concept (white hat, non-damaging)
-  * Exploit (black hat)
 
 --
 
