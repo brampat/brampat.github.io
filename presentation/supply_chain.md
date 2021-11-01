@@ -274,7 +274,7 @@ Source: [Hackernoon](https://medium.com/hackernoon/im-harvesting-credit-card-num
 
 A month after the fictive story, Browse-aloud browser aid for visually challenged ppl is infected
 * may websites using the Browse-aloud plugin directly from its CDN are infected, including
-  * Machester City Council
+  * Manchester City Council
   * US Courts
   * NHS
   * 
