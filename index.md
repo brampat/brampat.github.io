@@ -3,6 +3,7 @@
 Bram's Catch-all Security Blog
 
 # Articles
+* Dynamic [OWASP Top 10 Graph](2022-08-05_OWASP_Top10_Graph/owasp_graph.html) relating Mobile and Web Top 10's to Proactive Controls and mitigations
 * [Parler](2021-01-12_Parler/README.md) tricks
 * My take on the [Zoom](2020-04-06_Zoom/README.md) issues
 * [JFall 2019](2019-10-31_JFall/JFall.md) Java conference with some nice Security related Java talks
