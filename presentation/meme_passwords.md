@@ -69,7 +69,7 @@ How do you do that?
 
 ## Long
 
-![](pics/passwords/password_too_long.png)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 650px; left: 170px; bottom: 0px;"  -->
+![](pics/passwords/password_too_long.png)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 650px; left: 170px; bottom: 40px;"  -->
 
 -- Notes --
 
@@ -160,6 +160,9 @@ So now what?
 
 -- Notes --
 
+Anyone from Tax:
+* If this has changed, please let me know so I can change slides
+
 Lets choose a password that checks all the boxes:
   * 1 Uppercase
   * 5 lowercase
@@ -185,7 +188,7 @@ Lets choose a password that checks all the boxes:
 
 --
 
-![](./pics/meme/passwords/password_rotation.jpeg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 750px; bottom: 0px; left: 100px;"  -->
+![](./pics/meme/passwords/password_rotation.jpeg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 750px; bottom: 20px; left: 100px;"  -->
 
 -- Notes --
 
@@ -194,7 +197,7 @@ More stupid rules:
 
 --
 
-![](./pics/meme/passwords/choosing_password.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 650px; top: 0px; left: 160px;"  -->
+![](./pics/meme/passwords/choosing_password.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 650px; bottom: 20px; left: 160px;"  -->
 
 -- Notes --
 
@@ -202,7 +205,7 @@ More stupid rules:
 
 --
 
-![](./pics/meme/passwords/frozen.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 750px; top: 0px; left: 100px;"  -->
+![](./pics/meme/passwords/frozen.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 750px; bottom: 20px; left: 100px;"  -->
 
 -- Notes --
 
@@ -226,7 +229,7 @@ More stupid rules:
 
 --
 
-## Written down (?)
+## Write down (?)
 
 ![](./pics/meme/passwords/post-its.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 750px; left: 50px;"  -->
 

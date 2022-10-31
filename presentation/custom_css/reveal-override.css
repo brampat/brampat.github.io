@@ -8,7 +8,7 @@
 .reveal h3 { font-size: 1.0em; }
 
 .reveal {
-	font-size: 2.0em;
+	font-size: 1.8em;
 }
 
 section.present {
@@ -40,4 +40,11 @@ section.table-small table {
 
 section.dependency table {
 	margin: unset;
+}
+
+
+.fix {
+	position: fixed;
+	bottom: 10px;
+	left: 255px;
 }
