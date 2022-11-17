@@ -103,7 +103,7 @@ But cryptography doesn't solve all risks
 
 ## Lesson
 
-![](pics/meme/encryption/Security-Champion.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 800px; left: 100px; bottom: 10px;"  -->
+![](pics/meme/encryption/Security-Champion.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 800px; left: 100px; bottom: 7%;"  -->
 
 * Security & Crypto is complex
 * Security Champions

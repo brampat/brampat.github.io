@@ -4,7 +4,7 @@
 
 --
 
-![](pics/meme/AI/AI.jpeg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 650px; left: 0px; top: 10px;"  -->
+![](pics/meme/AI/AI.jpeg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 650px; right: 0px; bottom: 60px;"  -->
 
 -- Notes --
 
@@ -18,7 +18,7 @@
 
 --
 
-![](pics/meme/AI/dog_cupcakes.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 750px; left: 0px; top: 10px;"  -->
+![](pics/meme/AI/dog_cupcakes.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 700px; right: 0px; bottom: 60px;"  -->
 
 -- Notes --
 
@@ -29,7 +29,7 @@
 
 --
 
-![](pics/meme/AI/bug_captcha.png)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 550px; left: 0px; top: 10px;"  -->
+![](pics/meme/AI/bug_captcha.png)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 450px; right: 0px; bottom: 60px;"  -->
 
 -- Notes --
 
@@ -39,7 +39,9 @@
 
 --
 
-![](pics/meme/AI/turing_test.jpeg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 1250px; left: 0px; top: 10px;"  -->
+## Lesson
+
+![](pics/meme/AI/turing_test.jpeg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 1250px; left: 0px; bottom: 60px;"  -->
 
 -- Notes --
 

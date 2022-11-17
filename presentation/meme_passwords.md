@@ -8,13 +8,18 @@
 ![](pics/meme/passwords/uber.png)<!-- .element style="position: fixed; width: 250px; bottom: 180px; right: 20px;" -->
 <span style="font-size: 20px; position: fixed; right: 80px; bottom: 160px;">MFA bomb</span>
 
-![](pics/meme/passwords/solarwinds.png)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 250px; top: 180px; right: 280px;" -->
-<span style="font-size: 20px; position: fixed; right: 320px; top: 260px;">solarwinds123</span>
+![](pics/meme/passwords/solarwinds.png)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 250px; top: 120px; right: 20px;" -->
+<span style="font-size: 20px; position: fixed; right: 40px; top: 200px;">solarwinds123</span>
 
-![](pics/meme/passwords/xbox.png)<!-- .element style="position: fixed; width: 250px; bottom: 30px; right: 260px;" -->
-<span style="font-size: 20px; position: fixed; right: 290px; bottom: 10px;">Reused PW's</span>
+![](pics/meme/passwords/medibank-logo.png)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 250px; bottom: 220px; right: 300px;" -->
+<span style="font-size: 20px; position: fixed; right: 310px; bottom: 210px;">Stolen credentials</span>
 
-![](pics/resources/darknet_diaries.jpg)<!-- .element style="position: fixed; width: 250px; bottom: 80px; left: 0px;" class="fragment" data-fragment-index="0" -->
+
+![](pics/meme/passwords/crypto-com-logo.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 200px; top: 100px; right: 410px;" -->
+<span style="font-size: 20px; position: fixed; right: 480px; top: 320px;">MFA Bypass</span>
+
+![](pics/resources/darknet_diaries.jpg)<!-- .element style="position: fixed; width: 250px; bottom: 120px; left: 0px;" class="fragment" data-fragment-index="0" -->
+<span style="font-size: 20px; position: fixed; left: 30px; bottom: 90px;" class="fragment" data-fragment-index="0">Ep 33: RockYou</span>
 <span style="font-size: 20px; position: fixed; left: 30px; bottom: 65px;" class="fragment" data-fragment-index="0">Ep 45: Xbox Underground</span>
 
 -- Notes --
@@ -22,6 +27,8 @@
 * 80% + of breaches are password related
 * Uber: Social Engineering for passwords plus MFA request bomb
 * Solarwinds: solarwinds123
+* MediBank: Obtained Stolen credentials. 4M customer data stolen
+* [Crypto.com](https://www.vice.com/en/article/g5qj9j/cryptocom-says-incident-was-actually-dollar30-million-hack): 2FA bypass
 * XBox: Reused PW's from RockYou hack
 * Deepdive: Darknet Diaries ep. 45
 
@@ -39,6 +46,8 @@
 Let's first talk about predictable passwords:
 * Bad pun:
   * What's Forrest Gump's password?
+  * Hint: first-name
+  * Hint 2: famous quote with his first-name
 * Why is this a bad password?
   * It's predictable
 
@@ -69,7 +78,7 @@ How do you do that?
 
 ## Long
 
-![](pics/passwords/password_too_long.png)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 650px; left: 170px; bottom: 40px;"  -->
+![](pics/passwords/password_too_long.png)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 650px; left: 170px; bottom: 60px;"  -->
 
 -- Notes --
 
@@ -123,7 +132,7 @@ Effect of password reuse is:
 
 ## Now what?
 
-![](./pics/meme/passwords/password_change_signup_sheet.png)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 540px; right: 50px; top: 0px;" class="fragment"  -->
+![](./pics/meme/passwords/password_change_signup_sheet.png)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 540px; right: 50px; top: 0px;" -->
 
 -- Notes --
 
@@ -248,6 +257,8 @@ More stupid rules:
 ## Lesson
 
 ![](./pics/passwords/hulk_dont_know_password.jpeg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 750px; left: 100px;"  -->
+
+![](pics/meme/passwords/pw_manager.png)<!-- .element style="position: fixed; width: 150px; bottom: 50px; left: 0px;" class="fragment" data-fragment-index="0" -->
 
 -- Notes --
 

@@ -54,7 +54,7 @@ You may not be the guy in Nebraska which supports the entire internet, but you a
 
 --
 
-![](pics/meme/maintainability/bug_free.jpeg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 750px; left: 100px; bottom: 10px;"  -->
+![](pics/meme/maintainability/bug_free.jpeg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 750px; left: 100px; bottom: 60px;"  -->
 
 -- Notes --
 
