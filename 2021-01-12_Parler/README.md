@@ -146,6 +146,7 @@ But it all boils down to what the security requirements were, which was probably
 * [Parler](https://web.archive.org/web/20210501000000*/www.parler.com) on the Internet Archive
 * [CloudComputing News](https://cloudcomputing-news.net/news/2021/jan/11/aws-and-twilio-cut-ties-with-parler-after-us-capitol-riots/) on Amazon and Twilio cutting ties with Parler.
 * [InputMag](https://www.inputmag.com/culture/parlers-user-data-is-leaking-but-no-ones-really-sure-how)
+* [The Street](https://www.thestreet.com/mishtalk/politics/a-very-disturbing-look-deep-insider-the-parler-app)
 
 Twitter:
 * Twilio's [Statement](https://twitter.com/twilio/status/1348719143172927491)

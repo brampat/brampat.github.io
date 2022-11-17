@@ -1,5 +1,5 @@
 .reveal h3 {
-	text-align:left;
+    text-align:left;
 }
 
 .reveal h1 { font-size: 2.3em; }
@@ -8,36 +8,67 @@
 .reveal h3 { font-size: 1.0em; }
 
 .reveal {
-	font-size: 2.0em;
+    font-size: 1.8em;
 }
 
 section.present {
-	top: 10px !important;
+    top: 10px !important;
 }
 
 .reveal .slides { text-align: left; }
 
 hr {
-	border-top: 4px solid #DB8831;
-	border-bottom: 2px solid #DDDDDD;
+    border-top: 4px solid #DB8831;
+    border-bottom: 2px solid #DDDDDD;
 }
 
 .reveal section img {
-	margin: 15px 0px;
-	background: rgba(255, 255, 255, 0.12);
-	border: 0px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    margin: 15px 0px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
 section.table-medium {
-	font-size: 20px;
+    font-size: 20px;
 }
 
 section.table-small table {
-	font-size: 15px;
+    font-size: 15px;
 }
 
 
 section.dependency table {
-	margin: unset;
+    margin: unset;
+}
+
+
+.fix {
+    position: fixed;
+    bottom: 2.8%;
+    left: 16.6%;
+}
+
+.bottombar {
+    background-color: #eee;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.bottombar span {
+    /*font-size: 1.8em;*/
+    font-family: var(--r-main-font);
+    font-size: var(--r-main-font-size);
+    font-weight: normal;
+    color: var(--r-main-color);
+    margin-left: 10px;
+}
+
+.bottombar span a {
+    text-decoration-line: none;
 }
