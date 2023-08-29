@@ -14,7 +14,9 @@ Bram's Catch-all Security Blog
 
 # Presentations & guest lectures
 * 2022:
-  * June 16: [Security by Meme](presentation/2022-06-16_Security_by_Meme.html). 45 minutes
+  * November 24: [Security by Meme](https://www.youtube.com/watch?v=rG7QbTf5X-c&ab_channel=OWASPNetherlands) 30 minutes at OWASP BeNeLux
+  * November 3: [Security by Meme](presentation/2022-11-03_Security_by_Meme.html) byte-size (16 minutes) at JFall
+  * June 16: [Security by Meme](presentation/2022-06-16_Security_by_Meme.html) (45 minutes) at [Code & Comedy]()
 * 2021:
   * August 19: [Supply Chain Attacks](presentation/2021-08-19_Supply_chain_attacks.html). 30 minutes
 * 2020:

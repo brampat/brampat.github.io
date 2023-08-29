@@ -25,6 +25,11 @@ This is the first awareness lesson:
 
 --
 
+![](pics/meme/twitter_snap.png)<!-- .element style="vertical-align: middle; background:none; border:none; box-shadow:none; position: fixed; bottom: 80px; right: 20px; width: 540px" -->
+
+
+--
+
 ## Agenda
 <hr />
 
@@ -38,5 +43,7 @@ This is the first awareness lesson:
 
 
 -- Notes --
+
+--
 
 
