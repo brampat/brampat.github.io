@@ -23,8 +23,6 @@ Adding features
 
 --
 
-## Fixing bugs on Prod
-
 ![](pics/meme/maintainability/fixing_bugs_in_prod.jpeg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 850px; left: 60px; top: 110px;"  -->
 
 -- Notes --
@@ -38,6 +36,7 @@ Adding features
 ![](pics/meme/maintainability/dependency_risk.png)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 600px; left: 200px; top: 10px;"  -->
 
 -- Notes --
+
 
 You may not be the guy in Nebraska which supports the entire internet, but you are building software that ppl depend on.
 * We build on other ppl's work / dependencies
