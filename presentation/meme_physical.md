@@ -27,7 +27,7 @@
 
 --
 
-![](pics/meme/physical/surveillance_cameras.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 700px; right: 0px; bottom: 60px;"  -->
+![](pics/meme/physical/surveillance_cameras.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 750px; left: 0px; top: 10px;"  -->
 
 -- Notes --
 
@@ -86,8 +86,8 @@ Threat model to prevent authorization bypasses
 
 ### "Smart" door locks
 
-![](./pics/wfh/scream_2022.png)<!-- .element style="vertical-align: middle; background:none; border:none; box-shadow:none; position: fixed; bottom: 60px; right: 20px; width: 830px;" -->
-![](./pics/wfh/scream_mask.png)<!-- .element style="vertical-align: middle; background:none; border:none; box-shadow:none; position: fixed; top: 60px; right: 0px; width: 230px;" -->
+![](./pics/wfh/scream_2022.png)<!-- .element style="vertical-align: middle; background:none; border:none; box-shadow:none; position: fixed; bottom: 20px; right: 20px; width: 830px;" -->
+![](./pics/wfh/scream_mask.png)<!-- .element style="vertical-align: middle; background:none; border:none; box-shadow:none; position: fixed; top: 100px; right: 10px; width: 230px;" -->
 
 -- Notes --
 

@@ -1,5 +1,5 @@
 .reveal h3 {
-    text-align:left;
+	text-align:left;
 }
 
 .reveal h1 { font-size: 2.3em; }
@@ -8,38 +8,38 @@
 .reveal h3 { font-size: 1.0em; }
 
 .reveal {
-    font-size: 1.8em;
+	font-size: 2.0em;
 }
 
 section.present {
-    top: 10px !important;
+	top: 10px !important;
 }
 
 .reveal .slides { text-align: left; }
 
 hr {
-    border-top: 4px solid #DB8831;
-    border-bottom: 2px solid #DDDDDD;
+	border-top: 4px solid #DB8831;
+	border-bottom: 2px solid #DDDDDD;
 }
 
 .reveal section img {
-    margin: 15px 0px;
-    background: rgba(255, 255, 255, 0.12);
-    border: 0px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+	margin: 15px 0px;
+	background: rgba(255, 255, 255, 0.12);
+	border: 0px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
 section.table-medium {
-    font-size: 20px;
+	font-size: 20px;
 }
 
 section.table-small table {
-    font-size: 15px;
+	font-size: 15px;
 }
 
 
 section.dependency table {
-    margin: unset;
+	margin: unset;
 }
 
 
@@ -71,4 +71,29 @@ section.dependency table {
 
 .bottombar span a {
     text-decoration-line: none;
+}
+
+.center-xy {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -45%);
+	transform: translate(-50%, -45%);
+}
+
+.center-y {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translate(0%, -45%);
+	transform: translate(0%, -45%);
+}
+
+.center-x {
+	margin: 0;
+	position: absolute;
+	left: 50%;
+	-ms-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
 }

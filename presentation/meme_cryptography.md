@@ -104,12 +104,12 @@ But cryptography doesn't solve all risks
 ## Lesson
 <hr />
 
-![](pics/meme/encryption/Security-Champion.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 700px; right: 10px; bottom: 7%;"  -->
+![](pics/meme/encryption/Security-Champion.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 800px; left: 100px; bottom: 10px;"  -->
 
 * Security & Crypto is complex
 * Reuse well-reviewed crypto components
 * Security Champions
-* Supporting Security Team
+* Dedicated Security Team
 
 -- Notes --
 

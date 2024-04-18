@@ -2,6 +2,7 @@
 ## Bonus memes
 <hr />
 
+### If there is time left
 
 --
 
@@ -15,7 +16,7 @@ There is an actual Dutch datacenter (Bit.nl) that uses these cables
 
 --
 
-![](pics/meme/network/in_case_of_cyberattack.png)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 750px; right: 0px; bottom: 60px;"  -->
+![](pics/meme/network/in_case_of_cyberattack.png)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 750px; left: 0px; top: 70px;"  -->
 
 -- Notes --
 

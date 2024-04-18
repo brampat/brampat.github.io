@@ -23,6 +23,8 @@ Adding features
 
 --
 
+## Fixing bugs on Prod
+
 ![](pics/meme/maintainability/fixing_bugs_in_prod.jpeg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 850px; left: 60px; top: 110px;"  -->
 
 -- Notes --
@@ -53,7 +55,14 @@ You may not be the guy in Nebraska which supports the entire internet, but you a
 
 --
 
-![](pics/meme/maintainability/bug_free.jpeg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 750px; left: 100px; bottom: 60px;"  -->
+## Obsolete code
+
+![](./pics/meme/maintainability/unused_components.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 520px; right: 10px; bottom: 60px;"  -->
+
+
+--
+
+![](pics/meme/maintainability/bug_free.jpeg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 750px; left: 100px; bottom: 10px;"  -->
 
 -- Notes --
 

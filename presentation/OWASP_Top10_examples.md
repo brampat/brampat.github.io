@@ -107,9 +107,9 @@ This is what a hacker will do
 
 In prioritized order
 * Safe API:
-  * Parameterized queries
-  * ORM
-  * Prepared Statements
+    * Parameterized queries
+    * ORM
+    * Prepared Statements
 * Input validation (whitelist-based)
 * Escape special characters
 * LIMIT query-results
@@ -129,12 +129,12 @@ In prioritized order
 * OWASP on [2017-A1 Injection](https://www.owasp.org/index.php/Top_10-2017_A1-Injection)
 * [Bobby-tables.com](https://bobby-tables.com/) <sup>Yep, seriously</sup>
 * Injection Types:
-  * NoSQL
-  * Commands
-  * ORM
-  * LDAP
-  * Expression Language
-  * etc.
+    * NoSQL
+    * Commands
+    * ORM
+    * LDAP
+    * Expression Language
+    * etc.
 
 --
 
@@ -170,13 +170,13 @@ In prioritized order
 -- Notes --
 
 * Failure to implement & secure authentication & session management:
-  * Enables interception & misuse of session-tokens
-  * Failure defend against brute-force attacks
-  * Failure defend against credential stuffing
+    * Enables interception & misuse of session-tokens
+    * Failure defend against brute-force attacks
+    * Failure defend against credential stuffing
 * Although Data-breaches (with password-leaks) themselves are not the actual attack, they enable credential stuffing, which is an excellent example of broken authentication
 * More info on how RockYou changed the way account hacking is done on [Darknet Diaries episode 33](https://darknetdiaries.com/episode/33/)
-  * In 2009 a hacker broke into a website with millions of users and downloaded the entire user database. What that hacker did with the data has changed the way we view account security even today.
-  * Download the RockYou password list [here](https://wiki.skullsecurity.org/Passwords)
+    * In 2009 a hacker broke into a website with millions of users and downloaded the entire user database. What that hacker did with the data has changed the way we view account security even today.
+    * Download the RockYou password list [here](https://wiki.skullsecurity.org/Passwords)
 
 --
 
@@ -207,12 +207,12 @@ These tools help to crack passwords
 * Remove complex password requirements & periodic changes
 * Harden vs. enumeration
 * Throttle login-attempts
-  * Log failures -> alert
+    * Log failures -> alert
 * Use secure session management
-  * High entropy
-  * Not in URL
-  * Securely stored
-  * Invalidate (on logout, idle and absolute timeouts) 
+    * High entropy
+    * Not in URL
+    * Securely stored
+    * Invalidate (on logout, idle and absolute timeouts)
 
 -- Notes --
 
@@ -260,7 +260,7 @@ These tools help to crack passwords
 -- Notes --
 
 * Failure to protect sensitive data:
-  * At rest & in transit
+    * At rest & in transit
 
 --
 
@@ -288,14 +288,14 @@ These tools help to crack passwords
 
 * API abuse to enable data harvesting
 * Man-in-the-Middle to intercept unencrypted data-traffic
-  * [Firesheep](https://en.wikipedia.org/wiki/Firesheep) makes the attack as easy as installing a [Firefox plugin](https://codebutler.com/2010/10/24/firesheep/) / [Firesheep](https://codebutler.com/projects/firesheep/)
+    * [Firesheep](https://en.wikipedia.org/wiki/Firesheep) makes the attack as easy as installing a [Firefox plugin](https://codebutler.com/2010/10/24/firesheep/) / [Firesheep](https://codebutler.com/projects/firesheep/)
 * Insecurely configured cloud-services (S3 buckets, MongoDB's etc.)
 * Examples:
-  * [Marriott](https://www.nytimes.com/2018/11/30/business/marriott-data-breach.html) Data Breach with unencrypted passports and credit-card details
-  * [Family Locator](https://techcrunch.com/2019/03/23/family-tracking-location-leak/) leaked unencrypted GPS data
-  * [LinkedIn](https://www.vice.com/en_us/article/4xaaxb/you-can-now-finally-check-if-you-were-a-victim-of-the-2012-linkedin-hack) had 164 Million accounts with unsalted SHA1 passwords
-  * [FlipBoard](https://thehackernews.com/2019/05/flipboard-data-breach-hacking.html): Real names, usernames, salted & hashes passwords, email-addresses, digital tokens for linked social media services
-  * [JustDial](https://thehackernews.com/2019/04/justdial-hacked-data-breach.html): NoSQL database accessed by an old API endpoint containing users' name, email, mobile number, address, gender, date of birth, photo, occupation, company name
+    * [Marriott](https://www.nytimes.com/2018/11/30/business/marriott-data-breach.html) Data Breach with unencrypted passports and credit-card details
+    * [Family Locator](https://techcrunch.com/2019/03/23/family-tracking-location-leak/) leaked unencrypted GPS data
+    * [LinkedIn](https://www.vice.com/en_us/article/4xaaxb/you-can-now-finally-check-if-you-were-a-victim-of-the-2012-linkedin-hack) had 164 Million accounts with unsalted SHA1 passwords
+    * [FlipBoard](https://thehackernews.com/2019/05/flipboard-data-breach-hacking.html): Real names, usernames, salted & hashes passwords, email-addresses, digital tokens for linked social media services
+    * [JustDial](https://thehackernews.com/2019/04/justdial-hacked-data-breach.html): NoSQL database accessed by an old API endpoint containing users' name, email, mobile number, address, gender, date of birth, photo, occupation, company name
 
 --
 
@@ -309,10 +309,10 @@ These tools help to crack passwords
 * Use strong encryption & proper key-management
 * Enforce HTTPS using HTTP Strict Transport Security (HSTS)
 * Use proper password storage
-  * Salted
-  * Peppered
-  * Slow
-  * Hashing (Argon2, scrypt, bcrypt, PBKDF2)
+    * Salted
+    * Peppered
+    * Slow
+    * Hashing (Argon2, scrypt, bcrypt, PBKDF2)
 
 --
 
@@ -381,10 +381,10 @@ When accepting XML, this could result in several different attacks:
 In prioritized order
 * Developer training
 * JSON
-  * Avoid serialization of sensitive data
+    * Avoid serialization of sensitive data
 * Upgrade XML Processors
-  * Dependency checks
-  * SOAP 1.2+
+    * Dependency checks
+    * SOAP 1.2+
 * Disable XML External entity & DTD processing
 * Server-side whitelist-based input validation, filtering and sanitization
 * XSD Validation on incoming XML / XSL
@@ -491,7 +491,7 @@ GET http://canadian-business-news/company/maple-syrup-inc/2019-Q2.pdf
 * Dedicated accounts with appropriate (least) privileges
 * Smoke-tests for correct version and configuration
 * Segregated environments and differentiate credentials
-  * No network access between environments
+    * No network access between environments
 * Admin-tools limited to internal network
 * Security awareness training
 * MFA
@@ -552,7 +552,7 @@ stream = await navigator.mediaDevices.getUserMedia(constraints);
 
 
 Crypto-jacking:
- 
+
 <pre comment='use unicode characters to avoid anti-virus warnings'>
 &#60;script src="https://coin-hive.com/lib/coinhive.min.js" &#62; &#60;/script&#62; 
 &#60;script&#62;
@@ -569,7 +569,7 @@ Crypto-jacking:
 * Input validation
 * Content escaping (context aware)
 * Content encoding (context aware)
-* Content-Security-Policy: script-src 'self' 
+* Content-Security-Policy: script-src 'self'
 
 -- Notes --
 
@@ -588,9 +588,9 @@ Escape for the correct context:
 * OWASP on [2017-A7 Cross-Site Scripting (XSS)](https://www.owasp.org/index.php/Top_10-2017_A7-Cross-Site_Scripting_%28XSS%29)
 * OWASP [XSS Prevention Cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
 * XSS types:
-  * [Reflected XSS](https://www.owasp.org/index.php/Testing_for_Reflected_Cross_site_scripting_%28OTG-INPVAL-001%29)
-  * [Stored XSS](https://www.owasp.org/index.php/Testing_for_Stored_Cross_site_scripting_%28OTG-INPVAL-002%29)
-  * [DOM-based XSS](https://www.owasp.org/index.php/Testing_for_DOM-based_Cross_site_scripting_%28OTG-CLIENT-001%29)
+    * [Reflected XSS](https://www.owasp.org/index.php/Testing_for_Reflected_Cross_site_scripting_%28OTG-INPVAL-001%29)
+    * [Stored XSS](https://www.owasp.org/index.php/Testing_for_Stored_Cross_site_scripting_%28OTG-INPVAL-002%29)
+    * [DOM-based XSS](https://www.owasp.org/index.php/Testing_for_DOM-based_Cross_site_scripting_%28OTG-CLIENT-001%29)
 * [XSS Game](https://xss-game.appspot.com/)
 
 --
@@ -621,8 +621,8 @@ Escape for the correct context:
 
 * Deserialize an object from untrusted source
 * Execute based on that object:
-  * compare()
-  * equals()
+    * compare()
+    * equals()
 
 --
 
@@ -710,15 +710,15 @@ X-Powered-By: Enables all other vulnerabilites. Hacker's Cheat-mode:
 
 * Remove unused dependencies, features, components, files and documentation
 * Inventory component versions and dependencies:
-   * DependencyCheck
-   * retire.js
+    * DependencyCheck
+    * retire.js
 * Monitor sources like CVE and NVD for vulnerabilities
 * Automate & alert
 * Subscribe to Email alerts for relevant components
 * Obtain components from official sources over secure links
-  * Signed & checked components (SHA256+)
+    * Signed & checked components (SHA256+)
 * Monitor for unmaintained libraries and components
-  * No security patches
+    * No security patches
 * Virtual patch
 
 --

@@ -14,6 +14,8 @@
 ![](pics/meme/passwords/medibank-logo.png)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 250px; bottom: 220px; right: 300px;" -->
 <span style="font-size: 20px; position: fixed; right: 310px; bottom: 210px;">Stolen credentials</span>
 
+![](pics/meme/passwords/xbox.png)<!-- .element style="position: fixed; width: 250px; bottom: 30px; right: 260px;" -->
+<span style="font-size: 20px; position: fixed; right: 290px; bottom: 10px;">Reused PW's</span>
 
 ![](pics/meme/passwords/crypto-com-logo.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 200px; top: 100px; right: 410px;" -->
 <span style="font-size: 20px; position: fixed; right: 480px; top: 320px;">MFA Bypass</span>
@@ -197,7 +199,7 @@ Lets choose a password that checks all the boxes:
 
 --
 
-![](./pics/meme/passwords/password_rotation.jpeg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 750px; bottom: 20px; left: 100px;"  -->
+![](./pics/meme/passwords/password_rotation.jpeg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 750px; bottom: 0px; left: 100px;"  -->
 
 -- Notes --
 
@@ -206,7 +208,7 @@ More stupid rules:
 
 --
 
-![](./pics/meme/passwords/choosing_password.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 650px; bottom: 20px; left: 160px;"  -->
+![](./pics/meme/passwords/choosing_password.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 650px; top: 0px; left: 160px;"  -->
 
 -- Notes --
 
@@ -214,7 +216,7 @@ More stupid rules:
 
 --
 
-![](./pics/meme/passwords/frozen.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 750px; bottom: 20px; left: 100px;"  -->
+![](./pics/meme/passwords/frozen.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 750px; top: 0px; left: 100px;"  -->
 
 -- Notes --
 
@@ -238,7 +240,7 @@ More stupid rules:
 
 --
 
-## Write down (?)
+## Written down (?)
 
 ![](./pics/meme/passwords/post-its.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 750px; left: 50px;"  -->
 
