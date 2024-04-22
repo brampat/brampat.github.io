@@ -9,12 +9,6 @@
 
 ![](pics/meme/pizza_baby.gif)<!-- .element style="vertical-align: middle; background:none; border:none; box-shadow:none; position: fixed; bottom: 80px; right: 20px; width: 440px" -->
 
-<span>![](./pics/twitter.png)<!-- .element style="vertical-align: middle; background:none; border:none; box-shadow:none; width: 30px;" --> brampatelski</span><!-- .element style="position: fixed; bottom: 110px; left: 20px; color: #333333;" -->
-<span>![](pics/intro/linkedin.png)<!-- .element style="vertical-align: middle; background:none; border:none; box-shadow:none; width: 30px;" --> brampatelski</span><!-- .element style="position: fixed; bottom: 75px; left: 20px; color: #333333;" -->
-<span>![](./pics/github.png)<!-- .element style="vertical-align: middle; background:none; border:none; box-shadow:none; width: 30px;" --> brampat.github.io</span><!-- .element style="position: fixed; bottom: 40px; left: 20px; color: #333333;" -->
-
-
-![](./pics/ordina.jpeg)<!-- .element style="background:none; border:none; box-shadow:none; position: fixed; bottom: 10px; right: 20px; width: 150px;" -->
 
 -- Notes --
 

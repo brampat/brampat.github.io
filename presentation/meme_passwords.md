@@ -11,10 +11,10 @@
 ![](pics/meme/passwords/solarwinds.png)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 250px; top: 120px; right: 20px;" -->
 <span style="font-size: 20px; position: fixed; right: 40px; top: 200px;">solarwinds123</span>
 
-![](pics/meme/passwords/medibank-logo.png)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 250px; bottom: 220px; right: 300px;" -->
-<span style="font-size: 20px; position: fixed; right: 310px; bottom: 210px;">Stolen credentials</span>
+![](pics/meme/passwords/medibank-logo.png)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 250px; bottom: 220px; right: 450px;" -->
+<span style="font-size: 20px; position: fixed; right: 450px; bottom: 230px;">Stolen credentials</span>
 
-![](pics/meme/passwords/xbox.png)<!-- .element style="position: fixed; width: 250px; bottom: 30px; right: 260px;" -->
+![](pics/meme/passwords/xbox.png)<!-- .element style="position: fixed; width: 220px; bottom: 30px; right: 220px;" -->
 <span style="font-size: 20px; position: fixed; right: 290px; bottom: 10px;">Reused PW's</span>
 
 ![](pics/meme/passwords/crypto-com-logo.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 200px; top: 100px; right: 410px;" -->
@@ -37,10 +37,12 @@
 
 --
 
-![](pics/meme/passwords/forrest_gump.jpeg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 850px; left: 0px; top: 10px;"  -->
+![](pics/meme/passwords/forrest_gump.jpeg)<!-- .element class="center-x" style="border:none; box-shadow:none; position: fixed; width: 850px; top: 10px;"  -->
 
+<span>Username:</span><!-- .element style="font-size: 50px; box-shadow:none; position: fixed; bottom: 110px; left: 20px;" -->
+<span>Forrest_Gump</span><!-- .element style="font-size: 50px; box-shadow:none; position: fixed; bottom: 110px; left: 400px;" class="fragment" data-fragment-index="1" -->
 <span>Password:</span><!-- .element style="font-size: 50px; box-shadow:none; position: fixed; bottom: 50px; left: 20px;" -->
-<span>1Forrest1</span><!-- .element style="font-size: 50px; box-shadow:none; position: fixed; bottom: 50px; left: 400px;" class="fragment" data-fragment-index="1" -->
+<span>1Forrest1</span><!-- .element style="font-size: 50px; box-shadow:none; position: fixed; bottom: 50px; left: 400px;" class="fragment" data-fragment-index="2" -->
 
 
 -- Notes --
@@ -80,7 +82,7 @@ How do you do that?
 
 ## Long
 
-![](pics/passwords/password_too_long.png)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 650px; left: 170px; bottom: 60px;"  -->
+![](pics/passwords/password_too_long.png)<!-- .element class="center-x" style="border:none; box-shadow:none; position: fixed; width: 650px; bottom: 60px;"  -->
 
 -- Notes --
 
@@ -93,8 +95,8 @@ Why Long:
 
 ## Unique
 
-![](pics/meme/passwords/password_reuse2_part1.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 550px; left: 200px; top: 10px;"  -->
-![](pics/meme/passwords/password_reuse2_part2.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 550px; left: 200px; bottom: 10px;" class="fragment"  -->
+![](pics/meme/passwords/password_reuse2_part1.jpg)<!-- .element class="center-x" style="border:none; box-shadow:none; position: fixed; width: 550px; top: 10px;"  -->
+![](pics/meme/passwords/password_reuse2_part2.jpg)<!-- .element class="center-x fragment" style="border:none; box-shadow:none; position: fixed; width: 550px; bottom: 10px;" -->
 
 -- Notes --
 
@@ -102,6 +104,7 @@ Why unique:
 * If it's reused, it will leak
 * If someone asks for your password, you say no
 * But any random website, we have no problem to provide our password
+* Earliest password leak 1962 at MIT
 
 --
 
@@ -123,11 +126,12 @@ Effect of password reuse is:
 ## Random
 
 
-![](pics/meme/passwords/admin_admin.jpeg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 650px; left: 150px; bottom: 10px;"  -->
+![](pics/meme/passwords/admin_admin.jpeg)<!-- .element class="center-x" style="border:none; box-shadow:none; position: fixed; width: 650px; bottom: 10px;"  -->
 
 -- Notes --
 
 * admin / admin is the oldest vulnerability in existence and is still not fixed
+  * Earliest occurence is [CVE-1999-0503](https://nvd.nist.gov/vuln/detail/CVE-1999-0503) registered in Oct. 1998
 * Make it random
 
 --
@@ -140,6 +144,23 @@ Effect of password reuse is:
 
 So now what?
 * Change your weak passwords of course and make them LURP
+
+--
+
+![](./pics/meme/passwords/choosing_password.jpg)<!-- .element class="center-xy" style="border:none; box-shadow:none; position: fixed; width: 650px;"  -->
+
+-- Notes --
+
+* So how DO we choose a strong, effective password?
+
+--
+
+![](./pics/meme/passwords/password_rotation.jpeg)<!-- .element class="center-xy" style="border:none; box-shadow:none; position: fixed; width: 650px;"  -->
+
+-- Notes --
+
+More stupid rules:
+* mandatory password rotation, which completely defeats its purpose
 
 --
 
@@ -175,16 +196,16 @@ Anyone from Tax:
 * If this has changed, please let me know so I can change slides
 
 Lets choose a password that checks all the boxes:
-  * 1 Uppercase
-  * 5 lowercase
-  * A Number
-  * Bonus: Symbol
-  * Rest also fits:
+* 1 Uppercase
+* 5 lowercase
+* A Number
+* Bonus: Symbol
+* Rest also fits:
     * Length 8+
     * No more than 3 of the same characters
     * No more than 3 Symbol marks
     * Only symbols from this list
-  * Note: 1Forrest1 also allowed
+* Note: 1Forrest1 also allowed
 
 --
 
@@ -199,28 +220,20 @@ Lets choose a password that checks all the boxes:
 
 --
 
-![](./pics/meme/passwords/password_rotation.jpeg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 750px; bottom: 0px; left: 100px;"  -->
-
--- Notes --
-
-More stupid rules:
-* mandatory password rotation, which completely defeats its purpose
-
---
-
-![](./pics/meme/passwords/choosing_password.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 650px; top: 0px; left: 160px;"  -->
-
--- Notes --
-
-* So how DO we choose a strong, effective password?
-
---
-
 ![](./pics/meme/passwords/frozen.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 750px; top: 0px; left: 100px;"  -->
 
 -- Notes --
 
+
+
 * Here's an idea (thanks to emoticons in UTF-8)
+  * The snow glows white on the mountain tonight
+  * Not a footprint to be seen.
+  * A kingdom of isolation,
+  * and it looks like I'm the Queen
+  * The wind is howling like this swirling storm inside
+  * Couldn't keep it in;
+  * Heaven knows I've tried
 * Well, it should be long, unique and random
 * But not to complex, so you can't even type it in
 * This is:

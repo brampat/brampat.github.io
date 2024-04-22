@@ -24,7 +24,7 @@
 
 * Here's a really hard machine learning data-set
 * While Google still needs our help with traffic lights, busses & boats, there are much harder Machine Learning sets to crack.
-* Humans are clearly beating Machine Learning in recognizing cakes from dogs
+* Humans are still better at recognizing cakes from dogs
 * But we're not always better at detecting things (next slide)
 
 --
@@ -34,7 +34,7 @@
 -- Notes --
 
 * Here's an example of things we find hard to spot
-* which computers are much better at
+* which computers can doo much better and faster (Sonarqube, other SAST tools, SIEM)
 * But we'll come back to coding bugs in a later slide
 
 --
@@ -50,7 +50,15 @@
 
 --
 
-![](./pics/meme/AI/AI_accepting_job.png)<!-- .element class="center-x" style="background:none; border:none; box-shadow:none; position: fixed; bottom: 10px; width: 600px;" -->
+## Not when Obvious
+<hr />
+
+![](./pics/meme/AI/AI_accepting_job.png)<!-- .element class="center-x" style="background:none; border:none; box-shadow:none; position: fixed; bottom: 10px; width: 550px;" -->
+
+-- Notes --
+
+* Accept that AI makes mistakes and detect and correct these
+* Sometimes those mistakes are obvious
 
 --
 
@@ -59,17 +67,35 @@
 
 ![](./pics/meme/AI/Extrapolating_data.png)<!-- .element class="center-x" style="background:none; border:none; box-shadow:none; position: fixed; bottom: 10px; width: 600px;" -->
 
+-- Notes --
+
+* Sometimes those mistakes are obvious
+* Sometimes we can set boundaries to detect those mistakes
+
 --
+
+## TCAI: Total Cost of AI
+<hr />
 
 ![](./pics/meme/AI/Coding_benefits_AI.jpg)<!-- .element class="center-x" style="background:none; border:none; box-shadow:none; position: fixed; bottom: 10px; width: 700px;" -->
 
+-- Notes --
+
+* And sometimes there are "hidden" costs
+
 --
 
-![](pics/meme/AI/turing_test.jpeg)<!-- .element class="center-x" style="border:none; box-shadow:none; position: fixed; width: 1250px; top: 10px;"  -->
+## RISKS
+<hr />
+
+![](pics/meme/AI/turing_test.jpeg)<!-- .element class="center-x" style="border:none; box-shadow:none; position: fixed; width: 1250px; bottom: 10px;" 
+ -->
 
 -- Notes --
 
-* Let's go back to AI for a bit
+
+* AI makes mistakes, always check, especially in high risk / high stakes systems:
+  * Health care, military, machinery, self-driving vehicles 
 * Artificial Intelligence should be implemented with care, to preserve human values
   * that's why we have Asimov's laws
 * Again: the training data-set is very important
@@ -77,5 +103,5 @@
     * Examples: preferring caucasian ppl over ppl of color (Twitter)
     * Gender bias
     * Dutch Tax offices: groups are fraudulent based on religion, home address, car-size etc
-  * Algorithms are only as fair as the people who create them
+  * Algorithms are only as fair as the people who create them and the data-sets we train them with
 
