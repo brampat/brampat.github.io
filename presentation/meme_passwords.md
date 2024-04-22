@@ -96,7 +96,7 @@ Why Long:
 ## Unique
 
 ![](pics/meme/passwords/password_reuse2_part1.jpg)<!-- .element class="center-x" style="border:none; box-shadow:none; position: fixed; width: 550px; top: 10px;"  -->
-![](pics/meme/passwords/password_reuse2_part2.jpg)<!-- .element class="center-x fragment" style="border:none; box-shadow:none; position: fixed; width: 550px; bottom: 10px;" -->
+![](pics/meme/passwords/password_reuse2_part2.jpg)<!-- .element class="center-x fragment" style="border:none; box-shadow:none; position: fixed; width: 550px; bottom: 20px;" -->
 
 -- Notes --
 
@@ -147,7 +147,7 @@ So now what?
 
 --
 
-![](./pics/meme/passwords/choosing_password.jpg)<!-- .element class="center-xy" style="border:none; box-shadow:none; position: fixed; width: 650px;"  -->
+![](./pics/meme/passwords/choosing_password.jpg)<!-- .element class="center-x" style="border:none; box-shadow:none; position: fixed; width: 630px;" bottom: 20px; -->
 
 -- Notes --
 
@@ -220,7 +220,7 @@ Lets choose a password that checks all the boxes:
 
 --
 
-![](./pics/meme/passwords/frozen.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 750px; top: 0px; left: 100px;"  -->
+![](./pics/meme/passwords/frozen.jpg)<!-- .element class="center-xy" style="border:none; box-shadow:none; position: fixed; width: 550px;"  -->
 
 -- Notes --
 

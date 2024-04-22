@@ -4,13 +4,13 @@
 
 ### Why?
 
-![](pics/meme/cyber_is_easy.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 550px; right: 60px; top: 120px;"  -->
+![](pics/meme/cyber_is_easy.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 550px; right: 60px; bottom: 20px;"  -->
 
 
 
 --
 
-![](pics/meme/encryption/crypto-means-cryptography.jpeg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 750px; left: 100px; top: 100px;"  -->
+![](pics/meme/encryption/crypto-means-cryptography.jpeg)<!-- .element class="center-xy" style="border:none; box-shadow:none; position: fixed; width: 750px;"  -->
 
 -- Notes --
 
@@ -23,7 +23,7 @@ Just to be clear, we're not talking about cryptocurrency
 ## Not Crypto
 
 
-![](pics/meme/encryption/base64_encryption.jpeg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 550px; left: 200px; bottom: 10px;"  -->
+![](pics/meme/encryption/base64_encryption.jpeg)<!-- .element class="center-xy" style="border:none; box-shadow:none; position: fixed; width: 550px;"  -->
 
 -- Notes --
 
@@ -33,7 +33,7 @@ Encoding is not encryption
 
 ## Broken Crypto
 
-![](pics/meme/encryption/md5.jpeg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 550px; left: 200px; bottom: 10px;"  -->
+![](pics/meme/encryption/md5.jpeg)<!-- .element class="center-xy" style="border:none; box-shadow:none; position: fixed; width: 550px;"  -->
 
 -- Notes --
 
@@ -52,7 +52,7 @@ Hashing is cryptography
 
 ## Stronger
 
-![](pics/meme/encryption/bcrypt.jpeg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 550px; right: 60px; top: 10px;"  -->
+![](pics/meme/encryption/bcrypt.jpeg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 550px; right: 60px; bottom: 20px;"  -->
 
 -- Notes --
 
@@ -104,7 +104,7 @@ But cryptography doesn't solve all risks
 ## Lesson
 <hr />
 
-![](pics/meme/encryption/Security-Champion.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 800px; left: 100px; bottom: 10px;"  -->
+![](pics/meme/encryption/Security-Champion.jpg)<!-- .element class="center-x" style="border:none; box-shadow:none; position: fixed; width: 700px; bottom: 20px;"  -->
 
 * Security & Crypto is complex
 * Reuse well-reviewed crypto components

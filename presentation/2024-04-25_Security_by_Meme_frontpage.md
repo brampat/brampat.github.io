@@ -63,7 +63,7 @@ This is the first awareness lesson:
 
 <hr />
 
-![](./pics/meme/injection/null_plate_video.png)<!-- .element style="background:none; border:none; box-shadow:none; position: fixed; bottom: 50px; right: 10px; width: 700px;" -->
-![](./pics/meme/injection/null_plate.png)<!-- .element style="background:none; border:none; box-shadow:none; position: fixed; top: 120px; left: 10px; width: 400px;" -->
+![](./pics/meme/injection/null_plate_video.png)<!-- .element style="background:none; border:none; box-shadow:none; position: fixed; bottom: 80px; right: 10px; width: 700px;" -->
+![](./pics/meme/injection/null_plate.png)<!-- .element style="background:none; border:none; box-shadow:none; position: fixed; top: 100px; left: 10px; width: 400px;" -->
 
-<span>DEFCON 27 - [Go NULL Yourself](https://www.youtube.com/watch?v=TwRE2QK1Ibc) by Droogie (2019)</span><!-- .element style="font-size: 30px; box-shadow:none; position: fixed; bottom: 10px; left: 10px;" -->
+<span>DEFCON 27 - [Go NULL Yourself](https://www.youtube.com/watch?v=TwRE2QK1Ibc) by Droogie (2019)</span><!-- .element style="font-size: 30px; box-shadow:none; position: fixed; bottom: 55px; left: 10px;" -->

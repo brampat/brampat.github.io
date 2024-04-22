@@ -12,7 +12,7 @@ Quality (Maintainability) is about what a developer sees
 
 ## Why?
 
-![](pics/meme/maintainability/ductape_builds.jpeg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 600px; right: 40px; top: 10px;"  -->
+![](pics/meme/maintainability/ductape_builds.jpeg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 540px; right: 40px; top: 10px;"  -->
 
 -- Notes --
 
@@ -35,7 +35,7 @@ Adding features
 
 --
 
-![](pics/meme/maintainability/dependency_risk.png)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 600px; left: 200px; top: 10px;"  -->
+![](pics/meme/maintainability/dependency_risk.png)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 600px; left: 200px; bottom: 20px;"  -->
 
 -- Notes --
 
@@ -62,7 +62,7 @@ You may not be the guy in Nebraska which supports the entire internet, but you a
 
 --
 
-![](pics/meme/maintainability/bug_free.jpeg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 750px; left: 100px; bottom: 10px;"  -->
+![](pics/meme/maintainability/bug_free.jpeg)<!-- .element class="center-xy" style="border:none; box-shadow:none; position: fixed; width: 750px;"  -->
 
 -- Notes --
 
@@ -74,7 +74,7 @@ And accept that coding without bugs is nearly impossible
 
 ## Lesson
 
-![](pics/meme/maintainability/new_features_legacy_code.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 650px; left: 150px; bottom: 60px;"  -->
+![](pics/meme/maintainability/new_features_legacy_code.jpg)<!-- .element class="center-xy" style="border:none; box-shadow:none; position: fixed; width: 650px;"  -->
 
 -- Notes --
 

@@ -29,7 +29,7 @@
 
 --
 
-![](pics/meme/AI/bug_captcha.png)<!-- .element class="center-x" style="border:none; box-shadow:none; position: fixed; width: 550px; top: 10px;"  -->
+![](pics/meme/AI/bug_captcha.png)<!-- .element class="center-x" style="border:none; box-shadow:none; position: fixed; width: 400px; top: 10px;"  -->
 
 -- Notes --
 
@@ -46,7 +46,7 @@
 ## Should we worry?
 <hr />
 
-![](./pics/meme/AI/making_friends_with_AI.png)<!-- .element class="center-x" style="background:none; border:none; box-shadow:none; position: fixed; bottom: 10px; width: 500px;" -->
+![](./pics/meme/AI/making_friends_with_AI.png)<!-- .element class="center-x" style="background:none; border:none; box-shadow:none; position: fixed; bottom: 20px; width: 500px;" -->
 
 --
 
@@ -65,7 +65,7 @@
 ## Extrapolating data
 <hr />
 
-![](./pics/meme/AI/Extrapolating_data.png)<!-- .element class="center-x" style="background:none; border:none; box-shadow:none; position: fixed; bottom: 10px; width: 600px;" -->
+![](./pics/meme/AI/Extrapolating_data.png)<!-- .element class="center-x" style="background:none; border:none; box-shadow:none; position: fixed; bottom: 20px; width: 600px;" -->
 
 -- Notes --
 
@@ -88,7 +88,7 @@
 ## RISKS
 <hr />
 
-![](pics/meme/AI/turing_test.jpeg)<!-- .element class="center-x" style="border:none; box-shadow:none; position: fixed; width: 1250px; bottom: 10px;" 
+![](pics/meme/AI/turing_test.jpeg)<!-- .element class="center-x" style="border:none; box-shadow:none; position: fixed; width: 1250px; bottom: 20px;" 
  -->
 
 -- Notes --

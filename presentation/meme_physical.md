@@ -27,7 +27,7 @@
 
 --
 
-![](pics/meme/physical/surveillance_cameras.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 750px; left: 0px; top: 10px;"  -->
+![](pics/meme/physical/surveillance_cameras.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 650px; left: 0px; top: 10px;"  -->
 
 -- Notes --
 
@@ -46,7 +46,7 @@ OWASP C9: Implement Security Logging and Monitoring
 
 --
 
-![](pics/meme/physical/ladder.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 550px; right: 150px; top: 10px;"  -->
+![](pics/meme/physical/ladder.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 550px; right: 70px; top: 5px;"  -->
 
 -- Notes --
 
