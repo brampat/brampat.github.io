@@ -12,10 +12,10 @@
 
 -- Notes --
 
-This is the first awareness lesson:
-* Don't plug in random USB sticks
-* You never know what's on them
-* Before you know, you're infected with a virus
+This is what to expect
+* I'll feed you security lessons,
+* disguised as some funny internet memes
+
 
 --
 
