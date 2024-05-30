@@ -27,7 +27,7 @@
 
 --
 
-![](pics/meme/physical/surveillance_cameras.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 650px; left: 0px; top: 10px;"  -->
+![](pics/meme/physical/surveillance_cameras.jpg)<!-- .element class="center-xy" style="border:none; box-shadow:none; position: fixed; width: 650px; "  -->
 
 -- Notes --
 
@@ -79,24 +79,6 @@ OWASP C07: Enforce Access Controls
 
 Threat model to prevent authorization bypasses
 
---
 
-## Scream 2022
-<hr />
-
-### "Smart" door locks
-
-![](./pics/wfh/scream_2022.png)<!-- .element style="vertical-align: middle; background:none; border:none; box-shadow:none; position: fixed; bottom: 20px; right: 20px; width: 830px;" -->
-![](./pics/wfh/scream_mask.png)<!-- .element style="vertical-align: middle; background:none; border:none; box-shadow:none; position: fixed; top: 100px; right: 10px; width: 230px;" -->
-
--- Notes --
-
-Where physical meets digital
-* The S in IoC stands for Security
-* Insecure Security cams / baby-cams
-* Limit attack surface
-
-OWASP C06: Implement Digital Identity
-OWASP C07: Enforce Access Controls
 
 
