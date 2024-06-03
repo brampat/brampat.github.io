@@ -25,6 +25,16 @@ Be prepared.
 * Might feel like spent money with no benefit
 * PR damage is hard to put a number on
 
+
+--
+
+
+![](pics/meme/budget/ransom_payments.jpg)<!-- .element class="center-xy" style="border:none; box-shadow:none; position: fixed; width: 540px; height: 666px;"  -->
+
+-- Notes --
+
+* Because if you're not, you'll spend much more on ransomware payments
+
 --
 
 ![](pics/meme/budget/security_requirements.png)<!-- .element class="center-xy" style="border:none; box-shadow:none; position: fixed; width: 550px; height: 650px; "  -->

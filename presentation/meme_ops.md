@@ -38,6 +38,14 @@ This is great advice:
 
 --
 
+![](pics/meme/operations/worked_on_my_machine.jpg)<!-- .element class="center-x" style="border:none; box-shadow:none; position: fixed; width: 799px; height: 618px; top: 10px;"  -->
+
+--
+
+![](pics/meme/operations/docker.jpg)<!-- .element class="center-xy" style="border:none; box-shadow:none; position: fixed; width: 422px; height: 585px;"  -->
+
+--
+
 ![](pics/meme/secrets_vault/secrets_everywhere.jpeg)<!-- .element class="center-xy" style="border:none; box-shadow:none; position: fixed; width: 592px; height: 450px;"  -->
 
 --
@@ -55,14 +63,6 @@ This is great advice:
 --
 
 ![](pics/meme/updates/cvss_score.png)<!-- .element class="center-xy" style="border:none; box-shadow:none; position: fixed; width: 532px; height: 436px;"  -->
-
---
-
-![](pics/meme/operations/worked_on_my_machine.jpg)<!-- .element class="center-x" style="border:none; box-shadow:none; position: fixed; width: 799px; height: 618px; top: 10px;"  -->
-
---
-
-![](pics/meme/operations/docker.jpg)<!-- .element class="center-xy" style="border:none; box-shadow:none; position: fixed; width: 422px; height: 585px;"  -->
 
 --
 
