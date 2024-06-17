@@ -29,7 +29,7 @@ Be prepared.
 --
 
 
-![](pics/meme/budget/ransom_payments.jpg)<!-- .element class="center-xy" style="border:none; box-shadow:none; position: fixed; width: 540px; height: 666px;"  -->
+![](pics/meme/budget/ransom_payments.jpg)<!-- .element class="center-xy" style="border:none; box-shadow:none; position: fixed; width: 540px; height: 500px;"  -->
 
 -- Notes --
 

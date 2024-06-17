@@ -99,6 +99,27 @@ But cryptography doesn't solve all risks
 
 --
 
+![](pics/meme/encryption/Sky_ECC.png)<!-- .element style="position: fixed; width: 250px; bottom: 180px; right: 20px;" -->
+
+![](pics/meme/encryption/ANOM.png)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 250px; top: 120px; right: 20px;" -->
+
+![](pics/meme/encryption/Encrochat.png)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 250px; top: 220px; right: 290px;" -->
+
+![](pics/meme/encryption/Phantom_secure.png)<!-- .element style="position: fixed; width: 220px; bottom: 30px; right: 220px;" -->
+
+![](pics/resources/darknet_diaries.jpg)<!-- .element style="position: fixed; bottom: 70px; left: 40px;" -->
+
+-- Notes --
+
+* Phantom Secure phone
+* Encrochat
+* Sky encrypted phone
+* Anom
+* Darknet Diaries 146: Anom
+* 7 Juni 2021
+
+--
+
 ## Lesson
 <hr />
 
