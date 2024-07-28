@@ -15,17 +15,17 @@ Some (or most) companies will have to deal with compliance regulations one way o
 
 <img align="left" src="compliance.png" style="width: 400px; padding: 10px;" margin="10px"> However, regulations don't cover everything, sometimes you can game the regulatory rules or they are simply ineffective at assessing the actual security of your organisation. For instance, a simple rule may require you to perform a penetration test on your product, website or application. If there are no requirements based on the outcome of the penetration test, you can pass that rule with little effort. But if the outcome of the penetration test indicates a large number of issues, big and small, what does passing the regulation say then?
 
-To quote @Viss (Dan Tentler): "Paperwork says: You have to get a pentest [...] you don't have to do anything else [...] Compliance isn't security" (source: https://youtu.be/4LmSEthRZLU?t=39m01s )
+To quote @Viss (Dan Tentler): "Paperwork says: You have to get a pentest [...] you don't have to do anything else [...] Compliance isn't security" (source: [Hack5 on Youtube](https://youtu.be/4LmSEthRZLU?t=39m01s) )
 
 ## Commitment
 
-The other way to approach security, is by making it a core value or core commitment to you company. Are you committed to the best quality, the best service, the best value for your customers? Then security is part of that as well. Security simply is an integral part of quality. Don't agree? Or do you want to know what other aspects are part of the quality of software products? Have a look at the ISO-25010 standard: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+The other way to approach security, is by making it a core value or core commitment to you company. Are you committed to the best quality, the best service, the best value for your customers? Then security is part of that as well. Security simply is an integral part of quality. Don't agree? Or do you want to know what other aspects are part of the quality of software products? Have a look at the [ISO-25010 standard](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
 
 Now I could make a few comparisons to food quality and hygiene in a restaurant, to non-functional aspects of your dream house or how the Eisenhower Matrix divides aspects into short term and long term goals. However, I'll come back to each of those another time.
 
 ### Finite vs. Infinite
 
-On theme with the Olympics that started this weekend, I'll compare security (and quality in general) to a game. And not just any game. This blog isn't called Start with Why for a reason. Simon Sinek popularised the theory of Finite and Infinite games, a theory defined by James Carse in the mid-80's. Sinek explain it best in these 2.5 minutes: https://www.youtube.com/watch?v=QFpVVm7AnKI
+On theme with the Olympics that started this weekend, I'll compare security (and quality in general) to a game. And not just any game. This blog isn't called Start with Why for a reason. Simon Sinek popularised the theory of Finite and Infinite games, a theory defined by James Carse in the mid-80's. Sinek explain it best in these [2.5 minutes]( https://www.youtube.com/watch?v=QFpVVm7AnKI)
 
 ### The Finite game
 
