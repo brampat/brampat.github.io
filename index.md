@@ -3,6 +3,8 @@
 Bram's Catch-all Security Blog
 
 # Articles
+* Security: [Start with Why](2024-07-26_Why_AppSec/README.md)
+* Security: [Before we Start](https://www.linkedin.com/pulse/before-we-start-why-bram-patelski-tbaqe/)
 * Dynamic [OWASP Top 10 Graph](2022-08-05_OWASP_Top10_Graph/owasp_graph.html) relating Mobile and Web Top 10's to Proactive Controls and mitigations
 * [Parler](2021-01-12_Parler/README.md) tricks
 * My take on the [Zoom](2020-04-06_Zoom/README.md) issues
