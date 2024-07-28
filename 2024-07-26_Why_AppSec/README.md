@@ -2,7 +2,7 @@
 
 <img align="right" src="running.png" style="width: 400px; padding: 10px;" margin="10px"> Is security a mandatory compliance thing or are you committed to a security culture in your company? Security is an infinite game. Be an athlete. Play the infinite game and get better one step at a time, step by step, each day.
 
-
+Note: this article is geared more towards stakeholders and decision makers, but suitable for everyone working with assets of value, digital or otherwise.
 
 ## Why do security
 
