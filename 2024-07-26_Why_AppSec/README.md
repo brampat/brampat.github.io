@@ -1,8 +1,6 @@
 # Start with Why
 
-<img float="right" src="running.png" width="300px">
-
-Is security a mandatory compliance thing or are you committed to a security culture in your company? Security is an infinite game. Be an athlete. Play the infinite game and get better one step at a time, step by step, each day.
+<img align="right" src="running.png" style="width: 300px; padding: 10px;" margin="10px"> Is security a mandatory compliance thing or are you committed to a security culture in your company? Security is an infinite game. Be an athlete. Play the infinite game and get better one step at a time, step by step, each day.
 
 
 
@@ -14,9 +12,8 @@ The question you should ask yourself is this: why would I actually want to do se
 
 Some (or most) companies will have to deal with compliance regulations one way or another. Whether it's PCI-DSS (payment industry), HIPAA (Health sector), GDPR (EU Privacy), MiCA (EU Cryptocurrency) or any of the gazillion other ISO, NIST or many, many other security standards. These regulations are designed to help you assess the security of your company on this particular topic. 
 
-![](compliance.png)
 
-However, regulations don't cover everything, sometimes you can game the regulatory rules or they are simply ineffective at assessing the actual security of your organisation. For instance, a simple rule may require you to perform a penetration test on your product, website or application. If there are no requirements based on the outcome of the penetration test, you can pass that rule with little effort. But if the outcome of the penetration test indicates a large number of issues, big and small, what does passing the regulation say then?
+<img align="left" src="compliance.png" style="width: 300px; padding: 10px;" margin="10px"> However, regulations don't cover everything, sometimes you can game the regulatory rules or they are simply ineffective at assessing the actual security of your organisation. For instance, a simple rule may require you to perform a penetration test on your product, website or application. If there are no requirements based on the outcome of the penetration test, you can pass that rule with little effort. But if the outcome of the penetration test indicates a large number of issues, big and small, what does passing the regulation say then?
 
 To quote @Viss (Dan Tentler): "Paperwork says: You have to get a pentest [...] you don't have to do anything else [...] Compliance isn't security" (source: https://youtu.be/4LmSEthRZLU?t=39m01s )
 
@@ -32,9 +29,8 @@ On theme with the Olympics that started this weekend, I'll compare security (and
 
 ### The Finite game
 
-A football match or tournament has a clear goal and a clear set of rules, time limit etc. Within that set of rules, there will be losers and winners, typically one (eventual) winner and all the other competitors per definition will be the losers. 
+A football match or tournament has a clear goal and a clear set of rules, time limit etc. Within that set of rules, there will be losers and winners, typically one (eventual) winner and all the other competitors per definition will be the losers. <img align="right" src="soccer.png" style="width: 300px; padding: 10px;" margin="10px"> 
 
-![](soccer.png)
 
 A security compliance regulation is similar to that finite game. If you pass the regulation, you're done, right? Wrong: as soon as you stop playing the game, you loce.
 
