@@ -1,8 +1,10 @@
 # Start with Why
 
+<img float="right" src="running.png" width="300px">
+
 Is security a mandatory compliance thing or are you committed to a security culture in your company? Security is an infinite game. Be an athlete. Play the infinite game and get better one step at a time, step by step, each day.
 
-![](running.png)
+
 
 ## Why do security
 
