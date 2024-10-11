@@ -193,8 +193,10 @@ OWASP Threat Dragon: tool to support architecture modelling in Threat modeling e
 
 <!-- .slide: class="table-small" -->
 
-## 5: OWASP ASVS
+## 5: OWASP
 <hr />
+
+![](./pics/OWASP/ASVS_logo.png)<!-- .element style="position: fixed; box-shadow:none; width: 150px; top: -20px; left: 240px; "  -->
 
 <div class="flags">
  <i class="fas fa-xs fa-flag" title="Flagship"></i>
@@ -234,6 +236,7 @@ Used as:
 * Metric: Assess degree of trust in your web applications
 * Guidance: to decide which controls to build for application security requirements
 * Procurement: Security verification requirements in contracts 
+
 
 
 --

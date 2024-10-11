@@ -1,11 +1,8 @@
 
-<!-- .slide: data-background="#FFFFFF" style="text-align: left; vertical-align: middle; color:black" -->
-### 10 Top OWASP Projects beyond the OWASP Top 10<!-- .element style="color: #DB8831;" -->
-<hr />
 
-![](./pics/brpa.jpg)<!-- .element style="position: fixed; top: 300px; left: 40px; height: 200px;"  -->
+![](./pics/owasp/crammed.png)<!-- .element style="position: fixed; right: 0px; bottom: 20px; height: 340px;"  -->
 
-
+![](./pics/owasp/Title.png)<!-- .element style="position: fixed; box-shadow:none; left: 0px; top: 10px; height: 340px;"  -->
 
 -- Notes --
 
@@ -14,7 +11,7 @@
 ## whoami
 <hr />
 
-![](./pics/brpa.jpg)<!-- .element style="position: fixed; top: 300px; left: 40px; height: 200px;"  -->
+![](./pics/brpa.jpg)<!-- .element style="position: fixed; top: 300px; left: 0px; height: 250px;"  -->
 
 
 ![](./pics/intro/SecJourney/SecurityJourney.png)<!-- .element style="position: fixed; box-shadow:none; top: 134px; right: 104px; width: 206px;"  -->
@@ -55,9 +52,8 @@
 
 * Intro to OWASP
 * 10 Key OWASP Projects
-* Practical Use
+* Where to Start
 * Conclusion & Q&A
-
 
 -- Notes --
 
