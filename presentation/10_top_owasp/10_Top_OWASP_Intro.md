@@ -9,24 +9,24 @@
 <span>Worldwide</span><!-- .element class="fragment" style="font-size: 24px; font-weight: bold; display: block; opacity: 1; transform: rotate(-25deg); background-color: white; color: red; position: fixed; top: 400px; left: 450px; width: 90px; height: 23px;" -->
 
 
-<span>Global open community that powers secure software through education, tools and collaboration</span><!-- .element class="fragment center-x" style="font-size: 18px; position: fixed; bottom: 150px; width: 740px;" -->
-<span>No more insecure software</span><!-- .element class="fragment center-x" style="font-size: 40px; position: fixed; bottom: 80px; " -->
+<span>Global open community that powers secure software through education, tools and collaboration</span><!-- .element class="fragment center-x" style="font-size: 20px; position: fixed; bottom: 150px; width: 900px;" -->
+<span>No more insecure software</span><!-- .element class="fragment center-x" style="font-size: 80px; position: fixed; bottom: 50px; width: 900px;" -->
 
 
 -- Notes --
 
 Introduction:
 * Formerly Open Web Application Security Project
-* Open WorldWide Application Security Project
+  * Open WorldWide Application Security Project
 * Dec. 2001
 * Non-profit
-* All projects are opensource / creative commons
-* Partnership / Membership
+  * All projects are opensource / creative commons
+  * Partnership / Membership
+  * Volunteer work
 * Mission:
   * Global open community that powers secure software through education, tools and collaboration
 * Vision:
   * No more insecure software
-
 
 --
 
@@ -104,5 +104,21 @@ Which results in developers needing to fix in prod
 
 
 --
+
+## Icons
+<hr />
+
+* <i class="fas fa-xs fa-flag"> </i> (15) Flagship
+* <i class="fas fa-xs fa-industry"> </i> (8) Production
+* <i class="fas fa-xs fa-flask"> </i> (34) Lab
+* <i class="fas fa-xs fa-egg"> </i> (127) Incubator
+* <i class="fas fa-xs fa-question"> </i> (44) Need website update
+* <i class="fas fa-xs fa-book"> </i> Documentation
+* <i class="fas fa-xs fa-tools"> </i> Tools
+* <i class="fas fa-xs fa-toolbox"> </i> Builder
+* <i class="fas fa-xs fa-hammer"> </i> Breaker
+* <i class="fas fa-xs fa-shield"> </i> Defender
+* <i class="fas fa-xs fa-book-open"> </i> Standard
+* <a class="fas fa-xs fa-external-link" target="_blank" href="https://owasp.org/www-project-thick-client-top-10/"> </a> Link to the project
 
 
