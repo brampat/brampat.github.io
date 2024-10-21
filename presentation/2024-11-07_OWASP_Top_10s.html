@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>10 Top OWASP Projects beyond the OWASP Top 10</title>
+        <!-- reveal.js CSS theme and local overrides -->
+        <link rel="stylesheet" href="revealjs/dist/reset.css">
+        <link rel="stylesheet" href="revealjs/dist/reveal.css">
+        <link rel="stylesheet" href="revealjs/dist/theme/white.css" id="theme">
+        <link rel="stylesheet" href="revealjs/plugin/highlight/monokai.css" id="highlight-theme">
+        <link rel="stylesheet" href="custom_css/reveal-override.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <!-- Slides are separated by newline + three dashes + newline, vertical slides identical but two dashes -->
+                <section data-markdown="./2024-11-07_OWASP_Top_10s.md"          data-separator="^\n---\n$" data-separator-vertical="^\n--\n$" data-separator-notes="^-- Notes --"></section>
+                <section data-markdown="./10_top_owasp/10_Top_OWASP_Intro.md"   data-separator="^\n---\n$" data-separator-vertical="^\n--\n$" data-separator-notes="^-- Notes --"></section>
+                <section data-markdown="./10_top_owasp/10_Top_10s.md"           data-separator="^\n---\n$" data-separator-vertical="^\n--\n$" data-separator-notes="^-- Notes --"></section>
+                <section data-markdown="./10_top_owasp/10_Top_OWASP_Dive.md"    data-separator="^\n---\n$" data-separator-vertical="^\n--\n$" data-separator-notes="^-- Notes --"></section>
+                <section data-markdown="./10_top_owasp/10_Top_OWASP_Start.md"   data-separator="^\n---\n$" data-separator-vertical="^\n--\n$" data-separator-notes="^-- Notes --"></section>
+                <section data-markdown="./10_top_owasp/10_Top_OWASP_Conclusion.md" data-separator="^\n---\n$" data-separator-vertical="^\n--\n$" data-separator-notes="^-- Notes --"></section>
+                <section data-markdown="./end.md"                               data-separator="^\n---\n$" data-separator-vertical="^\n--\n$" data-separator-notes="^-- Notes --"></section>
+            </div>
+        </div>
+        <script src="revealjs/dist/reveal.js"></script>
+        <script src="revealjs/plugin/zoom/zoom.js"></script>
+        <script src="revealjs/plugin/notes/notes.js"></script>
+        <script src="revealjs/plugin/search/search.js"></script>
+        <script src="revealjs/plugin/markdown/markdown.js"></script>
+        <script src="revealjs/plugin/highlight/highlight.js"></script>
+        <script>
+            // Wait for the document to be fully loaded before initializing Reveal.js
+            document.addEventListener('DOMContentLoaded', function () {
+                Reveal.initialize({
+                    controls: true,
+                    progress: true,
+                    center: true,
+                    hash: true,
+                    // Learn about plugins: https://revealjs.com/plugins/
+                    plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+                });
+            });
+        </script>
+
+        <div class="bottombar fix">
+            <span><img src="pics/intro/twitter_x.png" width="40px"></span>
+            <span><a href="https://twitter.com/brampatelski">brampatelski</a></span>
+            <span><img src="pics/intro/mastodon.png" width="40px"></span>
+            <span>bramp</a></span>
+            <span><img src="pics/github.png" width="40px"></span>
+            <span>brampat.github.io</a></span>
+            <span><img src="pics/intro/linkedin.png" width="40px"></span>
+            <span>brampatelski</a></span>
+            <span class="right"><img src="./pics/sopra_steria.png" width="270px"></span>
+        </div>
+
+    </body>
+</html>

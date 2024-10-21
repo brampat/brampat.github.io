@@ -411,8 +411,8 @@ Used as:
 
 -- Notes --
 
-
-* SBOMs - Software Bill of Materials:
+OWASP CycloneDX:
+* Create SBOMs - Software Bill of Materials:
   * Improve trust in software
     * Verify integrity using hashes
     * Verify authenticity using signatures
@@ -420,8 +420,6 @@ Used as:
   * Pinpoint end-of-life dependencies
   * Review licenses (and obligations)
   * Provenance / ownership
-  * 
-
 * Supports:
   * Software Bill of Materials (SBOM)
   * Software-as-a-Service Bill of Materials (SaaSBOM)
@@ -433,8 +431,6 @@ Used as:
   * Vulnerability Disclosure Reports (VDR)
   * Vulnerability Exploitability eXchange (VEX)
   * CycloneDX Attestations (CDXA)
-
-* Bonus: OWASP CycloneDX: to create full SBOMs, explain what SBOMs are and how they help improve trust in your software and quickly pinpoint vulnerable dependencies
 * SBOM: Software Bill of Materials
 * Alternative: SPDX (Linux Software Foundation)
 
@@ -635,9 +631,6 @@ Bonus: OWASP Dependency Track: Keep track of SBOMs, dependencies and software li
 ![](./pics/OWASP/RaspPi_Manual_5.png)<!-- .element style="position: fixed; width: 150px; right: -80px; top: 490px;"  -->
 
 
-* 4 RaspPi 4B (8GB) each with:
-  * 16GB SD
-  * POE+ HAT
 * MultiJuicer
   * Multi-tenant JuiceShops
   * Each team their own (30+)
@@ -648,7 +641,10 @@ Bonus: OWASP Dependency Track: Keep track of SBOMs, dependencies and software li
   * € 300-350,-
   * Instructions: priceless
     * Creative Commons
-
+* 4 RaspPi 4B (8GB) each with:
+  * 16GB SD
+  * POE+ HAT
+* Total cost: ~€1000,-
 
 --
 
