@@ -613,6 +613,8 @@ Bonus: OWASP Dependency Track: Keep track of SBOMs, dependencies and software li
 ## 10: OWASP MultiJuicer Case
 <hr />
 
+<!-- .slide: class="ul-small" -->
+
 <div class="flags">
  <i class="fas fa-xs fa-flag" title="Flagship"></i>
  <i class="fas fa-xs fa-tools" title="Tools"></i>
