@@ -2,6 +2,21 @@
 ## Where to start
 <hr />
 
+<i class="fas fa-thermometer-1"></i> Measure<br>
+<i class="fas fa-water" style="margin-left: 30px;"></i> Start Simple
+
+<i class="fas fa-plus"></i> Slowly add<br>
+<i class="fas fa-clipboard-check" style="margin-left: 30px;"></i> Extra rules<br>
+<i class="fas fa-tasks" style="margin-left: 30px;"></i> Then Quality gates
+
+<i class="fas fa-users"></i> Team-by-team<br>
+<i class="fas fa-running" style="margin-left: 30px;"></i> Front-runners first
+
+<i class="fas fa-cogs"></i> Automate<br>
+
+
+-- Notes --
+
 * Start monitoring:
   * Measure first
     * Knowledge is power
@@ -16,7 +31,7 @@
     * Config & secrets
   * Consistency is key
 
--- Notes --
+
 
 * Start by measuring
 * Start with few and only simple rules

@@ -20,15 +20,14 @@
 
 Software Assurance Maturity Model
 * Framework to measure organisation's maturity
-* Originally called ![OpenSAMM](https://www.opensamm.org/)
+* Originally called OpenSAMM (https://www.opensamm.org/)
 * Roadmap to grow maturity
 * 5 Business Functions
   * Each with 3 practices
     * Each with 2 Streams
       * Each with 3 maturity levels
 * 30 streams to mature up to 3 levels
-
-![The Model](https://owaspsamm.org/about/)
+* The Model: https://owaspsamm.org/about/
 
 --
 
@@ -100,15 +99,16 @@ Zoom in on Implementation -> Defect Management:
   <a class="fas fa-xs fa-external-link" target="_blank" href="https://owaspsamm.org/model/"> </a>
 </div>
 
-* Mar 2009: v1 of OpenSAMM
-* Mar 2016: v1.1
-  * Adopted by OWASP
-* Apr 2017: v1.5
-  * Added more detailed guidance to tailor SAMM
-* Jan 2020: v2.0
+* Sep 2024: v2.1
+* v2.0.1 to v2.0.16
+* Apr 2021: v2.0
   * Added Design business function
   * Added Streams
-* Feb 2023: v2.1
+* Apr 2017: v1.5
+  * Added more detailed guidance to tailor SAMM
+* Mar 2016: v1.1
+  * Adopted by OWASP
+* Mar 2009: v1 of OpenSAMM
 
 
 
@@ -129,11 +129,18 @@ Zoom in on Implementation -> Defect Management:
 
 -- Notes --
 
-the DevSecOps Maturity Model, focussing on more technical aspects of DevOps environments, highlighting security advantages of automated CI/CD, containerization, Infra as Code, logging & monitoring, static & dynamic analysis, consolidation of test-results etc.
+* DevSecOps Maturity Model
+* Focussing: DevOps technical aspects
+  * Security advantages of automated CI/CD
+  * containerization
+  * Infra as Code
+  * logging & monitoring
+  * static & dynamic analysis
+  * consolidation of test-results etc.
 
 --
 
-## 4.A: OWASP Cornucopia
+## 4.1: OWASP Cornucopia
 <hr />
 
 <div class="flags">
@@ -157,6 +164,7 @@ the DevSecOps Maturity Model, focussing on more technical aspects of DevOps envi
   * Secure Coding Practices (CSP)
   * Application Security Verification Standards (ASVS)
   * Common Attack Pattern Enumeration and Classification (CAPEC)
+* Physical and Digital version
 * Pre-requisite for threat modelling:
   * Know your system
   * Data Flow Diagram
@@ -166,7 +174,7 @@ Bonus: OWASP Threat Dragon: tool to support architecture modelling in Threat mod
 
 --
 
-## 4.B: OWASP Threat Dragon
+## 4.2: OWASP Threat Dragon
 <hr />
 
 <div class="flags">
@@ -225,23 +233,21 @@ OWASP Threat Dragon: tool to support architecture modelling in Threat modeling e
 
 -- Notes --
 
-Application Security Verification Standard
-MASVS: Mobile Application Security Verification Standard
+* Application Security Verification Standard
+* MASVS: Mobile Application Security Verification Standard
 
 Aim:
 * Basis for testing web app technical security controls
-* Requirements for devs for secure software development
+* Help define requirements for devs to do secure software development
 
 Used as:
 * Metric: Assess degree of trust in your web applications
 * Guidance: to decide which controls to build for application security requirements
-* Procurement: Security verification requirements in contracts 
-
-
+* Procurement: Security verification requirements in contracts for buying off-the-shelve
 
 --
 
-## 6.A: OWASP Cheat Sheet Series
+## 6.1: OWASP Cheat Sheet Series
 <hr />
 
 ![](./pics/OWASP/Cheatsheet_Logo.png)<!-- .element class="center-x" style="position: fixed; box-shadow:none; width: 650px; bottom: 50px; "  -->
@@ -262,7 +268,7 @@ Used as:
 
 --
 
-## 6.A: OWASP Cheat Sheet Series
+## 6.1: OWASP Cheat Sheet Series
 <hr />
 
 ![](./pics/OWASP/Theres_a_cheat_sheet_for_that.jpg)<!-- .element class="center-x" style="position: fixed; box-shadow:none; width: 850px; bottom: 50px; "  -->
@@ -283,7 +289,7 @@ Used as:
 
 <!-- .slide: data-state="two-columns" -->
 
-## 6.A: OWASP Cheat Sheet Series
+## 6.1: OWASP Cheat Sheet Series
 <hr />
 
 <div class="flags">
@@ -332,7 +338,7 @@ Used as:
 
 --
 
-## 6.B: Code Review Guide
+## 6.2: Code Review Guide
 <hr />
 
 <div class="flags">
@@ -349,9 +355,9 @@ Used as:
 
 -- Notes --
 
-2 parts:
+3 parts:
 * Why and how code reviews
-  * Spoiler: Most effective method of finding issues is still Manual code review
+  * Spoiler: Manual review still most effective in finding issues
 * Vulnerability types and how to detect them in:
   * OWASP Top 10 (2013), 8 of those are still in Top 10 2021
   * Other types, including many web-concepts
@@ -359,11 +365,11 @@ Used as:
   * Do's & dont's
   * Code Review checklist
   * Threat modelling example
-  * Code crawling
+  * Code crawling (or which keywords to search for in code )
 
 --
 
-## 7.A: OWASP 
+## 7.1: OWASP 
 <hr />
 
 <div class="flags">
@@ -383,60 +389,18 @@ Used as:
 -- Notes --
 
 * SCA: Software Composition Analysis
+  * Specific type of SAST: Static Application Security Testing
 * Automating vulnerability scanning of Software dependencies.
 * Alternatives:
-  * NexusIQ
   * Snyk
-  * WhiteSource
-  * 
-
-
---
-
-## 7.B: OWASP
-<hr />
-
-<div class="flags">
- <i class="fas fa-flag" title="Flagship"></i>
- <i class="fas fa-book-open" title="Standard"></i>
- <i class="fas fa-toolbox" title="Builder"></i>
- <i class="fas fa-shield" title="Defender" title="Defender"></i>
- <a class="fas fa-xs fa-external-link" target="_blank" href="https://owasp.org/www-project-cyclonedx/"> </a>
-</div>
-
-![](./pics/OWASP/cyclonedx_logo.png)<!-- .element style="position: fixed; box-shadow:none; width: 300px; top: 0px; left: 260px; "  -->
-
-![](./pics/OWASP/cyclonedx_format.png)<!-- .element class="center-x" style="position: fixed; width: 950px; bottom: 70px;"  -->
-
-
--- Notes --
-
-OWASP CycloneDX:
-* Create SBOMs - Software Bill of Materials:
-  * Improve trust in software
-    * Verify integrity using hashes
-    * Verify authenticity using signatures
-  * Quickly pinpoint vulnerable dependencies
-  * Pinpoint end-of-life dependencies
-  * Review licenses (and obligations)
-  * Provenance / ownership
-* Supports:
-  * Software Bill of Materials (SBOM)
-  * Software-as-a-Service Bill of Materials (SaaSBOM)
-  * Hardware Bill of Materials (HBOM)
-  * Machine Learning Bill of Materials (ML-BOM)
-  * Cryptography Bill of Materials (CBOM)
-  * Manufacturing Bill of Materials (MBOM)
-  * Operations Bill of Materials (OBOM)
-  * Vulnerability Disclosure Reports (VDR)
-  * Vulnerability Exploitability eXchange (VEX)
-  * CycloneDX Attestations (CDXA)
-* SBOM: Software Bill of Materials
-* Alternative: SPDX (Linux Software Foundation)
+  * NexusIQ
+  * NPM Audit
+* Reports can be imported into Jenkins, SonarQube etc.
+* Including OWASP Dep. TRACK
 
 --
 
-## 7.C: OWASP 
+## 7.2: OWASP
 <hr />
 
 <!-- .slide: class="ul-small" -->
@@ -454,7 +418,7 @@ OWASP CycloneDX:
 ![](./pics/OWASP/dependency_track_screen.png)<!-- .element style="position: fixed; width: 750px; bottom: 70px; right: -20px;"  -->
 
 
-* Vuln. Int:
+* Vulnerability Intelligence:
   * NVD
   * GitHub Adv.
   * Sonatype OSS
@@ -475,15 +439,9 @@ OWASP CycloneDX:
 -- Notes --
 
 Bonus: OWASP Dependency Track: Keep track of SBOMs, dependencies and software licenses
-* Tracks components across all applications in your organisation's portfolio:
-  * What is affected and where is that app running?
-  * Vulnerable
-  * Out-of-date
-  * Modified
-  * License risk
 * Integrates with:
   * Multiple vulnerability intelligence sources:
-    * NIST NVD National Vulnerability Database (same as OWASp Dependency Check)
+    * NIST NVD National Vulnerability Database (same as OWASP Dependency Check)
     * GitHub Advisories
     * Sonatype OSS Index
     * VulnDB from Risk Based Security
@@ -491,10 +449,6 @@ Bonus: OWASP Dependency Track: Keep track of SBOMs, dependencies and software li
     * VEX: Vulnerability Exploitability Exchange
   * EPSS: Exploit Prediction Scoring System
   * SPDX
-* Policy Engine for Risk and compliance:
-  * Security
-  * License
-  * Operational
 * Ecosystems:
   * Maven (Java)
   * NPM (Javascript)
@@ -504,6 +458,62 @@ Bonus: OWASP Dependency Track: Keep track of SBOMs, dependencies and software li
   * Cargo (Rust)
   * Composer (PHP)
   * Hex (Erlang/Elixir)
+* Policy Engine for Risk and compliance:
+  * Security
+  * License
+  * Operational
+* Tracks components across all applications in your organisation's portfolio:
+  * What is affected and where is that app running?
+    * Vulnerable
+    * Out-of-date
+    * Modified
+    * License risk
+
+--
+
+## 7.3: OWASP
+<hr />
+
+<div class="flags">
+ <i class="fas fa-flag" title="Flagship"></i>
+ <i class="fas fa-book-open" title="Standard"></i>
+ <i class="fas fa-toolbox" title="Builder"></i>
+ <i class="fas fa-shield" title="Defender" title="Defender"></i>
+ <a class="fas fa-xs fa-external-link" target="_blank" href="https://owasp.org/www-project-cyclonedx/"> </a>
+</div>
+
+![](./pics/OWASP/cyclonedx_logo.png)<!-- .element style="position: fixed; box-shadow:none; width: 300px; top: 0px; left: 260px; "  -->
+
+![](./pics/OWASP/cyclonedx_format.png)<!-- .element class="center-x" style="position: fixed; width: 950px; bottom: 70px;"  -->
+
+
+-- Notes --
+
+* SBOM: Software Bill of Materials
+OWASP CycloneDX:
+* Create SBOMs - Software Bill of Materials:
+  * Improve trust in software
+    * Verify integrity using hashes
+    * Verify authenticity using signatures
+  * Quickly pinpoint:
+    * vulnerable dependencies
+    * end-of-life dependencies
+    * Review licenses (and obligations)
+    * Provenance (ownership)
+* Alternative: SPDX (Linux Software Foundation)
+* CycloneDX Supports:
+  * Vulnerability Disclosure Reports (VDR)
+  * Vulnerability Exploitability eXchange (VEX)
+  * CycloneDX Attestations (CDXA)
+  * Software Bill of Materials (SBOM)
+  * Software-as-a-Service Bill of Materials (SaaSBOM)
+  * Hardware Bill of Materials (HBOM)
+  * Machine Learning Bill of Materials (ML-BOM)
+  * Cryptography Bill of Materials (CBOM)
+  * Manufacturing Bill of Materials (MBOM)
+  * Operations Bill of Materials (OBOM)
+
+
 
 --
 
@@ -551,7 +561,7 @@ Bonus: OWASP Dependency Track: Keep track of SBOMs, dependencies and software li
 
 --
 
-## 9: OWASP 
+## 9: OWASP
 <hr />
 
 <div class="flags">
@@ -564,11 +574,23 @@ Bonus: OWASP Dependency Track: Keep track of SBOMs, dependencies and software li
 
 ![](./pics/OWASP/defect_dojo_logo.png)<!-- .element style="position: fixed; box-shadow:none; width: 400px; top: -10px; left: 220px; "  -->
 
-![](./pics/OWASP/defect_dojo_screen.png)<!-- .element class="center-xy" style="position: fixed; width: 1000px; "  -->
+![](./pics/OWASP/dependency_check.png)<!-- .element style="position: fixed; box-shadow:none; width: 200px; top: 110px; left: 20px; "  -->
+![](./pics/tools/asc-plugin_logo.png)<!-- .element style="position: fixed; box-shadow:none; width: 200px; top: 110px; left: 220px; "  -->
+![](./pics/OWASP/zap_logo.png)<!-- .element style="position: fixed; box-shadow:none; width: 200px; top: 110px; left: 420px; "  -->
+![](./pics/tools/Nexus_Lifecycle_logo.png)<!-- .element style="position: fixed; box-shadow:none; width: 120px; top: 110px; left: 660px; "  -->
+![](./pics/tools/SonarQubeIcon.png)<!-- .element style="position: fixed; box-shadow:none; width: 200px; top: 90px; left: 820px; "  -->
+![](./pics/tools/burp-suite_logo.png)<!-- .element style="position: fixed; box-shadow:none; width: 200px; top: 170px; left: 60px; "  -->
+![](./pics/tools/fortify_logo.png)<!-- .element style="position: fixed; box-shadow:none; width: 200px; top: 170px; left: 260px; "  -->
+![](./pics/tools/gitleaks_logo.png)<!-- .element style="position: fixed; box-shadow:none; width: 200px; top: 210px; left: 460px; "  -->
+![](./pics/tools/trivy_logo.png)<!-- .element style="position: fixed; box-shadow:none; width: 120px; top: 160px; left: 860px; "  -->
 
+
+![](./pics/OWASP/defect_dojo_screen.png)<!-- .element class="center-x fragment" style="position: fixed; width: 800px; bottom: 20px;"  -->
 
 -- Notes --
 
+* All QA and Security scanning tools:
+  * Many reports, many applications
 * Consolidating vulnerabilities and other findings across development projects
 * Imports data from tools like
   * Dependency Check
@@ -580,11 +602,13 @@ Bonus: OWASP Dependency Track: Keep track of SBOMs, dependencies and software li
   * and many others
 * Single consolidated Dashboard for all QA tools
   * All your team's applications' QA stats on 1 screen
-  * Product Owners: All your (mutiple) teams' applications' QA stats on 1 screen
+  * Product Owners: All your (multiple) teams' application QA stats on 1 screen
 
 --
 
-## 10: OWASP Juice Shop
+<!-- .slide: class="ul-small" -->
+
+## 10.1: OWASP Juice Shop
 <hr />
 
 <div class="flags">
@@ -596,9 +620,11 @@ Bonus: OWASP Dependency Track: Keep track of SBOMs, dependencies and software li
  <a class="fas fa-xs fa-external-link" target="_blank" href="https://www.defectdojo.org/"> </a>
 </div>
 
-
 ![](./pics/OWASP/JuiceShop_Logo.png)<!-- .element class="center-y" style="position: fixed; box-shadow:none; width: 500px; right: 0px;"  -->
 
+* Goal
+  * Awareness Tool
+  * Full of vulnerabilities
 * Vulnerable web-shop
   * NodeJS
   * Express
@@ -607,10 +633,64 @@ Bonus: OWASP Dependency Track: Keep track of SBOMs, dependencies and software li
   * OWASP Top 10
   * Vuln. that started THE top 10
   * Web3 (NFT & Crypto)
+* Runs on:
+  * Most OS's
+  * Cloud, Kubernetes
+  * Web-servers
+  * and more...
 
 --
 
-## 10: OWASP MultiJuicer Case
+## 10.1: Juiceshop Challenges
+<hr />
+
+![](pics/OWASP/juiceshop/categories.png)<!-- .element class="center-xy" style="background:none; border: none; box-shadow: none; position: fixed; width: 610px; height: 470 px; " -->
+
+
+-- Notes --
+
+Vulnerabilities in different classes:
+* OWASP Top 10 Web App Risks
+* OWASP Top 10 API Security
+* OWASP Top 10 Privacy Risks
+* OWASP ASVS
+* OWASP Automated Threat Handbook
+* MITRE’s Common Weakness Enumeration
+
+--
+
+## 10.2: MultiJuicer
+<hr />
+
+![](pics/OWASP/juiceshop/PXL_20241025_123636926.MP_guy_fawkess.jpg)<!-- .element style="background:none; border: none; box-shadow: none; position: fixed; width: 410px; left: 70px; top: 90px;" -->
+![](pics/OWASP/juiceshop/PXL_20241025_125948088.MP_guy_fawkes.jpg)<!-- .element style="background:none; border: none; box-shadow: none; position: fixed; width: 410px; left: 50px; bottom: 20px;" -->
+![](pics/OWASP/juiceshop/PXL_20241025_125923150.jpg)<!-- .element style="background:none; border: none; box-shadow: none; position: fixed; width: 430px; right: 50px; bottom: 40px;" -->
+
+
+
+--
+
+
+## 10.2: MultiJuicer
+<hr />
+
+![](pics/OWASP/juiceshop/multijuicer-architecture.png)<!-- .element style="background:none; border: none; box-shadow: none; position: fixed; width: 610px; right: 0px; bottom: 50px;" -->
+
+* MultiJuicer
+  * Multi-tenant JuiceShop infra
+  * Each team their own (30+)
+  * Leaderboard
+  * Admin panels
+* Runs on:
+  * Most OS's
+  * Cloud, Kubernetes
+  * Web-servers
+  * and more...
+
+
+--
+
+## 10.3: OWASP MultiJuicer Case
 <hr />
 
 <!-- .slide: class="ul-small" -->
@@ -645,7 +725,8 @@ Bonus: OWASP Dependency Track: Keep track of SBOMs, dependencies and software li
     * Creative Commons
 * 4 RaspPi 4B (8GB) each with:
   * 16GB SD
-  * POE+ HAT
+  * PoE+ HAT
+* PoE Switch
 * Total cost: ~€1000,-
 
 --

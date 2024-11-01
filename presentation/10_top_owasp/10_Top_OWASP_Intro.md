@@ -1,56 +1,3 @@
-## Intro
-<hr />
-
-
-
-![](./pics/OWASP_top10/owasp_logo.png)<!-- .element class="center-xy" style="position: fixed; box-shadow:none; width: 500px;"  -->
-
-
-<span>Worldwide</span><!-- .element class="fragment" style="font-size: 24px; font-weight: bold; display: block; opacity: 1; transform: rotate(-25deg); background-color: white; color: red; position: fixed; top: 400px; left: 450px; width: 90px; height: 23px;" -->
-
-
-<span>Global open community that powers secure software through education, tools and collaboration</span><!-- .element class="fragment center-x" style="font-size: 20px; position: fixed; bottom: 150px; width: 900px;" -->
-<span>No more insecure software</span><!-- .element class="fragment center-x" style="font-size: 80px; position: fixed; bottom: 50px; width: 900px;" -->
-
-
--- Notes --
-
-Introduction:
-* Formerly Open Web Application Security Project
-  * Open WorldWide Application Security Project
-* Dec. 2001
-* Non-profit
-  * All projects are opensource / creative commons
-  * Partnership / Membership
-  * Volunteer work
-* Mission:
-  * Global open community that powers secure software through education, tools and collaboration
-* Vision:
-  * No more insecure software
-
---
-
-## THE (?) OWASP Top 10
-<hr />
-
-### Web Application Security Risks
-
-![](./pics/OWASP_top10/OWASP_Top_10_Web_Vuln.png)<!-- .element class="center-x" style="position: fixed; box-shadow:none; width: 900px; top: 150px;"  -->
-
-<span>Next ed. 2025 'H1: Please donate your pentest stats until December 2024</span><!-- .element class="fragment center-x" style="font-size: 25px; position: fixed; bottom: 50px; width: 800px;" -->
-
--- Notes --
-
-* Started in Jan 2003
-  * Based on a bug report for an online Cinema ticketing system
-  * Order -2 tickets
-  * Java doesn't have unsigned int
-* OWASP Top 10's are awareness documents, not standards or achievements
-  * They start conversation and learning
-  * They are Top 10's not All 10's
-
---
-
 ## Shifting Left
 <hr />
 
@@ -105,6 +52,37 @@ Which results in developers needing to fix in prod
 
 --
 
+## OWASP
+<hr />
+
+![](./pics/OWASP_top10/owasp_logo.png)<!-- .element class="center-xy" style="position: fixed; box-shadow:none; width: 500px;"  -->
+
+<span>Worldwide</span><!-- .element class="fragment" style="font-size: 24px; font-weight: bold; display: block; opacity: 1; transform: rotate(-25deg); background-color: white; color: red; position: fixed; top: 400px; left: 450px; width: 90px; height: 23px;" -->
+
+<span>Global open community that powers secure software through education, tools and collaboration</span><!-- .element class="fragment center-x" style="font-size: 20px; position: fixed; bottom: 150px; width: 900px;" -->
+<span>No more insecure software</span><!-- .element class="fragment center-x" style="font-size: 80px; position: fixed; bottom: 50px; width: 900px;" -->
+
+
+-- Notes --
+
+Introduction:
+* Formerly Open Web Application Security Project
+  * Open WorldWide Application Security Project
+* Dec. 2001
+* Non-profit
+  * ~350 projects
+  * All projects are opensource / creative commons
+  * Partnership / Membership
+  * Volunteer work
+* Mission:
+  * Create a global open community that powers secure software through education, tools and collaboration
+* Vision or end-goal:
+  * No more insecure software
+
+--
+
+
+
 ## Icons
 <hr />
 
@@ -121,4 +99,7 @@ Which results in developers needing to fix in prod
 * <i class="fas fa-xs fa-book-open"> </i> Standard
 * <a class="fas fa-xs fa-external-link" target="_blank" href="https://owasp.org/www-project-thick-client-top-10/"> </a> Link to the project
 
+-- Notes --
+
+* OWASP has about ~350 projects
 

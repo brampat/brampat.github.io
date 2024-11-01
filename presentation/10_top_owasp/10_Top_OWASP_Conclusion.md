@@ -21,4 +21,4 @@
 * Integration Standards:
   * OpenCRE.org : Open Common Requirement Enumeration
   * OWASP in the SDLC: How to plug in security in the SDLC
-  * Application Security Wayfinder
+  * Application Security [Wayfinder](https://owasp.org/projects/)
