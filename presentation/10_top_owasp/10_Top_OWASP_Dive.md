@@ -211,7 +211,7 @@ OWASP Threat Dragon: tool to support architecture modelling in Threat modeling e
  <i class="fas fa-xs fa-book" title="Documentation"></i>
  <i class="fas fa-xs fa-toolbox" title="Builder"></i>
  <i class="fas fa-xs fa-shield" title="Defender"></i>
- <i class="fas fa-xs fa-hammer"></i>
+ <i class="fas fa-xs fa-user-secret"></i>
  <a class="fas fa-xs fa-external-link" target="_blank" href="https://owasp.org/www-project-application-security-verification-standard/"> </a>
 </div>
 
@@ -256,7 +256,7 @@ Used as:
  <i class="fas fa-xs fa-book" title="Documentation"></i>
  <i class="fas fa-xs fa-toolbox" title="Builder"></i>
  <i class="fas fa-xs fa-shield" title="Defender"></i>
- <i class="fas fa-xs fa-hammer"></i>
+ <i class="fas fa-xs fa-user-secret"></i>
  <a class="fas fa-xs fa-external-link" target="_blank" href="https://owasp.org/www-project-application-security-verification-standard/"> </a>
 </div>
 
@@ -568,7 +568,7 @@ OWASP CycloneDX:
  <i class="fas fa-flag" title="Flagship"></i>
  <i class="fas fa-tools" title="Tools"></i>
  <i class="fas fa-toolbox" title="Builder"></i>
- <i class="fas fa-hammer" title="Breaker" title="Breaker"></i>
+ <i class="fas fa-user-secret" title="Breaker" title="Breaker"></i>
  <a class="fas fa-xs fa-external-link" target="_blank" href="https://www.defectdojo.org/"> </a>
 </div>
 
@@ -616,7 +616,7 @@ OWASP CycloneDX:
  <i class="fas fa-xs fa-tools" title="Tools"></i>
  <i class="fas fa-xs fa-toolbox" title="Builder"></i>
  <i class="fas fa-xs fa-shield" title="Defender"></i>
- <i class="fas fa-xs fa-hammer" title="Breaker"></i>
+ <i class="fas fa-xs fa-user-secret" title="Breaker"></i>
  <a class="fas fa-xs fa-external-link" target="_blank" href="https://www.defectdojo.org/"> </a>
 </div>
 
@@ -700,7 +700,7 @@ Vulnerabilities in different classes:
  <i class="fas fa-xs fa-tools" title="Tools"></i>
  <i class="fas fa-xs fa-toolbox" title="Builder"></i>
  <i class="fas fa-xs fa-shield" title="Defender"></i>
- <i class="fas fa-xs fa-hammer" title="Breaker"></i>
+ <i class="fas fa-xs fa-user-secret" title="Breaker"></i>
  <a class="fas fa-xs fa-external-link" target="_blank" href="https://www.defectdojo.org/"> </a>
 </div>
 

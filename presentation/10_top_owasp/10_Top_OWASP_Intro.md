@@ -93,10 +93,10 @@ Introduction:
 * <i class="fas fa-xs fa-question"> </i> (44) Need website update
 * <i class="fas fa-xs fa-book"> </i> Documentation
 * <i class="fas fa-xs fa-tools"> </i> Tools
-* <i class="fas fa-xs fa-toolbox"> </i> Builder
-* <i class="fas fa-xs fa-hammer"> </i> Breaker
-* <i class="fas fa-xs fa-shield"> </i> Defender
 * <i class="fas fa-xs fa-book-open"> </i> Standard
+* <i class="fas fa-xs fa-toolbox"> </i> Builder
+* <i class="fas fa-xs fa-user-secret"> </i> Breaker
+* <i class="fas fa-xs fa-shield"> </i> Defender
 * <a class="fas fa-xs fa-external-link" target="_blank" href="https://owasp.org/www-project-thick-client-top-10/"> </a> Link to the project
 
 -- Notes --

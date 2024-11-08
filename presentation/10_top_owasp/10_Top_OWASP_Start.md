@@ -2,18 +2,25 @@
 ## Where to start
 <hr />
 
+<span class="fragment" data-fragment-index="1">
 <i class="fas fa-thermometer-1"></i> Measure<br>
 <i class="fas fa-water" style="margin-left: 30px;"></i> Start Simple
+</span><br>
 
+<span class="fragment" data-fragment-index="2">
 <i class="fas fa-plus"></i> Slowly add<br>
 <i class="fas fa-clipboard-check" style="margin-left: 30px;"></i> Extra rules<br>
 <i class="fas fa-tasks" style="margin-left: 30px;"></i> Then Quality gates
+</span><br>
 
+<span class="fragment" data-fragment-index="3">
 <i class="fas fa-users"></i> Team-by-team<br>
 <i class="fas fa-running" style="margin-left: 30px;"></i> Front-runners first
+</span><br>
 
+<span class="fragment" data-fragment-index="4">
 <i class="fas fa-cogs"></i> Automate<br>
-
+</span><br>
 
 -- Notes --
 

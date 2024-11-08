@@ -16,6 +16,7 @@ Bram's Catch-all Security Blog
 
 # Presentations & guest lectures
 * 2024:
+  * November 7: [10 Top OWASP Projects](./presentation/2024-11-07_OWASP_Top_10s.html) beyond the OWASP Top 10 
   * June 4 and 6: [DevSecOps by Meme](presentation/2024-06-04_DevSecOps_by_Meme.html) 45 minutes
   * April 25: [Security by Meme](presentation/2024-04-25_Security_by_Meme.html) 30 minutes
 * 2022:
@@ -41,6 +42,12 @@ Bram's Catch-all Security Blog
   * April 8: Guest lecture at Hogeschool Zuyd, Heerlen. 2 hours
 * 2018:
   * May 31: Guest lecture at Hogeschool Zuyd, Heerlen. 1 hour
+
+Note: slide-decks use RevealJS.
+* Esc: see slide-overview (Esc again exits overview)
+* Arrows: navigate between slides / through overview
+* S: Speaker-view (in new window)
+
 
 # Resources
 * [Security Repository](https://github.com/brampat/security) including slides to my [presentations](https://github.com/brampat/security/tree/master/publications/presentation)
