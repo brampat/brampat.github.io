@@ -13,6 +13,10 @@ Bram's Catch-all Security Blog
 * [Keycloak](2019-08-20_keycloak_tutorial/README.md) tutorial
 * [Passwords, fun with numbers](2019-02-20_passwords_fun_with_numbers/README.md)
 
+# Graphs, overviews etc
+* OWASP [Dynamic Map](./OWASP_graph/index.html)
+
+
 
 # Presentations & guest lectures
 * 2024:
