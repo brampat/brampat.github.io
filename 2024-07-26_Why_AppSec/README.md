@@ -19,7 +19,7 @@ To quote @Viss (Dan Tentler): "Paperwork says: You have to get a pentest [...] y
 
 ## Commitment
 
-The other way to approach security, is by making it a core value or core commitment to you company. Are you committed to the best quality, the best service, the best value for your customers? Then security is part of that as well. Security simply is an integral part of quality. Don't agree? Or do you want to know what other aspects are part of the quality of software products? Have a look at the [ISO-25010 standard](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
+The other way to approach security, is by making it a core value or core commitment to your company. Are you committed to the best quality, the best service, the best value for your customers? Then security is part of that as well. Security simply is an integral part of quality. Don't agree? Or do you want to know what other aspects are part of the quality of software products? Have a look at the [ISO-25010 standard](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
 
 Now I could make a few comparisons to food quality and hygiene in a restaurant, to non-functional aspects of your dream house or how the Eisenhower Matrix divides aspects into short term and long term goals. However, I'll come back to each of those another time.
 
@@ -32,7 +32,7 @@ On theme with the Olympics that started this weekend, I'll compare security (and
 A football match or tournament has a clear goal and a clear set of rules, time limit etc. Within that set of rules, there will be losers and winners, typically one (eventual) winner and all the other competitors per definition will be the losers. <img align="right" src="soccer.png" style="width: 400px; padding: 10px;" margin="10px"> 
 
 
-A security compliance regulation is similar to that finite game. If you pass the regulation, you're done, right? Wrong: as soon as you stop playing the game, you loce.
+A security compliance regulation is similar to that finite game. If you pass the regulation, you're done, right? Wrong: as soon as you stop playing the game, you lose.
 
 ### The Infinite game
 

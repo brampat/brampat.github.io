@@ -271,7 +271,7 @@ rm -rf modules/
 ```
 
 
-Increase the post-numbers with one so ```8080``` becomes ```8081``` etc. so they don't conflict with the Wilfly App-server. Also, again open the server for outside connections. Both settings are located somewhere at the end of the file ```standalone/configuration/standalone.xml```.  
+Increase the port-numbers with one so ```8080``` becomes ```8081``` etc. so they don't conflict with the Wilfly App-server. Also, again open the server for outside connections. Both settings are located somewhere at the end of the file ```standalone/configuration/standalone.xml```.  
 ```xml
     <interfaces>
         <interface name="management">
