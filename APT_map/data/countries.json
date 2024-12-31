@@ -1,6 +1,7 @@
 [
   { "label": "China", "name": "China", "tags": "China"},
-  { "label": "Russia", "name": "Russia", "tags": "Russia"},
+  { "label": "Iran", "name": "Iran", "tags": "Iran"},
   { "label": "NorthKorea", "name": "North Korea", "tags": "NorthKorea"},
-  { "label": "Iran", "name": "Iran", "tags": "Iran"}
+  { "label": "Russia", "name": "Russia", "tags": "Russia"},
+  { "label": "SouthAmerica", "name": "South America", "tags": "SouthAmerica"}
 ]

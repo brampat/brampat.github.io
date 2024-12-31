@@ -32,6 +32,25 @@
   { "label": "Bluenoroff", "name": "Bluenoroff", "tags": "NorthKorea"},
   { "label": "Stardust_Chollima", "name": "Stardust Chollima", "tags": "NorthKorea"},
   { "label": "Sapphire_Sleet", "name": "Sapphire Sleet", "tags": "NorthKorea"},
-  { "label": "COPERNICIUM", "name": "COPERNICIUM", "tags": "NorthKorea"}
-
+  { "label": "COPERNICIUM", "name": "COPERNICIUM", "tags": "NorthKorea"},
+  { "label": "UNC94", "name": "UNC94", "tags": ""},
+  { "label": "InkySquid", "name": "InkySquid", "tags": "NorthKorea"},
+  { "label": "ScarCruft", "name": "ScarCruft", "tags": "NorthKorea"},
+  { "label": "Reaper", "name": "Reaper", "tags": "NorthKorea"},
+  { "label": "Group123", "name": "Group123", "tags": "NorthKorea"},
+  { "label": "TEMP_Reaper", "name": "TEMP.Reaper", "tags": "NorthKorea"},
+  { "label": "Ricochet_Chollima", "name": "Ricochet Chollima", "tags": "NorthKorea"},
+  { "label": "Mantis", "name": "Mantis", "tags": ""},
+  { "label": "Arid_Viper", "name": "Arid Viper", "tags": ""},
+  { "label": "Desert_Falcon", "name": "Desert Falcon", "tags": ""},
+  { "label": "TAG_63", "name": "TAG-63", "tags": ""},
+  { "label": "Grey_Karkadann", "name": "Grey Karkadann", "tags": ""},
+  { "label": "Big_Bang_APT", "name": "Big Bang APT", "tags": ""},
+  { "label": "Two_tailed_Scorpion", "name": "Two-tailed Scorpion", "tags": ""},
+  { "label": "Blind_Eagle", "name": "Blind Eagle", "tags": "SouthAmerica"},
+  { "label": "Comment_Crew", "name": "Comment Crew", "tags": "China"},
+  { "label": "Comment_Group", "name": "Comment Group", "tags": "China"},
+  { "label": "Comment_Panda", "name": "Comment Panda", "tags": "China"},
+  { "label": "", "name": "", "tags": ""},
+  { "label": "", "name": "", "tags": ""}
 ]

@@ -56,6 +56,10 @@ body {
     fill: #8787f5;
 }
 
+.node circle.SouthAmerica.country {
+    fill: #126205;
+}
+
 text {
     pointer-events: none;
 }
