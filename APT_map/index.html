@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>APT Map</title>
+    </head>
+    <body>
+        <div id="help">
+            Zoom with mouse-scroll, move graph with mouse-drag, enable / disable node-types with checkboxes
+        </div>
+        <div id="controls">
+            <label><input checked id="China" type="checkbox" class="filter"> China</label>
+            <label><input checked id="Iran" type="checkbox" class="filter"> Iran</label>
+            <label><input checked id="NorthKorea" type="checkbox" class="filter"> North Korea</label>
+            <label><input checked id="Russia" type="checkbox" class="filter"> Russia</label>
+        </div>
+        <div id="graph-container"></div>
+        <script src="jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.1/d3.min.js"></script>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="stylesheet.css" />
+    </body>
+</html>
