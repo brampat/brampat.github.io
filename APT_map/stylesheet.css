@@ -21,7 +21,7 @@ body {
     height: 60px;
     x: -20;
     y: -30;
-    /*fill: #ccc;*/
+    fill: #ccc;
     stroke-width: 1.5px;
 }
 

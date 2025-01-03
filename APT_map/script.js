@@ -104,6 +104,12 @@ nodes.forEach(node => nodeMap[node.label] = node);
 
 // Update links to use actual node references
 links.forEach(link => {
+    if (!nodeMap[link.source]) {
+        console.log("Could not find source: ", link.source);
+    }
+    if (!nodeMap[link.target]) {
+        console.log("Could not find target: ", link.target);
+    }
     link.source = nodeMap[link.source];
     link.target = nodeMap[link.target];
 });

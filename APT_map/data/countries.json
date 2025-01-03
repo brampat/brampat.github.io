@@ -2,6 +2,14 @@
   { "label": "China", "name": "China", "tags": "China"},
   { "label": "Iran", "name": "Iran", "tags": "Iran"},
   { "label": "NorthKorea", "name": "North Korea", "tags": "NorthKorea"},
+  { "label": "SouthKorea", "name": "South Korea", "tags": "SouthKorea"},
   { "label": "Russia", "name": "Russia", "tags": "Russia"},
+  { "label": "Belarus", "name": "Belarus", "tags": "Belarus"},
+  { "label": "Arabic", "name": "Arabic", "tags": "Arabic"},
+  { "label": "Pakistan", "name": "Pakistan", "tags": "Pakistan"},
+  { "label": "Lebanon", "name": "Lebanon", "tags": "Lebanon"},
+  { "label": "India", "name": "India", "tags": "India"},
+  { "label": "Spain", "name": "Spain", "tags": "Spain"},
+  { "label": "Brazil", "name": "Brazil", "tags": "Brazil"},
   { "label": "SouthAmerica", "name": "South America", "tags": "SouthAmerica"}
 ]
