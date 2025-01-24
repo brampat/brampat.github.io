@@ -1,7 +1,14 @@
 #graph-container {
-    /*width: 800px;*/
-    /*height: 600px;*/
-    border: 1px solid #ccc;
+    flex: 1; /* Ensures this container takes up remaining space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+}
+
+svg {
+    border: 5px solid #ddd; /* Optional bevel */
+    box-sizing: border-box;
 }
 
 #controls {
@@ -23,6 +30,17 @@ body {
     y: -30;
     fill: #ccc;
     stroke-width: 1.5px;
+}
+
+.node.highlighted {
+    stroke: #ffcc00; /* Bright yellow border */
+    stroke-width: 3px; /* Border width */
+    filter: drop-shadow(0 0 40px rgba(204, 0, 0, 0.9)); /* Halo effect using drop-shadow */
+    transition: filter 0.3s ease-in-out, stroke 0.3s ease-in-out; /* Smooth transition for effects */
+}
+
+.node {
+    transition: opacity 0.3s ease-in-out; /* Smooth transition for opacity change */
 }
 
 .node circle.APT {

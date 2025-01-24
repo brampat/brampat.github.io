@@ -96,7 +96,9 @@ let links = getLinks();
 
 // Define width and height before SVG creation
 const width = 14000;
-const height = 14000;
+const height = 10000;
+const margin = 10;
+
 
 // Map nodes by their labels for quick lookup
 let nodeMap = {};
@@ -114,17 +116,32 @@ links.forEach(link => {
     link.target = nodeMap[link.target];
 });
 
+const zoom = d3.behavior.zoom()
+    .scaleExtent([0.1, 5]);
+
 // D3.js code to create the Force-directed graph
 const svg = d3.select("#graph-container")
     .append("svg")
-    .attr("width", "100%")
-    .attr("height", "90%")
     .attr("viewBox", `-${width / 32} ${height / 4} ${width} ${height}`) // Center and fit graph in viewport
-    .attr("preserveAspectRatio", "xMidYMid meet")
-    .call(d3.behavior.zoom().on("zoom", function() {
-        svg.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+    .call(d3.behavior.zoom().on("zoom", (event) => {
+        applyZoom(d3.event.scale, d3.event.translate)
+        d3.select("#zoomSlider").property("value", d3.event.scale);
     }))
+    .attr("id", "graph")
     .append("g");
+
+// Apply manual zoom logic
+function applyZoom(scale, translate) {
+    svg.attr("transform", "translate(" + translate + ")scale(" + scale + ")");
+}
+
+// Slider input controls the zoom
+d3.select("#zoomSlider").on("input", function () {
+    const zoomLevel = +this.value; // Get slider value
+    zoom.scale(zoomLevel); // Update zoom scale
+    applyZoom(zoom.scale(), zoom.translate()); // Apply the zoom
+    console.log("Apply zoom level ", zoomLevel)
+});
 
 const linkGroup = svg.append("g").attr("class", "links");
 const nodeGroup = svg.append("g").attr("class", "nodes");
@@ -140,6 +157,23 @@ let link = linkGroup.selectAll(".link")
 let node = svg.append("g")
     .attr("class", "nodes")
     .selectAll("g");
+
+function resizeSVG() {
+    const container = document.getElementById("graph-container");
+    const svg = document.getElementById("graph");
+
+    // Calculate available space
+    const width = container.clientWidth - 2 * margin;
+    const height = container.clientHeight - 2 * margin;
+
+    // Set the SVG size dynamically
+    svg.setAttribute("width", width);
+    svg.setAttribute("height", height);
+}
+
+// Call resizeSVG on load and window resize
+window.addEventListener("resize", resizeSVG);
+window.addEventListener("DOMContentLoaded", resizeSVG);
 
 function validateData(nodes, links) {
     nodes.forEach(node => {
@@ -216,6 +250,8 @@ function renderGraph(nodes, links) {
             .style("text-align", "center")
             .text(d => d.name);
 
+    // Store the selection for later use
+    window.currentNodes = nodeSelection;
 }
 
 function ticked() {
@@ -316,19 +352,19 @@ function updateGraph() {
 
     // Filter nodes and links based on the checkbox status
     const filteredNodes = nodes.filter(d => {
-        if (d.tags.includes("China") && !showChina)                         { return false; }
-        if (d.tags.includes("Russia") && !showRussia)                         { return false; }
-        if (d.tags.includes("NorthKorea") && !showNorthKorea)                         { return false; }
-        if (d.tags.includes("SouthKorea") && !showSouthKorea)                         { return false; }
-        if (d.tags.includes("Pakistan") && !showPakistan)                         { return false; }
-        if (d.tags.includes("SouthAmerica") && !showSouthAmerica)                         { return false; }
-        if (d.tags.includes("Belarus") && !showBelarus)                         { return false; }
-        if (d.tags.includes("India") && !showIndia)                         { return false; }
-        if (d.tags.includes("Spain") && !showSpain)                         { return false; }
-        if (d.tags.includes("Brazil") && !showBrazil)                         { return false; }
-        if (d.tags.includes("Arabic") && !showArabic)                         { return false; }
-        if (d.tags.includes("Lebanon") && !showLebanon)                         { return false; }
-        if (d.tags.includes("malware") && !showMalware)                         { return false; }
+        if (d.tags.includes("China") && !showChina)               { return false; }
+        if (d.tags.includes("Russia") && !showRussia)             { return false; }
+        if (d.tags.includes("NorthKorea") && !showNorthKorea)     { return false; }
+        if (d.tags.includes("SouthKorea") && !showSouthKorea)     { return false; }
+        if (d.tags.includes("Pakistan") && !showPakistan)         { return false; }
+        if (d.tags.includes("SouthAmerica") && !showSouthAmerica) { return false; }
+        if (d.tags.includes("Belarus") && !showBelarus)           { return false; }
+        if (d.tags.includes("India") && !showIndia)               { return false; }
+        if (d.tags.includes("Spain") && !showSpain)               { return false; }
+        if (d.tags.includes("Brazil") && !showBrazil)             { return false; }
+        if (d.tags.includes("Arabic") && !showArabic)             { return false; }
+        if (d.tags.includes("Lebanon") && !showLebanon)           { return false; }
+        if (d.tags.includes("malware") && !showMalware)           { return false; }
         return true;
     });
 
@@ -411,6 +447,77 @@ function updateGraph() {
         })
         .start();
 }
+
+let searchTimeout; // To manage the debounce timeout
+
+// Trigger search on "Enter" or debounce when typing
+document.getElementById("searchInput").addEventListener("keyup", (event) => {
+    const query = event.target.value.trim().toLowerCase();
+
+    // Trigger search on "Enter" key press
+    if (event.key === "Enter") {
+        triggerSearch(query);
+        return;
+    }
+
+    // Debounce search for 500ms after typing at least 3 characters
+    clearTimeout(searchTimeout); // Clear any existing timeout
+    if (query.length >= 3) {
+        searchTimeout = setTimeout(() => {
+            console.log("Search triggered by debounce.");
+            triggerSearch(query);
+        }, 500);
+    } else {
+        // Reset highlights if query is less than 3 characters
+        resetHighlights();
+    }
+});
+
+// Trigger search on button click
+document.getElementById("searchButton").addEventListener("click", () => {
+    const query = document.getElementById("searchInput").value.trim().toLowerCase();
+    triggerSearch(query);
+});
+
+// Reset highlights
+function resetHighlights() {
+    window.currentNodes.classed("highlighted", false).attr("opacity", 1);
+}
+
+// Search logic
+function triggerSearch(query) {
+    if (!query) {
+        resetHighlights();
+        return;
+    }
+
+    let foundAny = false;
+
+    window.currentNodes.classed("highlighted", d => {
+        const isMatch = d.label.toLowerCase().includes(query) ||
+            d.name.toLowerCase().includes(query) ||
+            (d.tags && d.tags.toLowerCase().includes(query));
+        if (isMatch) foundAny = true;
+        return isMatch;
+    });
+
+    window.currentNodes.attr("opacity", d => {
+        return d.label.toLowerCase().includes(query) ||
+        d.name.toLowerCase().includes(query) ||
+        (d.tags && d.tags.toLowerCase().includes(query)) ? 1 : 0.2;
+    });
+
+    if (!foundAny) {
+        console.log(`No nodes found matching '${query}'`);
+    }
+}
+
+
+// Reset highlights when clicking outside the graph
+svg.on("click", () => {
+    node.classed("highlighted", false).attr("opacity", 1); // Reset styles
+});
+
 
 // Initial call to render the graph
 renderGraph(nodes, links);
