@@ -300,21 +300,36 @@ function updateNodes() {
 
 
 function updateGraph() {
-    const showChina = d3.select("#china").property("checked");
-    const showOwaspProactive = d3.select("#proactive").property("checked");
-    const showOwaspMobile = d3.select("#mobile").property("checked");
-    const showOwaspMitigation = d3.select("#mitigations").property("checked");
-    const showOwaspToolsTechniques = d3.select("#toolsTechniques").property("checked");
+    const showChina = d3.select("#China").property("checked");
+    const showRussia = d3.select("#Russia").property("checked");
+    const showNorthKorea = d3.select("#NorthKorea").property("checked");
+    const showSouthKorea = d3.select("#SouthKorea").property("checked");
+    const showPakistan = d3.select("#Pakistan").property("checked");
+    const showSouthAmerica = d3.select("#SouthAmerica").property("checked");
+    const showBelarus = d3.select("#Belarus").property("checked");
+    const showIndia = d3.select("#India").property("checked");
+    const showSpain = d3.select("#Spain").property("checked");
+    const showBrazil = d3.select("#Brazil").property("checked");
+    const showArabic = d3.select("#Arabic").property("checked");
+    const showLebanon = d3.select("#Lebanon").property("checked");
+    const showMalware = d3.select("#Malware").property("checked");
 
     // Filter nodes and links based on the checkbox status
     const filteredNodes = nodes.filter(d => {
-        if (d.tags.includes("China") && showChina)                         { return true; }
-        // if (d.tags.includes("proactive") && showOwaspProactive)             { return true; }
-        // if (d.tags.includes("mobile") && showOwaspMobile)                   { return true; }
-        // if (d.tags.includes("mitigations") && showOwaspMitigation)          { return true; }
-        // if (d.tags.includes("toolsTechniques") && showOwaspToolsTechniques) { return true; }
-        return false;
-        // return true;
+        if (d.tags.includes("China") && !showChina)                         { return false; }
+        if (d.tags.includes("Russia") && !showRussia)                         { return false; }
+        if (d.tags.includes("NorthKorea") && !showNorthKorea)                         { return false; }
+        if (d.tags.includes("SouthKorea") && !showSouthKorea)                         { return false; }
+        if (d.tags.includes("Pakistan") && !showPakistan)                         { return false; }
+        if (d.tags.includes("SouthAmerica") && !showSouthAmerica)                         { return false; }
+        if (d.tags.includes("Belarus") && !showBelarus)                         { return false; }
+        if (d.tags.includes("India") && !showIndia)                         { return false; }
+        if (d.tags.includes("Spain") && !showSpain)                         { return false; }
+        if (d.tags.includes("Brazil") && !showBrazil)                         { return false; }
+        if (d.tags.includes("Arabic") && !showArabic)                         { return false; }
+        if (d.tags.includes("Lebanon") && !showLebanon)                         { return false; }
+        if (d.tags.includes("malware") && !showMalware)                         { return false; }
+        return true;
     });
 
     const hiddenNodes = nodes
