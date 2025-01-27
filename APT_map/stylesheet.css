@@ -1,23 +1,32 @@
 #graph-container {
-    flex: 1; /* Ensures this container takes up remaining space */
-    display: flex;
-    justify-content: center;
     align-items: center;
     background: #ffffff;
+    position: absolute;
+    top: 130px; /* Bevel edge from the top */
+    left: 10px; /* Bevel edge from the left */
+    right: 10px; /* Bevel edge from the right */
+    bottom: 10px; /* Bevel edge from the bottom */
+
 }
 
 svg {
     border: 5px solid #ddd; /* Optional bevel */
     box-sizing: border-box;
+    width: 100%;
+    height: 100%;
 }
 
 #controls {
     margin-top: 10px;
 }
 
-body {
+body, html {
     font: 20px Arial, Helvetica, sans-serif;
-}
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Prevent scrollbars */
 
 #controls label {
     margin-right: 10px;
