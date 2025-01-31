@@ -3,20 +3,20 @@
 Bram's Catch-all Security Blog
 
 # Articles
-* Security: [Start with Why](2024-07-26_Why_AppSec/README.md)
-* Security: [Before we Start](https://www.linkedin.com/pulse/before-we-start-why-bram-patelski-tbaqe/)
-* Dynamic [OWASP Top 10 Graph](2022-08-05_OWASP_Top10_Graph/owasp_graph.html) relating Mobile and Web Top 10's to Proactive Controls and mitigations
-* [Parler](2021-01-12_Parler/README.md) tricks
-* My take on the [Zoom](2020-04-06_Zoom/README.md) issues
-* [JFall 2019](2019-10-31_JFall/JFall.md) Java conference with some nice Security related Java talks
-* Global AppSec [Day 1](2019-09-26_Global_AppSec/Day_1.md) and [Day 2](2019-09-26_Global_AppSec/Day_2.md)
-* [Keycloak](2019-08-20_keycloak_tutorial/README.md) tutorial
-* [Passwords, fun with numbers](2019-02-20_passwords_fun_with_numbers/README.md)
+* 2025-01-31: Understanding [Software Dependencies](2025-01-10_SBOMs_SCA/readme.md): Risks, Responsibilities, and Resolutions 
+* 2024-07-26: Security: [Start with Why](2024-07-26_Why_AppSec/README.md)
+* 2024-07-17: Security: [Before we Start](https://www.linkedin.com/pulse/before-we-start-why-bram-patelski-tbaqe/)
+* 2022-08-05: Dynamic [OWASP Top 10 Graph](2022-08-05_OWASP_Top10_Graph/owasp_graph.html) relating Mobile and Web Top 10's to Proactive Controls and mitigations
+* 2021-01-12: [Parler](2021-01-12_Parler/README.md) tricks
+* 2020-04-06: My take on the [Zoom](2020-04-06_Zoom/README.md) issues
+* 2019-10-31 [JFall 2019](2019-10-31_JFall/JFall.md) Java conference with some nice Security related Java talks
+* 2019-09-26: Global AppSec [Day 1](2019-09-26_Global_AppSec/Day_1.md) and [Day 2](2019-09-26_Global_AppSec/Day_2.md)
+* 2019-08-20: [Keycloak](2019-08-20_keycloak_tutorial/README.md) tutorial
+* 2019-02-20: [Passwords, fun with numbers](2019-02-20_passwords_fun_with_numbers/README.md)
 
 # Graphs, overviews etc
+* Interactive [APT Map](./APT_map/index.html)
 * OWASP [Dynamic Map](./OWASP_graph/index.html)
-
-
 
 # Presentations & guest lectures
 * 2024:
