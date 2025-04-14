@@ -211,7 +211,7 @@ OWASP Threat Dragon: tool to support architecture modelling in Threat modeling e
  <i class="fas fa-xs fa-book" title="Documentation"></i>
  <i class="fas fa-xs fa-toolbox" title="Builder"></i>
  <i class="fas fa-xs fa-shield" title="Defender"></i>
- <i class="fas fa-xs fa-user-secret"></i>
+ <i class="fas fa-xs fa-user-secret" title="Breaker"></i>
  <a class="fas fa-xs fa-external-link" target="_blank" href="https://owasp.org/www-project-application-security-verification-standard/"> </a>
 </div>
 
@@ -256,7 +256,7 @@ Used as:
  <i class="fas fa-xs fa-book" title="Documentation"></i>
  <i class="fas fa-xs fa-toolbox" title="Builder"></i>
  <i class="fas fa-xs fa-shield" title="Defender"></i>
- <i class="fas fa-xs fa-user-secret"></i>
+ <i class="fas fa-xs fa-user-secret" title="Breaker"></i>
  <a class="fas fa-xs fa-external-link" target="_blank" href="https://owasp.org/www-project-application-security-verification-standard/"> </a>
 </div>
 
@@ -525,7 +525,7 @@ OWASP CycloneDX:
  <i class="fas fa-tools" title="Tools"></i>
  <i class="fas fa-toolbox" title="Builder"></i>
  <i class="fas fa-shield" title="Defender" title="Defender"></i>
- <a class="fas fa-xs fa-external-link" target="_blank" href="https://owasp.org/www-project-dependency-check/"> </a>
+ <a class="fas fa-xs fa-external-link" target="_blank" href="https://www.zaproxy.org/"> </a>
 </div>
 
 ![](./pics/OWASP/zap_logo.png)<!-- .element style="position: fixed; box-shadow:none; width: 200px; top: -10px; left: 220px; "  -->

@@ -86,15 +86,15 @@ Introduction:
 ## Icons
 <hr />
 
-* <i class="fas fa-xs fa-flag"> </i> (15) Flagship
+* <i class="fas fa-xs fa-flag" title="Flagship"> </i> (15) Flagship
 * <i class="fas fa-xs fa-industry"> </i> (8) Production
 * <i class="fas fa-xs fa-flask"> </i> (34) Lab
 * <i class="fas fa-xs fa-egg"> </i> (127) Incubator
 * <i class="fas fa-xs fa-question"> </i> (44) Need website update
-* <i class="fas fa-xs fa-book"> </i> Documentation
+* <i class="fas fa-xs fa-book" title="Documentation"> </i> Documentation
 * <i class="fas fa-xs fa-tools"> </i> Tools
 * <i class="fas fa-xs fa-book-open"> </i> Standard
-* <i class="fas fa-xs fa-toolbox"> </i> Builder
+* <i class="fas fa-xs fa-toolbox" title="Builder"> </i> Builder
 * <i class="fas fa-xs fa-user-secret"> </i> Breaker
 * <i class="fas fa-xs fa-shield"> </i> Defender
 * <a class="fas fa-xs fa-external-link" target="_blank" href="https://owasp.org/www-project-thick-client-top-10/"> </a> Link to the project
