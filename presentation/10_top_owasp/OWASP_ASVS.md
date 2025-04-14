@@ -16,6 +16,8 @@
  <a class="fas fa-xs fa-external-link" target="_blank" href="https://owasp.org/www-project-application-security-verification-standard/"> </a>
 </div>
 
+![](./pics/OWASP/asvs_40_levels.png)<!-- .element style="position: fixed; box-shadow:none; width: 1050px; top: 370px;" -->
+
 
 | No.    | Descr.                                                                                       | L1 | L2 | L3 | CWE  |
 |--------|----------------------------------------------------------------------------------------------|----|----|----|------|
@@ -26,10 +28,9 @@
 | 4.1.5  | Verify that access controls fail securely including when an exception occurs. (C10)          | ✓  | ✓  | ✓  | 285  |
 | 5.1.3  | Verify that all input is validated using positive validation (allow lists). (C5)             | ✓  | ✓  | ✓  | 20   |
 | 5.3.10 | Verify that the application protects against XPath injection or XML injection attacks. (C4)  | ✓  | ✓  | ✓  | 643  |
-|        |                                                                                              |    |    |    |      |
-|        |                                                                                              |    |    |    |      |
 
-![](./pics/OWASP/asvs_40_levels.png)<!-- .element style="position: fixed; box-shadow:none; width: 1450px; bottom: 40px; "  -->
+
+
 
 
 -- Notes --
