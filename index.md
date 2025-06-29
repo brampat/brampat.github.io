@@ -19,13 +19,15 @@ Bram's Catch-all Security Blog
 * OWASP [Dynamic Map](./OWASP_graph/index.html)
 
 # Presentations & guest lectures
+* 2025:
+  * July 1: Security by Meme energizer - 15 minutes ([Slides](presentation/2025-07-01_Security_by_Meme.html))
 * 2024:
-  * November 7: [10 Top OWASP Projects](./presentation/2024-11-07_OWASP_Top_10s.html) beyond the OWASP Top 10 
+  * November 7: 10 Top OWASP Projects beyond the OWASP Top 10 ([Slides](./presentation/2024-11-07_OWASP_Top_10s.html) / [video](https://www.youtube.com/watch?v=m3aw-dmAR80) )
   * June 4 and 6: [DevSecOps by Meme](presentation/2024-06-04_DevSecOps_by_Meme.html) 45 minutes
   * April 25: [Security by Meme](presentation/2024-04-25_Security_by_Meme.html) 30 minutes
 * 2022:
-  * November 24: [Security by Meme](https://www.youtube.com/watch?v=rG7QbTf5X-c&ab_channel=OWASPNetherlands) 30 minutes at OWASP BeNeLux
-  * November 3: [Security by Meme](presentation/2022-11-03_Security_by_Meme.html) byte-size (16 minutes) at JFall
+  * November 24: Security by Meme - 30 minutes at OWASP BeNeLux ([slides](https://brampat.github.io/presentation/2022-11-24_Security_by_Meme.html) / [video](https://www.youtube.com/watch?v=rG7QbTf5X-c&ab_channel=OWASPNetherlands))
+  * November 3: Security by Meme - byte-size (16 minutes) at JFall ([slides](https://brampat.github.io/presentation/2022-11-03_Security_by_Meme.html) / [video](https://www.youtube.com/watch?v=rG7QbTf5X-c&ab_channel=OWASPNetherlands))
   * June 16: [Security by Meme](presentation/2022-06-16_Security_by_Meme.html) (45 minutes) at [Code & Comedy]()
 * 2021:
   * August 19: [Supply Chain Attacks](presentation/2021-08-19_Supply_chain_attacks.html). 30 minutes

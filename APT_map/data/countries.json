@@ -11,5 +11,6 @@
   { "label": "India", "name": "India", "tags": "India"},
   { "label": "Spain", "name": "Spain", "tags": "Spain"},
   { "label": "Brazil", "name": "Brazil", "tags": "Brazil"},
-  { "label": "SouthAmerica", "name": "South America", "tags": "SouthAmerica"}
+  { "label": "SouthAmerica", "name": "South America", "tags": "SouthAmerica"},
+  { "label": "UnitedStates", "name": "United States", "tags": "UnitedStates"}
 ]

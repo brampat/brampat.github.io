@@ -39,14 +39,21 @@
 
 --
 
-![](./pics/meme/AI/deep_learning.jpg)<!-- .element class="center-x" style="background:none; border:none; box-shadow:none; position: fixed; bottom: 10px; width: 600px;" -->
+![](./pics/meme/AI/deep_learning.jpg)<!-- .element class="center-xy" style="background:none; border:none; box-shadow:none; position: fixed; width: 500px;" -->
 
 --
 
 ## Should we worry?
 <hr />
 
-![](./pics/meme/AI/making_friends_with_AI.png)<!-- .element class="center-x" style="background:none; border:none; box-shadow:none; position: fixed; bottom: 20px; width: 500px;" -->
+![](./pics/meme/AI/making_friends_with_AI.png)<!-- .element class="center-xy" style="background:none; border:none; box-shadow:none; position: fixed; width: 500px;" -->
+
+--
+
+## Prompt injection
+<hr />
+
+![](./pics/meme/AI/prompt_injection.jpg)<!-- .element class="center-xy" style="background:none; border:none; box-shadow:none; position: fixed; width: 1397px;" -->
 
 --
 
@@ -59,6 +66,20 @@
 
 * Accept that AI makes mistakes and detect and correct these
 * Sometimes those mistakes are obvious
+
+--
+
+## Or with manual labour (yet)
+
+![](./pics/meme/AI/finish_this_building.jpg)<!-- .element class="center-xy" style="background:none; border:none; box-shadow:none; position: fixed; width: 750px;" -->
+
+-- Notes --
+
+* 27 Quellinstraat, Antwerp, Flanders
+* Some forms of manual labour are not AI jobs (yet)
+* We already have 3D printed houses
+* Over time, progress & development made manual labour easier:
+  * Plow, workhorses, machinery
 
 --
 
@@ -88,7 +109,7 @@
 ## RISKS
 <hr />
 
-![](pics/meme/AI/turing_test.jpeg)<!-- .element class="center-x" style="border:none; box-shadow:none; position: fixed; width: 1250px; bottom: 20px;" 
+![](pics/meme/AI/turing_test.jpeg)<!-- .element class="center-xy" style="border:none; box-shadow:none; position: fixed; width: 850px;" 
  -->
 
 -- Notes --
