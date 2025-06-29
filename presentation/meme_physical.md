@@ -23,11 +23,11 @@
 ## Also why
 <hr />
 
-![](pics/meme/physical/hacker_serverroom.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 800px; right: 0px; bottom: 40px;"  -->
+![](pics/meme/physical/hacker_serverroom.jpg)<!-- .element class="center-xy" style="border:none; box-shadow:none; position: fixed; width: 800px; "  -->
 
 --
 
-![](pics/meme/physical/surveillance_cameras.jpg)<!-- .element class="center-xy" style="border:none; box-shadow:none; position: fixed; width: 650px; "  -->
+![](pics/meme/physical/surveillance_cameras.jpg)<!-- .element class="center-xy" style="border:none; box-shadow:none; position: fixed; width: 550px; "  -->
 
 -- Notes --
 
@@ -46,7 +46,7 @@ OWASP C9: Implement Security Logging and Monitoring
 
 --
 
-![](pics/meme/physical/ladder.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 550px; right: 70px; top: 5px;"  -->
+![](pics/meme/physical/ladder.jpg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 490px; right: 70px; top: 5px;"  -->
 
 -- Notes --
 
@@ -70,7 +70,7 @@ OWASP SAMM - Verification - Architecture Assessment - Architecture Validation ML
 
 --
 
-![](pics/meme/physical/auth_bypass.jpeg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 750px; right: 50px; top: 10px;"  -->
+![](pics/meme/physical/auth_bypass.jpeg)<!-- .element style="border:none; box-shadow:none; position: fixed; width: 600px; right: 50px; top: 10px;"  -->
 
 -- Notes --
 
