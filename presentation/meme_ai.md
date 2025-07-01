@@ -98,7 +98,7 @@
 ## TCAI: Total Cost of AI
 <hr />
 
-![](./pics/meme/AI/Coding_benefits_AI.jpg)<!-- .element class="center-x" style="background:none; border:none; box-shadow:none; position: fixed; bottom: 10px; width: 700px;" -->
+![](./pics/meme/AI/Coding_benefits_AI.jpg)<!-- .element class="center-xy" style="background:none; border:none; box-shadow:none; position: fixed; bottom: 10px; width: 600px;" -->
 
 -- Notes --
 
